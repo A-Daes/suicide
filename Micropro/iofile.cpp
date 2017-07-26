@@ -3,23 +3,22 @@
 
 #include <iostream>
 #include <fstream>
-
+using namespace std;
 
 int main(){
 	char tx2a[256];
 	
-	std::cout << "Ingrese el nombre del archivo a analizar: ";
-	std::cin.get (tx2a, 256);
+	cout << "Ingrese el nombre del archivo a analizar: ";
+	cin.get (tx2a, 256);
 
-	std::ifstream is(tx2a);
+	ifstream is(tx2a);
 
-	std::cout << "Posicion En Memoria	||	Caracter\n";
+	cout << "Posicion En Memoria	||	Caracter\n";
 	char c;
 	int * val;
 	while(is.get(c)){
 		val = (int*)&c;
-		std::cout << val;
-		std::cout  <<  "	||	" << c << "\n";
+		cout << oct << val << "	||	" << c << "\n";
 }
 	is.close();
 
