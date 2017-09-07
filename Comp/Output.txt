@@ -1,0 +1,3719 @@
+
+Error: 
+
+Error: list index out of range
+
+Tiempo de Ejecucion:  28.7580001354 ms para todo el procedimiento
+
+Error: list index out of range
+
+Tiempo de Ejecucion:  3.43300008774 ms para todo el procedimiento
+Expresion ingresada:  ABA(AB)*A*
+Estados: set([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16])
+Inicio:  1
+Aceptacion: [16]
+Transiciones:
+{   1 -> 2 Utilizando 'A'}
+{   2 -> 3 Utilizando ':e:'}
+{   3 -> 4 Utilizando 'B'}
+{   4 -> 5 Utilizando ':e:'}
+{   5 -> 6 Utilizando 'A'}
+{   6 -> 7 Utilizando ':e:'}
+{   7 -> 8 Utilizando ':e:'}
+{   7 -> 12 Utilizando ':e:'}
+{   8 -> 9 Utilizando 'A'}
+{   9 -> 10 Utilizando ':e:'}
+{   10 -> 11 Utilizando 'B'}
+{   11 -> 8 Utilizando ':e:'}
+{   11 -> 12 Utilizando ':e:'}
+{   12 -> 13 Utilizando ':e:'}
+{   13 -> 16 Utilizando ':e:'}
+{   13 -> 14 Utilizando ':e:'}
+{   14 -> 15 Utilizando 'A'}
+{   15 -> 16 Utilizando ':e:'}
+{   15 -> 14 Utilizando ':e:'}
+
+Simbolos:  ['A', 'B']
+Estados: set([1, 2, 3, 4, 5, 6, 7])
+Inicio:  1
+Aceptacion: [4, 5, 6, 7]
+Transiciones:
+{   1 -> 2 Utilizando 'A'}
+{   2 -> 3 Utilizando 'B'}
+{   3 -> 4 Utilizando 'A'}
+{   4 -> 5 Utilizando 'A'}
+{   5 -> 6 Utilizando 'A'}
+{   5 -> 7 Utilizando 'B'}
+{   6 -> 6 Utilizando 'A'}
+{   7 -> 5 Utilizando 'A'}
+Estados: set([0, 1, 2, 3, 4, 5])
+Inicio:  0
+Aceptacion: [3, 4, 5]
+Transiciones:
+{   0 -> 1 Utilizando 'A'}
+{   1 -> 2 Utilizando 'B'}
+{   2 -> 3 Utilizando 'A'}
+{   3 -> 4 Utilizando 'A'}
+{   4 -> 3 Utilizando 'B'}
+{   4 -> 5 Utilizando 'A'}
+{   5 -> 5 Utilizando 'A'}
+
+ La cadena ingresada es Aceptada? :  Si
+
+Tiempo de Ejecucion:  8.62699985504 ms para todo el procedimiento
+Expresion ingresada:  HOLI
+Estados: set([1, 2, 3, 4, 5, 6, 7, 8])
+Inicio:  1
+Aceptacion: [8]
+Transiciones:
+{   1 -> 2 Utilizando 'H'}
+{   2 -> 3 Utilizando ':e:'}
+{   3 -> 4 Utilizando 'O'}
+{   4 -> 5 Utilizando ':e:'}
+{   5 -> 6 Utilizando 'L'}
+{   6 -> 7 Utilizando ':e:'}
+{   7 -> 8 Utilizando 'I'}
+
+Simbolos:  ['H', 'O', 'L', 'I']
+Estados: set([1, 2, 3, 4, 5])
+Inicio:  1
+Aceptacion: [5]
+Transiciones:
+{   1 -> 2 Utilizando 'H'}
+{   2 -> 3 Utilizando 'O'}
+{   3 -> 4 Utilizando 'L'}
+{   4 -> 5 Utilizando 'I'}
+Estados: set([1, 2, 3, 4, 5])
+Inicio:  1
+Aceptacion: [5]
+Transiciones:
+{   1 -> 2 Utilizando 'H'}
+{   2 -> 3 Utilizando 'O'}
+{   3 -> 4 Utilizando 'L'}
+{   4 -> 5 Utilizando 'I'}
+
+ La cadena ingresada es Aceptada? :  No
+
+Tiempo de Ejecucion:  6.33400011063 ms para todo el procedimiento
+Expresion ingresada:  PAT(IT)*O
+
+Error: 'str' object has no attribute 'str2check'
+
+Tiempo de Ejecucion:  24.003000021 ms para todo el procedimiento
+Expresion ingresada:  PAT(IT)*O
+Cadena a verificar:  PATO
+Estados: set([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14])
+Inicio:  1
+Aceptacion: [14]
+Transiciones:
+{   1 -> 2 Utilizando 'P'}
+{   2 -> 3 Utilizando ':e:'}
+{   3 -> 4 Utilizando 'A'}
+{   4 -> 5 Utilizando ':e:'}
+{   5 -> 6 Utilizando 'T'}
+{   6 -> 7 Utilizando ':e:'}
+{   7 -> 8 Utilizando ':e:'}
+{   7 -> 12 Utilizando ':e:'}
+{   8 -> 9 Utilizando 'I'}
+{   9 -> 10 Utilizando ':e:'}
+{   10 -> 11 Utilizando 'T'}
+{   11 -> 8 Utilizando ':e:'}
+{   11 -> 12 Utilizando ':e:'}
+{   12 -> 13 Utilizando ':e:'}
+{   13 -> 14 Utilizando 'O'}
+
+Simbolos:  ['P', 'A', 'T', 'I', 'O']
+Estados: set([1, 2, 3, 4, 5, 6, 7])
+Inicio:  1
+Aceptacion: [6]
+Transiciones:
+{   1 -> 2 Utilizando 'P'}
+{   2 -> 3 Utilizando 'A'}
+{   3 -> 4 Utilizando 'T'}
+{   4 -> 5 Utilizando 'I'}
+{   4 -> 6 Utilizando 'O'}
+{   5 -> 7 Utilizando 'T'}
+{   7 -> 5 Utilizando 'I'}
+{   7 -> 6 Utilizando 'O'}
+Estados: set([0, 1, 2, 3, 5])
+Inicio:  0
+Aceptacion: [5]
+Transiciones:
+{   0 -> 1 Utilizando 'P'}
+{   1 -> 2 Utilizando 'A'}
+{   2 -> 3 Utilizando 'T'}
+{   3 -> 2 Utilizando 'I'}
+{   3 -> 5 Utilizando 'O'}
+
+ La cadena ingresada es Aceptada? :  Si
+
+Tiempo de Ejecucion:  6.46399998665 ms para todo el procedimiento
+Expresion ingresada:  (DOUGLAS)*(DICE)*BUENI(SI)*MO
+Cadena a verificar:  BUENISISISISISISIMO
+Estados: set([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46])
+Inicio:  1
+Aceptacion: [46]
+Transiciones:
+{   1 -> 16 Utilizando ':e:'}
+{   1 -> 2 Utilizando ':e:'}
+{   2 -> 3 Utilizando 'D'}
+{   3 -> 4 Utilizando ':e:'}
+{   4 -> 5 Utilizando 'O'}
+{   5 -> 6 Utilizando ':e:'}
+{   6 -> 7 Utilizando 'U'}
+{   7 -> 8 Utilizando ':e:'}
+{   8 -> 9 Utilizando 'G'}
+{   9 -> 10 Utilizando ':e:'}
+{   10 -> 11 Utilizando 'L'}
+{   11 -> 12 Utilizando ':e:'}
+{   12 -> 13 Utilizando 'A'}
+{   13 -> 14 Utilizando ':e:'}
+{   14 -> 15 Utilizando 'S'}
+{   15 -> 16 Utilizando ':e:'}
+{   15 -> 2 Utilizando ':e:'}
+{   16 -> 17 Utilizando ':e:'}
+{   17 -> 18 Utilizando ':e:'}
+{   17 -> 26 Utilizando ':e:'}
+{   18 -> 19 Utilizando 'D'}
+{   19 -> 20 Utilizando ':e:'}
+{   20 -> 21 Utilizando 'I'}
+{   21 -> 22 Utilizando ':e:'}
+{   22 -> 23 Utilizando 'C'}
+{   23 -> 24 Utilizando ':e:'}
+{   24 -> 25 Utilizando 'E'}
+{   25 -> 26 Utilizando ':e:'}
+{   25 -> 18 Utilizando ':e:'}
+{   26 -> 27 Utilizando ':e:'}
+{   27 -> 28 Utilizando 'B'}
+{   28 -> 29 Utilizando ':e:'}
+{   29 -> 30 Utilizando 'U'}
+{   30 -> 31 Utilizando ':e:'}
+{   31 -> 32 Utilizando 'E'}
+{   32 -> 33 Utilizando ':e:'}
+{   33 -> 34 Utilizando 'N'}
+{   34 -> 35 Utilizando ':e:'}
+{   35 -> 36 Utilizando 'I'}
+{   36 -> 37 Utilizando ':e:'}
+{   37 -> 42 Utilizando ':e:'}
+{   37 -> 38 Utilizando ':e:'}
+{   38 -> 39 Utilizando 'S'}
+{   39 -> 40 Utilizando ':e:'}
+{   40 -> 41 Utilizando 'I'}
+{   41 -> 42 Utilizando ':e:'}
+{   41 -> 38 Utilizando ':e:'}
+{   42 -> 43 Utilizando ':e:'}
+{   43 -> 44 Utilizando 'M'}
+{   44 -> 45 Utilizando ':e:'}
+{   45 -> 46 Utilizando 'O'}
+
+Simbolos:  ['D', 'O', 'U', 'G', 'L', 'A', 'S', 'I', 'C', 'E', 'B', 'N', 'M']
+Estados: set([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21])
+Inicio:  1
+Aceptacion: [21]
+Transiciones:
+{   1 -> 2 Utilizando 'B'}
+{   1 -> 3 Utilizando 'D'}
+{   2 -> 14 Utilizando 'U'}
+{   3 -> 4 Utilizando 'I'}
+{   3 -> 5 Utilizando 'O'}
+{   4 -> 11 Utilizando 'C'}
+{   5 -> 6 Utilizando 'U'}
+{   6 -> 7 Utilizando 'G'}
+{   7 -> 8 Utilizando 'L'}
+{   8 -> 9 Utilizando 'A'}
+{   9 -> 10 Utilizando 'S'}
+{   10 -> 2 Utilizando 'B'}
+{   10 -> 3 Utilizando 'D'}
+{   11 -> 12 Utilizando 'E'}
+{   12 -> 2 Utilizando 'B'}
+{   12 -> 13 Utilizando 'D'}
+{   13 -> 4 Utilizando 'I'}
+{   14 -> 15 Utilizando 'E'}
+{   15 -> 16 Utilizando 'N'}
+{   16 -> 17 Utilizando 'I'}
+{   17 -> 18 Utilizando 'M'}
+{   17 -> 19 Utilizando 'S'}
+{   18 -> 21 Utilizando 'O'}
+{   19 -> 20 Utilizando 'I'}
+{   20 -> 18 Utilizando 'M'}
+{   20 -> 19 Utilizando 'S'}
+Estados: set([0, 1, 2, 3, 4, 5, 6, 7, 8, 10, 11, 12, 13, 14, 15, 16, 17, 20])
+Inicio:  0
+Aceptacion: [20]
+Transiciones:
+{   0 -> 1 Utilizando 'B'}
+{   0 -> 2 Utilizando 'D'}
+{   1 -> 13 Utilizando 'U'}
+{   2 -> 3 Utilizando 'I'}
+{   2 -> 4 Utilizando 'O'}
+{   3 -> 10 Utilizando 'C'}
+{   4 -> 5 Utilizando 'U'}
+{   5 -> 6 Utilizando 'G'}
+{   6 -> 7 Utilizando 'L'}
+{   7 -> 8 Utilizando 'A'}
+{   8 -> 0 Utilizando 'S'}
+{   10 -> 11 Utilizando 'E'}
+{   11 -> 1 Utilizando 'B'}
+{   11 -> 12 Utilizando 'D'}
+{   12 -> 3 Utilizando 'I'}
+{   13 -> 14 Utilizando 'E'}
+{   14 -> 15 Utilizando 'N'}
+{   15 -> 16 Utilizando 'I'}
+{   16 -> 17 Utilizando 'M'}
+{   16 -> 15 Utilizando 'S'}
+{   17 -> 20 Utilizando 'O'}
+
+ La cadena ingresada es Aceptada? :  Si
+
+Tiempo de Ejecucion:  27.8660001755 ms para todo el procedimiento
+Expresion ingresada:  (EXPRESION)*(QUE)*(FALLA)*
+Cadena a verificar:  HOLA
+Estados: set([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40])
+Inicio:  1
+Aceptacion: [40]
+Transiciones:
+{   1 -> 2 Utilizando ':e:'}
+{   1 -> 20 Utilizando ':e:'}
+{   2 -> 3 Utilizando 'E'}
+{   3 -> 4 Utilizando ':e:'}
+{   4 -> 5 Utilizando 'X'}
+{   5 -> 6 Utilizando ':e:'}
+{   6 -> 7 Utilizando 'P'}
+{   7 -> 8 Utilizando ':e:'}
+{   8 -> 9 Utilizando 'R'}
+{   9 -> 10 Utilizando ':e:'}
+{   10 -> 11 Utilizando 'E'}
+{   11 -> 12 Utilizando ':e:'}
+{   12 -> 13 Utilizando 'S'}
+{   13 -> 14 Utilizando ':e:'}
+{   14 -> 15 Utilizando 'I'}
+{   15 -> 16 Utilizando ':e:'}
+{   16 -> 17 Utilizando 'O'}
+{   17 -> 18 Utilizando ':e:'}
+{   18 -> 19 Utilizando 'N'}
+{   19 -> 2 Utilizando ':e:'}
+{   19 -> 20 Utilizando ':e:'}
+{   20 -> 21 Utilizando ':e:'}
+{   21 -> 28 Utilizando ':e:'}
+{   21 -> 22 Utilizando ':e:'}
+{   22 -> 23 Utilizando 'Q'}
+{   23 -> 24 Utilizando ':e:'}
+{   24 -> 25 Utilizando 'U'}
+{   25 -> 26 Utilizando ':e:'}
+{   26 -> 27 Utilizando 'E'}
+{   27 -> 28 Utilizando ':e:'}
+{   27 -> 22 Utilizando ':e:'}
+{   28 -> 29 Utilizando ':e:'}
+{   29 -> 40 Utilizando ':e:'}
+{   29 -> 30 Utilizando ':e:'}
+{   30 -> 31 Utilizando 'F'}
+{   31 -> 32 Utilizando ':e:'}
+{   32 -> 33 Utilizando 'A'}
+{   33 -> 34 Utilizando ':e:'}
+{   34 -> 35 Utilizando 'L'}
+{   35 -> 36 Utilizando ':e:'}
+{   36 -> 37 Utilizando 'L'}
+{   37 -> 38 Utilizando ':e:'}
+{   38 -> 39 Utilizando 'A'}
+{   39 -> 40 Utilizando ':e:'}
+{   39 -> 30 Utilizando ':e:'}
+
+Simbolos:  ['E', 'X', 'P', 'R', 'S', 'I', 'O', 'N', 'Q', 'U', 'F', 'A', 'L']
+Estados: set([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18])
+Inicio:  1
+Aceptacion: [1, 6, 10, 18]
+Transiciones:
+{   1 -> 2 Utilizando 'E'}
+{   1 -> 3 Utilizando 'F'}
+{   1 -> 4 Utilizando 'Q'}
+{   2 -> 11 Utilizando 'X'}
+{   3 -> 7 Utilizando 'A'}
+{   4 -> 5 Utilizando 'U'}
+{   5 -> 6 Utilizando 'E'}
+{   6 -> 3 Utilizando 'F'}
+{   6 -> 4 Utilizando 'Q'}
+{   7 -> 8 Utilizando 'L'}
+{   8 -> 9 Utilizando 'L'}
+{   9 -> 10 Utilizando 'A'}
+{   10 -> 3 Utilizando 'F'}
+{   11 -> 12 Utilizando 'P'}
+{   12 -> 13 Utilizando 'R'}
+{   13 -> 14 Utilizando 'E'}
+{   14 -> 15 Utilizando 'S'}
+{   15 -> 16 Utilizando 'I'}
+{   16 -> 17 Utilizando 'O'}
+{   17 -> 18 Utilizando 'N'}
+{   18 -> 2 Utilizando 'E'}
+{   18 -> 3 Utilizando 'F'}
+{   18 -> 4 Utilizando 'Q'}
+Estados: set([0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16])
+Inicio:  0
+Aceptacion: [0, 5, 9]
+Transiciones:
+{   0 -> 1 Utilizando 'E'}
+{   0 -> 2 Utilizando 'F'}
+{   0 -> 3 Utilizando 'Q'}
+{   1 -> 10 Utilizando 'X'}
+{   2 -> 6 Utilizando 'A'}
+{   3 -> 4 Utilizando 'U'}
+{   4 -> 5 Utilizando 'E'}
+{   5 -> 2 Utilizando 'F'}
+{   5 -> 3 Utilizando 'Q'}
+{   6 -> 7 Utilizando 'L'}
+{   7 -> 8 Utilizando 'L'}
+{   8 -> 9 Utilizando 'A'}
+{   9 -> 2 Utilizando 'F'}
+{   10 -> 11 Utilizando 'P'}
+{   11 -> 12 Utilizando 'R'}
+{   12 -> 13 Utilizando 'E'}
+{   13 -> 14 Utilizando 'S'}
+{   14 -> 15 Utilizando 'I'}
+{   15 -> 16 Utilizando 'O'}
+{   16 -> 0 Utilizando 'N'}
+
+ La cadena ingresada es Aceptada? :  No
+
+Tiempo de Ejecucion:  20.8990001678 ms para todo el procedimiento
+Expresion ingresada:  NO++SIRVE
+Cadena a verificar:  NOSIRVE
+
+Error: Error al procesar '+' despues de '+'. Estos dos operadores no se permiten en secuencia.
+
+Tiempo de Ejecucion:  11.3929998875 ms para todo el procedimiento
+Expresion ingresada:  KLEENE*(AFTERKLEENE*)*
+Cadena a verificar:  KLEENE
+Estados: set([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40])
+Inicio:  1
+Aceptacion: [40]
+Transiciones:
+{   1 -> 2 Utilizando 'K'}
+{   2 -> 3 Utilizando ':e:'}
+{   3 -> 4 Utilizando 'L'}
+{   4 -> 5 Utilizando ':e:'}
+{   5 -> 6 Utilizando 'E'}
+{   6 -> 7 Utilizando ':e:'}
+{   7 -> 8 Utilizando 'E'}
+{   8 -> 9 Utilizando ':e:'}
+{   9 -> 10 Utilizando 'N'}
+{   10 -> 11 Utilizando ':e:'}
+{   11 -> 12 Utilizando ':e:'}
+{   11 -> 14 Utilizando ':e:'}
+{   12 -> 13 Utilizando 'E'}
+{   13 -> 12 Utilizando ':e:'}
+{   13 -> 14 Utilizando ':e:'}
+{   14 -> 15 Utilizando ':e:'}
+{   15 -> 16 Utilizando ':e:'}
+{   15 -> 40 Utilizando ':e:'}
+{   16 -> 17 Utilizando 'A'}
+{   17 -> 18 Utilizando ':e:'}
+{   18 -> 19 Utilizando 'F'}
+{   19 -> 20 Utilizando ':e:'}
+{   20 -> 21 Utilizando 'T'}
+{   21 -> 22 Utilizando ':e:'}
+{   22 -> 23 Utilizando 'E'}
+{   23 -> 24 Utilizando ':e:'}
+{   24 -> 25 Utilizando 'R'}
+{   25 -> 26 Utilizando ':e:'}
+{   26 -> 27 Utilizando 'K'}
+{   27 -> 28 Utilizando ':e:'}
+{   28 -> 29 Utilizando 'L'}
+{   29 -> 30 Utilizando ':e:'}
+{   30 -> 31 Utilizando 'E'}
+{   31 -> 32 Utilizando ':e:'}
+{   32 -> 33 Utilizando 'E'}
+{   33 -> 34 Utilizando ':e:'}
+{   34 -> 35 Utilizando 'N'}
+{   35 -> 36 Utilizando ':e:'}
+{   36 -> 37 Utilizando ':e:'}
+{   36 -> 39 Utilizando ':e:'}
+{   37 -> 38 Utilizando 'E'}
+{   38 -> 37 Utilizando ':e:'}
+{   38 -> 39 Utilizando ':e:'}
+{   39 -> 40 Utilizando ':e:'}
+{   39 -> 16 Utilizando ':e:'}
+
+Simbolos:  ['K', 'L', 'E', 'N', 'A', 'F', 'T', 'R']
+Estados: set([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18])
+Inicio:  1
+Aceptacion: [6, 8, 17, 18]
+Transiciones:
+{   1 -> 2 Utilizando 'K'}
+{   2 -> 3 Utilizando 'L'}
+{   3 -> 4 Utilizando 'E'}
+{   4 -> 5 Utilizando 'E'}
+{   5 -> 6 Utilizando 'N'}
+{   6 -> 8 Utilizando 'E'}
+{   6 -> 7 Utilizando 'A'}
+{   7 -> 9 Utilizando 'F'}
+{   8 -> 8 Utilizando 'E'}
+{   8 -> 7 Utilizando 'A'}
+{   9 -> 10 Utilizando 'T'}
+{   10 -> 11 Utilizando 'E'}
+{   11 -> 12 Utilizando 'R'}
+{   12 -> 13 Utilizando 'K'}
+{   13 -> 14 Utilizando 'L'}
+{   14 -> 15 Utilizando 'E'}
+{   15 -> 16 Utilizando 'E'}
+{   16 -> 17 Utilizando 'N'}
+{   17 -> 18 Utilizando 'E'}
+{   17 -> 7 Utilizando 'A'}
+{   18 -> 18 Utilizando 'E'}
+{   18 -> 7 Utilizando 'A'}
+Estados: set([0, 1, 2, 3, 4, 5, 6, 8, 9, 10])
+Inicio:  0
+Aceptacion: [5]
+Transiciones:
+{   0 -> 1 Utilizando 'K'}
+{   1 -> 2 Utilizando 'L'}
+{   2 -> 3 Utilizando 'E'}
+{   3 -> 4 Utilizando 'E'}
+{   4 -> 5 Utilizando 'N'}
+{   5 -> 5 Utilizando 'E'}
+{   5 -> 6 Utilizando 'A'}
+{   6 -> 8 Utilizando 'F'}
+{   8 -> 9 Utilizando 'T'}
+{   9 -> 10 Utilizando 'E'}
+{   10 -> 0 Utilizando 'R'}
+
+ La cadena ingresada es Aceptada?:  Si
+
+Tiempo de Ejecucion:  22.9170000553 ms para todo el procedimiento
+Expresion ingresada:  KLEENE**AFTERKLEENEBAD
+Cadena a verificar:  BAD
+
+Error: Error al procesar '*' despues de '*'. Estos dos operadores no se permiten en secuencia.
+
+Tiempo de Ejecucion:  24.3240001202 ms para todo el procedimiento
+Expresion ingresada:  ABA
+Cadena a verificar:  ABA
+Estados: set([1, 2, 3, 4, 5, 6])
+Inicio:  1
+Aceptacion: [6]
+Transiciones:
+{   1 -> 2 Utilizando 'A'}
+{   2 -> 3 Utilizando ':e:'}
+{   3 -> 4 Utilizando 'B'}
+{   4 -> 5 Utilizando ':e:'}
+{   5 -> 6 Utilizando 'A'}
+
+Simbolos:  ['A', 'B']
+Estados: set([1, 2, 3, 4])
+Inicio:  1
+Aceptacion: [4]
+Transiciones:
+{   1 -> 2 Utilizando 'A'}
+{   2 -> 3 Utilizando 'B'}
+{   3 -> 4 Utilizando 'A'}
+Estados: set([1, 2, 3, 4])
+Inicio:  1
+Aceptacion: [4]
+Transiciones:
+{   1 -> 2 Utilizando 'A'}
+{   2 -> 3 Utilizando 'B'}
+{   3 -> 4 Utilizando 'A'}
+
+ La cadena ingresada es Aceptada?:  Si
+
+Tiempo de Ejecucion:  2.73900008202 ms para todo el procedimiento
+Expresion ingresada:  CONTINUE*TEST*
+Cadena a verificar:  
+Estados: set([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28])
+Inicio:  1
+Aceptacion: [28]
+Transiciones:
+{   1 -> 2 Utilizando 'C'}
+{   2 -> 3 Utilizando ':e:'}
+{   3 -> 4 Utilizando 'O'}
+{   4 -> 5 Utilizando ':e:'}
+{   5 -> 6 Utilizando 'N'}
+{   6 -> 7 Utilizando ':e:'}
+{   7 -> 8 Utilizando 'T'}
+{   8 -> 9 Utilizando ':e:'}
+{   9 -> 10 Utilizando 'I'}
+{   10 -> 11 Utilizando ':e:'}
+{   11 -> 12 Utilizando 'N'}
+{   12 -> 13 Utilizando ':e:'}
+{   13 -> 14 Utilizando 'U'}
+{   14 -> 15 Utilizando ':e:'}
+{   15 -> 16 Utilizando ':e:'}
+{   15 -> 18 Utilizando ':e:'}
+{   16 -> 17 Utilizando 'E'}
+{   17 -> 16 Utilizando ':e:'}
+{   17 -> 18 Utilizando ':e:'}
+{   18 -> 19 Utilizando ':e:'}
+{   19 -> 20 Utilizando 'T'}
+{   20 -> 21 Utilizando ':e:'}
+{   21 -> 22 Utilizando 'E'}
+{   22 -> 23 Utilizando ':e:'}
+{   23 -> 24 Utilizando 'S'}
+{   24 -> 25 Utilizando ':e:'}
+{   25 -> 26 Utilizando ':e:'}
+{   25 -> 28 Utilizando ':e:'}
+{   26 -> 27 Utilizando 'T'}
+{   27 -> 26 Utilizando ':e:'}
+{   27 -> 28 Utilizando ':e:'}
+
+Simbolos:  ['C', 'O', 'N', 'T', 'I', 'U', 'E', 'S']
+Estados: set([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13])
+Inicio:  1
+Aceptacion: [12, 13]
+Transiciones:
+{   1 -> 2 Utilizando 'C'}
+{   2 -> 3 Utilizando 'O'}
+{   3 -> 4 Utilizando 'N'}
+{   4 -> 5 Utilizando 'T'}
+{   5 -> 6 Utilizando 'I'}
+{   6 -> 7 Utilizando 'N'}
+{   7 -> 8 Utilizando 'U'}
+{   8 -> 9 Utilizando 'E'}
+{   8 -> 10 Utilizando 'T'}
+{   9 -> 9 Utilizando 'E'}
+{   9 -> 10 Utilizando 'T'}
+{   10 -> 11 Utilizando 'E'}
+{   11 -> 12 Utilizando 'S'}
+{   12 -> 13 Utilizando 'T'}
+{   13 -> 13 Utilizando 'T'}
+Estados: set([0, 1, 2, 3, 4, 5, 6, 7, 9, 10, 11])
+Inicio:  0
+Aceptacion: [11]
+Transiciones:
+{   0 -> 1 Utilizando 'C'}
+{   1 -> 2 Utilizando 'O'}
+{   2 -> 3 Utilizando 'N'}
+{   3 -> 4 Utilizando 'T'}
+{   4 -> 5 Utilizando 'I'}
+{   5 -> 6 Utilizando 'N'}
+{   6 -> 7 Utilizando 'U'}
+{   7 -> 9 Utilizando 'T'}
+{   7 -> 7 Utilizando 'E'}
+{   9 -> 10 Utilizando 'E'}
+{   10 -> 11 Utilizando 'S'}
+{   11 -> 11 Utilizando 'T'}
+
+ La cadena ingresada es Aceptada?:  No
+
+Tiempo de Ejecucion:  16.2009999752 ms para todo el procedimiento
+Expresion ingresada:  M+O+R+E.T+E+S+T*
+Cadena a verificar:  OETETTTT
+Estados: set([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30])
+Inicio:  1
+Aceptacion: [30]
+Transiciones:
+{   1 -> 2 Utilizando ':e:'}
+{   1 -> 26 Utilizando ':e:'}
+{   2 -> 3 Utilizando ':e:'}
+{   2 -> 23 Utilizando ':e:'}
+{   3 -> 4 Utilizando ':e:'}
+{   3 -> 20 Utilizando ':e:'}
+{   4 -> 5 Utilizando ':e:'}
+{   4 -> 15 Utilizando ':e:'}
+{   5 -> 12 Utilizando ':e:'}
+{   5 -> 6 Utilizando ':e:'}
+{   6 -> 9 Utilizando ':e:'}
+{   6 -> 7 Utilizando ':e:'}
+{   7 -> 8 Utilizando 'M'}
+{   8 -> 11 Utilizando ':e:'}
+{   9 -> 10 Utilizando 'O'}
+{   10 -> 11 Utilizando ':e:'}
+{   11 -> 14 Utilizando ':e:'}
+{   12 -> 13 Utilizando 'R'}
+{   13 -> 14 Utilizando ':e:'}
+{   14 -> 19 Utilizando ':e:'}
+{   15 -> 16 Utilizando 'E'}
+{   16 -> 17 Utilizando ':e:'}
+{   17 -> 18 Utilizando 'T'}
+{   18 -> 19 Utilizando ':e:'}
+{   19 -> 22 Utilizando ':e:'}
+{   20 -> 21 Utilizando 'E'}
+{   21 -> 22 Utilizando ':e:'}
+{   22 -> 25 Utilizando ':e:'}
+{   23 -> 24 Utilizando 'S'}
+{   24 -> 25 Utilizando ':e:'}
+{   25 -> 30 Utilizando ':e:'}
+{   26 -> 27 Utilizando ':e:'}
+{   26 -> 29 Utilizando ':e:'}
+{   27 -> 28 Utilizando 'T'}
+{   28 -> 27 Utilizando ':e:'}
+{   28 -> 29 Utilizando ':e:'}
+{   29 -> 30 Utilizando ':e:'}
+
+Simbolos:  ['M', 'O', 'R', 'E', '.', 'T', 'S']
+Estados: set([1, 2, 3, 4, 5, 6, 7, 8])
+Inicio:  1
+Aceptacion: [1, 2, 3, 4, 5, 6, 7, 8]
+Transiciones:
+{   1 -> 2 Utilizando 'E'}
+{   1 -> 3 Utilizando 'M'}
+{   1 -> 4 Utilizando 'O'}
+{   1 -> 5 Utilizando 'S'}
+{   1 -> 6 Utilizando 'R'}
+{   1 -> 7 Utilizando 'T'}
+{   2 -> 8 Utilizando 'T'}
+{   7 -> 7 Utilizando 'T'}
+Estados: set([0, 1, 2, 6])
+Inicio:  0
+Aceptacion: [0, 1, 2, 6]
+Transiciones:
+{   0 -> 1 Utilizando 'E'}
+{   0 -> 2 Utilizando 'S'}
+{   0 -> 2 Utilizando 'R'}
+{   0 -> 2 Utilizando 'M'}
+{   0 -> 2 Utilizando 'O'}
+{   0 -> 6 Utilizando 'T'}
+{   1 -> 2 Utilizando 'T'}
+{   6 -> 6 Utilizando 'T'}
+
+ La cadena ingresada es Aceptada?:  No
+
+Tiempo de Ejecucion:  37.6069998741 ms para todo el procedimiento
+
+Error: 
+
+Tiempo de Ejecucion:  55.7030000687 ms para todo el procedimiento
+
+Error: 
+Expresion ingresada:  MATE+EL+PROGRAMA
+Cadena a verificar:  MATE
+Estados: set([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32])
+Inicio:  1
+Aceptacion: [32]
+Transiciones:
+{   1 -> 16 Utilizando ':e:'}
+{   1 -> 2 Utilizando ':e:'}
+{   2 -> 3 Utilizando ':e:'}
+{   2 -> 11 Utilizando ':e:'}
+{   3 -> 4 Utilizando 'M'}
+{   4 -> 5 Utilizando ':e:'}
+{   5 -> 6 Utilizando 'A'}
+{   6 -> 7 Utilizando ':e:'}
+{   7 -> 8 Utilizando 'T'}
+{   8 -> 9 Utilizando ':e:'}
+{   9 -> 10 Utilizando 'E'}
+{   10 -> 15 Utilizando ':e:'}
+{   11 -> 12 Utilizando 'E'}
+{   12 -> 13 Utilizando ':e:'}
+{   13 -> 14 Utilizando 'L'}
+{   14 -> 15 Utilizando ':e:'}
+{   15 -> 32 Utilizando ':e:'}
+{   16 -> 17 Utilizando 'P'}
+{   17 -> 18 Utilizando ':e:'}
+{   18 -> 19 Utilizando 'R'}
+{   19 -> 20 Utilizando ':e:'}
+{   20 -> 21 Utilizando 'O'}
+{   21 -> 22 Utilizando ':e:'}
+{   22 -> 23 Utilizando 'G'}
+{   23 -> 24 Utilizando ':e:'}
+{   24 -> 25 Utilizando 'R'}
+{   25 -> 26 Utilizando ':e:'}
+{   26 -> 27 Utilizando 'A'}
+{   27 -> 28 Utilizando ':e:'}
+{   28 -> 29 Utilizando 'M'}
+{   29 -> 30 Utilizando ':e:'}
+{   30 -> 31 Utilizando 'A'}
+{   31 -> 32 Utilizando ':e:'}
+
+Simbolos:  ['M', 'A', 'T', 'E', 'L', 'P', 'R', 'O', 'G']
+Estados: set([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15])
+Inicio:  1
+Aceptacion: [11, 14, 15]
+Transiciones:
+{   1 -> 2 Utilizando 'E'}
+{   1 -> 3 Utilizando 'M'}
+{   1 -> 4 Utilizando 'P'}
+{   2 -> 15 Utilizando 'L'}
+{   3 -> 12 Utilizando 'A'}
+{   4 -> 5 Utilizando 'R'}
+{   5 -> 6 Utilizando 'O'}
+{   6 -> 7 Utilizando 'G'}
+{   7 -> 8 Utilizando 'R'}
+{   8 -> 9 Utilizando 'A'}
+{   9 -> 10 Utilizando 'M'}
+{   10 -> 11 Utilizando 'A'}
+{   12 -> 13 Utilizando 'T'}
+{   13 -> 14 Utilizando 'E'}
+Estados: set([0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12])
+Inicio:  0
+Aceptacion: [10]
+Transiciones:
+{   0 -> 1 Utilizando 'E'}
+{   0 -> 2 Utilizando 'M'}
+{   0 -> 3 Utilizando 'P'}
+{   1 -> 10 Utilizando 'L'}
+{   2 -> 11 Utilizando 'A'}
+{   3 -> 4 Utilizando 'R'}
+{   4 -> 5 Utilizando 'O'}
+{   5 -> 6 Utilizando 'G'}
+{   6 -> 7 Utilizando 'R'}
+{   7 -> 8 Utilizando 'A'}
+{   8 -> 9 Utilizando 'M'}
+{   9 -> 10 Utilizando 'A'}
+{   11 -> 12 Utilizando 'T'}
+{   12 -> 10 Utilizando 'E'}
+
+ La cadena ingresada es Aceptada?:  Si
+
+Tiempo de Ejecucion:  15.0449998379 ms para todo el procedimiento
+Expresion ingresada:  SPOILER(SI+NO)
+Cadena a verificar:  SPOILERNO
+Estados: set([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24])
+Inicio:  1
+Aceptacion: [24]
+Transiciones:
+{   1 -> 2 Utilizando 'S'}
+{   2 -> 3 Utilizando ':e:'}
+{   3 -> 4 Utilizando 'P'}
+{   4 -> 5 Utilizando ':e:'}
+{   5 -> 6 Utilizando 'O'}
+{   6 -> 7 Utilizando ':e:'}
+{   7 -> 8 Utilizando 'I'}
+{   8 -> 9 Utilizando ':e:'}
+{   9 -> 10 Utilizando 'L'}
+{   10 -> 11 Utilizando ':e:'}
+{   11 -> 12 Utilizando 'E'}
+{   12 -> 13 Utilizando ':e:'}
+{   13 -> 14 Utilizando 'R'}
+{   14 -> 15 Utilizando ':e:'}
+{   15 -> 16 Utilizando ':e:'}
+{   15 -> 20 Utilizando ':e:'}
+{   16 -> 17 Utilizando 'S'}
+{   17 -> 18 Utilizando ':e:'}
+{   18 -> 19 Utilizando 'I'}
+{   19 -> 24 Utilizando ':e:'}
+{   20 -> 21 Utilizando 'N'}
+{   21 -> 22 Utilizando ':e:'}
+{   22 -> 23 Utilizando 'O'}
+{   23 -> 24 Utilizando ':e:'}
+
+Simbolos:  ['S', 'P', 'O', 'I', 'L', 'E', 'R', 'N']
+Estados: set([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12])
+Inicio:  1
+Aceptacion: [11, 12]
+Transiciones:
+{   1 -> 2 Utilizando 'S'}
+{   2 -> 3 Utilizando 'P'}
+{   3 -> 4 Utilizando 'O'}
+{   4 -> 5 Utilizando 'I'}
+{   5 -> 6 Utilizando 'L'}
+{   6 -> 7 Utilizando 'E'}
+{   7 -> 8 Utilizando 'R'}
+{   8 -> 9 Utilizando 'N'}
+{   8 -> 10 Utilizando 'S'}
+{   9 -> 12 Utilizando 'O'}
+{   10 -> 11 Utilizando 'I'}
+Estados: set([0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10])
+Inicio:  0
+Aceptacion: [10]
+Transiciones:
+{   0 -> 1 Utilizando 'S'}
+{   1 -> 2 Utilizando 'P'}
+{   2 -> 3 Utilizando 'O'}
+{   3 -> 4 Utilizando 'I'}
+{   4 -> 5 Utilizando 'L'}
+{   5 -> 6 Utilizando 'E'}
+{   6 -> 7 Utilizando 'R'}
+{   7 -> 8 Utilizando 'N'}
+{   7 -> 9 Utilizando 'S'}
+{   8 -> 10 Utilizando 'O'}
+{   9 -> 10 Utilizando 'I'}
+
+ La cadena ingresada es Aceptada?:  Si
+
+Tiempo de Ejecucion:  26.246999979 ms para todo el procedimiento
+Expresion ingresada:  ABA*ABA
+Cadena a verificar:  ABA
+Estados: set([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14])
+Inicio:  1
+Aceptacion: [14]
+Transiciones:
+{   1 -> 2 Utilizando 'A'}
+{   2 -> 3 Utilizando ':e:'}
+{   3 -> 4 Utilizando 'B'}
+{   4 -> 5 Utilizando ':e:'}
+{   5 -> 8 Utilizando ':e:'}
+{   5 -> 6 Utilizando ':e:'}
+{   6 -> 7 Utilizando 'A'}
+{   7 -> 8 Utilizando ':e:'}
+{   7 -> 6 Utilizando ':e:'}
+{   8 -> 9 Utilizando ':e:'}
+{   9 -> 10 Utilizando 'A'}
+{   10 -> 11 Utilizando ':e:'}
+{   11 -> 12 Utilizando 'B'}
+{   12 -> 13 Utilizando ':e:'}
+{   13 -> 14 Utilizando 'A'}
+
+Simbolos:  ['A', 'B']
+Estados: set([1, 2, 3, 4, 5, 6])
+Inicio:  1
+Aceptacion: [6]
+Transiciones:
+{   1 -> 2 Utilizando 'A'}
+{   2 -> 3 Utilizando 'B'}
+{   3 -> 4 Utilizando 'A'}
+{   4 -> 4 Utilizando 'A'}
+{   4 -> 5 Utilizando 'B'}
+{   5 -> 6 Utilizando 'A'}
+Estados: set([1, 2, 3, 4, 5, 6])
+Inicio:  1
+Aceptacion: [6]
+Transiciones:
+{   1 -> 2 Utilizando 'A'}
+{   2 -> 3 Utilizando 'B'}
+{   3 -> 4 Utilizando 'A'}
+{   4 -> 4 Utilizando 'A'}
+{   4 -> 5 Utilizando 'B'}
+{   5 -> 6 Utilizando 'A'}
+
+ La cadena ingresada es Aceptada?:  No
+
+Tiempo de Ejecucion:  5.23699998856 ms para todo el procedimiento
+Expresion ingresada:  Y+O+U+T+U+B+E
+Cadena a verificar:  E
+Estados: set([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26])
+Inicio:  1
+Aceptacion: [26]
+Transiciones:
+{   1 -> 24 Utilizando ':e:'}
+{   1 -> 2 Utilizando ':e:'}
+{   2 -> 3 Utilizando ':e:'}
+{   2 -> 21 Utilizando ':e:'}
+{   3 -> 18 Utilizando ':e:'}
+{   3 -> 4 Utilizando ':e:'}
+{   4 -> 5 Utilizando ':e:'}
+{   4 -> 15 Utilizando ':e:'}
+{   5 -> 12 Utilizando ':e:'}
+{   5 -> 6 Utilizando ':e:'}
+{   6 -> 9 Utilizando ':e:'}
+{   6 -> 7 Utilizando ':e:'}
+{   7 -> 8 Utilizando 'Y'}
+{   8 -> 11 Utilizando ':e:'}
+{   9 -> 10 Utilizando 'O'}
+{   10 -> 11 Utilizando ':e:'}
+{   11 -> 14 Utilizando ':e:'}
+{   12 -> 13 Utilizando 'U'}
+{   13 -> 14 Utilizando ':e:'}
+{   14 -> 17 Utilizando ':e:'}
+{   15 -> 16 Utilizando 'T'}
+{   16 -> 17 Utilizando ':e:'}
+{   17 -> 20 Utilizando ':e:'}
+{   18 -> 19 Utilizando 'U'}
+{   19 -> 20 Utilizando ':e:'}
+{   20 -> 23 Utilizando ':e:'}
+{   21 -> 22 Utilizando 'B'}
+{   22 -> 23 Utilizando ':e:'}
+{   23 -> 26 Utilizando ':e:'}
+{   24 -> 25 Utilizando 'E'}
+{   25 -> 26 Utilizando ':e:'}
+
+Simbolos:  ['Y', 'O', 'U', 'T', 'B', 'E']
+Estados: set([1, 2, 3, 4, 5, 6, 7])
+Inicio:  1
+Aceptacion: [2, 3, 4, 5, 6, 7]
+Transiciones:
+{   1 -> 2 Utilizando 'B'}
+{   1 -> 3 Utilizando 'E'}
+{   1 -> 4 Utilizando 'O'}
+{   1 -> 5 Utilizando 'U'}
+{   1 -> 6 Utilizando 'T'}
+{   1 -> 7 Utilizando 'Y'}
+Estados: set([0, 1])
+Inicio:  0
+Aceptacion: [1]
+Transiciones:
+{   0 -> 1 Utilizando 'B'}
+{   0 -> 1 Utilizando 'U'}
+{   0 -> 1 Utilizando 'T'}
+{   0 -> 1 Utilizando 'Y'}
+{   0 -> 1 Utilizando 'E'}
+{   0 -> 1 Utilizando 'O'}
+
+ La cadena ingresada es Aceptada?:  Si
+
+Tiempo de Ejecucion:  18.6099998951 ms para todo el procedimiento
+Expresion ingresada:  ((A+B)*+(A+B*)*)
+Cadena a verificar:  AAAAABBABBBA
+Estados: set([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20])
+Inicio:  1
+Aceptacion: [20]
+Transiciones:
+{   1 -> 2 Utilizando ':e:'}
+{   1 -> 10 Utilizando ':e:'}
+{   2 -> 9 Utilizando ':e:'}
+{   2 -> 3 Utilizando ':e:'}
+{   3 -> 4 Utilizando ':e:'}
+{   3 -> 6 Utilizando ':e:'}
+{   4 -> 5 Utilizando 'A'}
+{   5 -> 8 Utilizando ':e:'}
+{   6 -> 7 Utilizando 'B'}
+{   7 -> 8 Utilizando ':e:'}
+{   8 -> 9 Utilizando ':e:'}
+{   8 -> 3 Utilizando ':e:'}
+{   9 -> 20 Utilizando ':e:'}
+{   10 -> 11 Utilizando ':e:'}
+{   10 -> 19 Utilizando ':e:'}
+{   11 -> 12 Utilizando ':e:'}
+{   11 -> 14 Utilizando ':e:'}
+{   12 -> 13 Utilizando 'A'}
+{   13 -> 18 Utilizando ':e:'}
+{   14 -> 17 Utilizando ':e:'}
+{   14 -> 15 Utilizando ':e:'}
+{   15 -> 16 Utilizando 'B'}
+{   16 -> 17 Utilizando ':e:'}
+{   16 -> 15 Utilizando ':e:'}
+{   17 -> 18 Utilizando ':e:'}
+{   18 -> 19 Utilizando ':e:'}
+{   18 -> 11 Utilizando ':e:'}
+{   19 -> 20 Utilizando ':e:'}
+
+Simbolos:  ['A', 'B']
+Estados: set([1, 2, 3])
+Inicio:  1
+Aceptacion: [1, 2, 3]
+Transiciones:
+{   1 -> 2 Utilizando 'A'}
+{   1 -> 3 Utilizando 'B'}
+{   2 -> 2 Utilizando 'A'}
+{   2 -> 3 Utilizando 'B'}
+{   3 -> 2 Utilizando 'A'}
+{   3 -> 3 Utilizando 'B'}
+Estados: set([0])
+Inicio:  0
+Aceptacion: [0]
+Transiciones:
+{   0 -> 0 Utilizando 'A'}
+{   0 -> 0 Utilizando 'B'}
+
+ La cadena ingresada es Aceptada?:  Si
+
+Tiempo de Ejecucion:  41.1599998474 ms para todo el procedimiento
+Expresion ingresada:  A+B*.(C.B*+A)*
+Cadena a verificar:  BBBCBCA
+Estados: set([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20])
+Inicio:  1
+Aceptacion: [20]
+Transiciones:
+{   1 -> 2 Utilizando ':e:'}
+{   1 -> 4 Utilizando ':e:'}
+{   2 -> 3 Utilizando 'A'}
+{   3 -> 20 Utilizando ':e:'}
+{   4 -> 5 Utilizando ':e:'}
+{   4 -> 7 Utilizando ':e:'}
+{   5 -> 6 Utilizando 'B'}
+{   6 -> 5 Utilizando ':e:'}
+{   6 -> 7 Utilizando ':e:'}
+{   7 -> 8 Utilizando ':e:'}
+{   8 -> 9 Utilizando ':e:'}
+{   8 -> 19 Utilizando ':e:'}
+{   9 -> 16 Utilizando ':e:'}
+{   9 -> 10 Utilizando ':e:'}
+{   10 -> 11 Utilizando 'C'}
+{   11 -> 12 Utilizando ':e:'}
+{   12 -> 13 Utilizando ':e:'}
+{   12 -> 15 Utilizando ':e:'}
+{   13 -> 14 Utilizando 'B'}
+{   14 -> 13 Utilizando ':e:'}
+{   14 -> 15 Utilizando ':e:'}
+{   15 -> 18 Utilizando ':e:'}
+{   16 -> 17 Utilizando 'A'}
+{   17 -> 18 Utilizando ':e:'}
+{   18 -> 9 Utilizando ':e:'}
+{   18 -> 19 Utilizando ':e:'}
+{   19 -> 20 Utilizando ':e:'}
+
+Simbolos:  ['A', 'B', '.', 'C']
+Estados: set([1, 2, 3, 4, 5, 6])
+Inicio:  1
+Aceptacion: [1, 2, 3, 4, 5, 6]
+Transiciones:
+{   1 -> 2 Utilizando 'A'}
+{   1 -> 3 Utilizando 'C'}
+{   1 -> 4 Utilizando 'B'}
+{   2 -> 3 Utilizando 'C'}
+{   2 -> 5 Utilizando 'A'}
+{   3 -> 3 Utilizando 'C'}
+{   3 -> 5 Utilizando 'A'}
+{   3 -> 6 Utilizando 'B'}
+{   4 -> 3 Utilizando 'C'}
+{   4 -> 4 Utilizando 'B'}
+{   4 -> 5 Utilizando 'A'}
+{   5 -> 3 Utilizando 'C'}
+{   5 -> 5 Utilizando 'A'}
+{   6 -> 3 Utilizando 'C'}
+{   6 -> 5 Utilizando 'A'}
+{   6 -> 6 Utilizando 'B'}
+Estados: set([0, 1])
+Inicio:  0
+Aceptacion: [0, 1]
+Transiciones:
+{   0 -> 0 Utilizando 'C'}
+{   0 -> 0 Utilizando 'B'}
+{   0 -> 1 Utilizando 'A'}
+{   1 -> 0 Utilizando 'C'}
+{   1 -> 1 Utilizando 'A'}
+
+ La cadena ingresada es Aceptada?:  Si
+
+Tiempo de Ejecucion:  45.3999998569 ms para todo el procedimiento
+Expresion ingresada:  BUENI(SI)*MO
+Cadena a verificar:  BUENIMO
+Estados: set([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20])
+Inicio:  1
+Aceptacion: [20]
+Transiciones:
+{   1 -> 2 Utilizando 'B'}
+{   2 -> 3 Utilizando ':e:'}
+{   3 -> 4 Utilizando 'U'}
+{   4 -> 5 Utilizando ':e:'}
+{   5 -> 6 Utilizando 'E'}
+{   6 -> 7 Utilizando ':e:'}
+{   7 -> 8 Utilizando 'N'}
+{   8 -> 9 Utilizando ':e:'}
+{   9 -> 10 Utilizando 'I'}
+{   10 -> 11 Utilizando ':e:'}
+{   11 -> 16 Utilizando ':e:'}
+{   11 -> 12 Utilizando ':e:'}
+{   12 -> 13 Utilizando 'S'}
+{   13 -> 14 Utilizando ':e:'}
+{   14 -> 15 Utilizando 'I'}
+{   15 -> 16 Utilizando ':e:'}
+{   15 -> 12 Utilizando ':e:'}
+{   16 -> 17 Utilizando ':e:'}
+{   17 -> 18 Utilizando 'M'}
+{   18 -> 19 Utilizando ':e:'}
+{   19 -> 20 Utilizando 'O'}
+
+Simbolos:  ['B', 'U', 'E', 'N', 'I', 'S', 'M', 'O']
+Estados: set([1, 2, 3, 4, 5, 6, 7, 8, 9, 10])
+Inicio:  1
+Aceptacion: [10]
+Transiciones:
+{   1 -> 2 Utilizando 'B'}
+{   2 -> 3 Utilizando 'U'}
+{   3 -> 4 Utilizando 'E'}
+{   4 -> 5 Utilizando 'N'}
+{   5 -> 6 Utilizando 'I'}
+{   6 -> 8 Utilizando 'S'}
+{   6 -> 7 Utilizando 'M'}
+{   7 -> 10 Utilizando 'O'}
+{   8 -> 9 Utilizando 'I'}
+{   9 -> 8 Utilizando 'S'}
+{   9 -> 7 Utilizando 'M'}
+Estados: set([0, 1, 2, 3, 4, 5, 6, 9])
+Inicio:  0
+Aceptacion: [9]
+Transiciones:
+{   0 -> 1 Utilizando 'B'}
+{   1 -> 2 Utilizando 'U'}
+{   2 -> 3 Utilizando 'E'}
+{   3 -> 4 Utilizando 'N'}
+{   4 -> 5 Utilizando 'I'}
+{   5 -> 4 Utilizando 'S'}
+{   5 -> 6 Utilizando 'M'}
+{   6 -> 9 Utilizando 'O'}
+
+ La cadena ingresada es Aceptada?:  Si
+
+Tiempo de Ejecucion:  16.3980000019 ms para todo el procedimiento
+Expresion ingresada:  (((CU)+(NT))*.AB*(A*B*)*.(H+OL+I)*))*
+Cadena a verificar:  CUCUNTNTABBABAABBHOLIOLCUAH
+
+Error: Error al procesar ')'. El stack esta vacio.
+
+Tiempo de Ejecucion:  288.994999886 ms para todo el procedimiento
+Expresion ingresada:  (((CU)+(NT))*.AB*(A*B*)*.(H+OL+I)*)*
+Cadena a verificar:  
+Estados: set([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44])
+Inicio:  1
+Aceptacion: [44]
+Transiciones:
+{   1 -> 2 Utilizando ':e:'}
+{   1 -> 44 Utilizando ':e:'}
+{   2 -> 3 Utilizando ':e:'}
+{   2 -> 13 Utilizando ':e:'}
+{   3 -> 8 Utilizando ':e:'}
+{   3 -> 4 Utilizando ':e:'}
+{   4 -> 5 Utilizando 'C'}
+{   5 -> 6 Utilizando ':e:'}
+{   6 -> 7 Utilizando 'U'}
+{   7 -> 12 Utilizando ':e:'}
+{   8 -> 9 Utilizando 'N'}
+{   9 -> 10 Utilizando ':e:'}
+{   10 -> 11 Utilizando 'T'}
+{   11 -> 12 Utilizando ':e:'}
+{   12 -> 3 Utilizando ':e:'}
+{   12 -> 13 Utilizando ':e:'}
+{   13 -> 14 Utilizando ':e:'}
+{   14 -> 15 Utilizando 'A'}
+{   15 -> 16 Utilizando ':e:'}
+{   16 -> 17 Utilizando ':e:'}
+{   16 -> 19 Utilizando ':e:'}
+{   17 -> 18 Utilizando 'B'}
+{   18 -> 17 Utilizando ':e:'}
+{   18 -> 19 Utilizando ':e:'}
+{   19 -> 20 Utilizando ':e:'}
+{   20 -> 21 Utilizando ':e:'}
+{   20 -> 29 Utilizando ':e:'}
+{   21 -> 24 Utilizando ':e:'}
+{   21 -> 22 Utilizando ':e:'}
+{   22 -> 23 Utilizando 'A'}
+{   23 -> 24 Utilizando ':e:'}
+{   23 -> 22 Utilizando ':e:'}
+{   24 -> 25 Utilizando ':e:'}
+{   25 -> 26 Utilizando ':e:'}
+{   25 -> 28 Utilizando ':e:'}
+{   26 -> 27 Utilizando 'B'}
+{   27 -> 26 Utilizando ':e:'}
+{   27 -> 28 Utilizando ':e:'}
+{   28 -> 29 Utilizando ':e:'}
+{   28 -> 21 Utilizando ':e:'}
+{   29 -> 30 Utilizando ':e:'}
+{   30 -> 43 Utilizando ':e:'}
+{   30 -> 31 Utilizando ':e:'}
+{   31 -> 32 Utilizando ':e:'}
+{   31 -> 40 Utilizando ':e:'}
+{   32 -> 33 Utilizando ':e:'}
+{   32 -> 35 Utilizando ':e:'}
+{   33 -> 34 Utilizando 'H'}
+{   34 -> 39 Utilizando ':e:'}
+{   35 -> 36 Utilizando 'O'}
+{   36 -> 37 Utilizando ':e:'}
+{   37 -> 38 Utilizando 'L'}
+{   38 -> 39 Utilizando ':e:'}
+{   39 -> 42 Utilizando ':e:'}
+{   40 -> 41 Utilizando 'I'}
+{   41 -> 42 Utilizando ':e:'}
+{   42 -> 43 Utilizando ':e:'}
+{   42 -> 31 Utilizando ':e:'}
+{   43 -> 2 Utilizando ':e:'}
+{   43 -> 44 Utilizando ':e:'}
+
+Simbolos:  ['C', 'U', 'N', 'T', '.', 'A', 'B', 'H', 'O', 'L', 'I']
+Estados: set([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12])
+Inicio:  1
+Aceptacion: [1, 2, 7, 8, 9, 10, 12]
+Transiciones:
+{   1 -> 2 Utilizando 'A'}
+{   1 -> 3 Utilizando 'C'}
+{   1 -> 4 Utilizando 'N'}
+{   2 -> 3 Utilizando 'C'}
+{   2 -> 4 Utilizando 'N'}
+{   2 -> 7 Utilizando 'A'}
+{   2 -> 8 Utilizando 'B'}
+{   2 -> 9 Utilizando 'I'}
+{   2 -> 10 Utilizando 'H'}
+{   2 -> 11 Utilizando 'O'}
+{   3 -> 6 Utilizando 'U'}
+{   4 -> 5 Utilizando 'T'}
+{   5 -> 2 Utilizando 'A'}
+{   5 -> 3 Utilizando 'C'}
+{   5 -> 4 Utilizando 'N'}
+{   6 -> 2 Utilizando 'A'}
+{   6 -> 3 Utilizando 'C'}
+{   6 -> 4 Utilizando 'N'}
+{   7 -> 3 Utilizando 'C'}
+{   7 -> 4 Utilizando 'N'}
+{   7 -> 7 Utilizando 'A'}
+{   7 -> 8 Utilizando 'B'}
+{   7 -> 9 Utilizando 'I'}
+{   7 -> 10 Utilizando 'H'}
+{   7 -> 11 Utilizando 'O'}
+{   8 -> 3 Utilizando 'C'}
+{   8 -> 4 Utilizando 'N'}
+{   8 -> 7 Utilizando 'A'}
+{   8 -> 8 Utilizando 'B'}
+{   8 -> 9 Utilizando 'I'}
+{   8 -> 10 Utilizando 'H'}
+{   8 -> 11 Utilizando 'O'}
+{   9 -> 2 Utilizando 'A'}
+{   9 -> 3 Utilizando 'C'}
+{   9 -> 4 Utilizando 'N'}
+{   9 -> 9 Utilizando 'I'}
+{   9 -> 10 Utilizando 'H'}
+{   9 -> 11 Utilizando 'O'}
+{   10 -> 2 Utilizando 'A'}
+{   10 -> 3 Utilizando 'C'}
+{   10 -> 4 Utilizando 'N'}
+{   10 -> 9 Utilizando 'I'}
+{   10 -> 10 Utilizando 'H'}
+{   10 -> 11 Utilizando 'O'}
+{   11 -> 12 Utilizando 'L'}
+{   12 -> 2 Utilizando 'A'}
+{   12 -> 3 Utilizando 'C'}
+{   12 -> 4 Utilizando 'N'}
+{   12 -> 9 Utilizando 'I'}
+{   12 -> 10 Utilizando 'H'}
+{   12 -> 11 Utilizando 'O'}
+Estados: set([0, 1, 2, 3, 8, 10])
+Inicio:  0
+Aceptacion: [0, 1, 8]
+Transiciones:
+{   0 -> 1 Utilizando 'A'}
+{   0 -> 2 Utilizando 'C'}
+{   0 -> 3 Utilizando 'N'}
+{   1 -> 8 Utilizando 'I'}
+{   1 -> 8 Utilizando 'H'}
+{   1 -> 1 Utilizando 'A'}
+{   1 -> 1 Utilizando 'B'}
+{   1 -> 2 Utilizando 'C'}
+{   1 -> 3 Utilizando 'N'}
+{   1 -> 10 Utilizando 'O'}
+{   2 -> 0 Utilizando 'U'}
+{   3 -> 0 Utilizando 'T'}
+{   8 -> 8 Utilizando 'I'}
+{   8 -> 8 Utilizando 'H'}
+{   8 -> 1 Utilizando 'A'}
+{   8 -> 2 Utilizando 'C'}
+{   8 -> 3 Utilizando 'N'}
+{   8 -> 10 Utilizando 'O'}
+{   10 -> 8 Utilizando 'L'}
+
+ La cadena ingresada es Aceptada?:  Si
+
+Tiempo de Ejecucion:  338.128999949 ms para todo el procedimiento
+Expresion ingresada:  (((CU)+(NT))*.AB*(A*B*)*.(H+OL+I)*)*
+Cadena a verificar:  CUCUNTNTABBABAABBHOLIOLCUAH
+Estados: set([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44])
+Inicio:  1
+Aceptacion: [44]
+Transiciones:
+{   1 -> 2 Utilizando ':e:'}
+{   1 -> 44 Utilizando ':e:'}
+{   2 -> 3 Utilizando ':e:'}
+{   2 -> 13 Utilizando ':e:'}
+{   3 -> 8 Utilizando ':e:'}
+{   3 -> 4 Utilizando ':e:'}
+{   4 -> 5 Utilizando 'C'}
+{   5 -> 6 Utilizando ':e:'}
+{   6 -> 7 Utilizando 'U'}
+{   7 -> 12 Utilizando ':e:'}
+{   8 -> 9 Utilizando 'N'}
+{   9 -> 10 Utilizando ':e:'}
+{   10 -> 11 Utilizando 'T'}
+{   11 -> 12 Utilizando ':e:'}
+{   12 -> 3 Utilizando ':e:'}
+{   12 -> 13 Utilizando ':e:'}
+{   13 -> 14 Utilizando ':e:'}
+{   14 -> 15 Utilizando 'A'}
+{   15 -> 16 Utilizando ':e:'}
+{   16 -> 17 Utilizando ':e:'}
+{   16 -> 19 Utilizando ':e:'}
+{   17 -> 18 Utilizando 'B'}
+{   18 -> 17 Utilizando ':e:'}
+{   18 -> 19 Utilizando ':e:'}
+{   19 -> 20 Utilizando ':e:'}
+{   20 -> 21 Utilizando ':e:'}
+{   20 -> 29 Utilizando ':e:'}
+{   21 -> 24 Utilizando ':e:'}
+{   21 -> 22 Utilizando ':e:'}
+{   22 -> 23 Utilizando 'A'}
+{   23 -> 24 Utilizando ':e:'}
+{   23 -> 22 Utilizando ':e:'}
+{   24 -> 25 Utilizando ':e:'}
+{   25 -> 26 Utilizando ':e:'}
+{   25 -> 28 Utilizando ':e:'}
+{   26 -> 27 Utilizando 'B'}
+{   27 -> 26 Utilizando ':e:'}
+{   27 -> 28 Utilizando ':e:'}
+{   28 -> 29 Utilizando ':e:'}
+{   28 -> 21 Utilizando ':e:'}
+{   29 -> 30 Utilizando ':e:'}
+{   30 -> 43 Utilizando ':e:'}
+{   30 -> 31 Utilizando ':e:'}
+{   31 -> 32 Utilizando ':e:'}
+{   31 -> 40 Utilizando ':e:'}
+{   32 -> 33 Utilizando ':e:'}
+{   32 -> 35 Utilizando ':e:'}
+{   33 -> 34 Utilizando 'H'}
+{   34 -> 39 Utilizando ':e:'}
+{   35 -> 36 Utilizando 'O'}
+{   36 -> 37 Utilizando ':e:'}
+{   37 -> 38 Utilizando 'L'}
+{   38 -> 39 Utilizando ':e:'}
+{   39 -> 42 Utilizando ':e:'}
+{   40 -> 41 Utilizando 'I'}
+{   41 -> 42 Utilizando ':e:'}
+{   42 -> 43 Utilizando ':e:'}
+{   42 -> 31 Utilizando ':e:'}
+{   43 -> 2 Utilizando ':e:'}
+{   43 -> 44 Utilizando ':e:'}
+
+Simbolos:  ['C', 'U', 'N', 'T', '.', 'A', 'B', 'H', 'O', 'L', 'I']
+Estados: set([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12])
+Inicio:  1
+Aceptacion: [1, 2, 7, 8, 9, 10, 12]
+Transiciones:
+{   1 -> 2 Utilizando 'A'}
+{   1 -> 3 Utilizando 'C'}
+{   1 -> 4 Utilizando 'N'}
+{   2 -> 3 Utilizando 'C'}
+{   2 -> 4 Utilizando 'N'}
+{   2 -> 7 Utilizando 'A'}
+{   2 -> 8 Utilizando 'B'}
+{   2 -> 9 Utilizando 'I'}
+{   2 -> 10 Utilizando 'H'}
+{   2 -> 11 Utilizando 'O'}
+{   3 -> 6 Utilizando 'U'}
+{   4 -> 5 Utilizando 'T'}
+{   5 -> 2 Utilizando 'A'}
+{   5 -> 3 Utilizando 'C'}
+{   5 -> 4 Utilizando 'N'}
+{   6 -> 2 Utilizando 'A'}
+{   6 -> 3 Utilizando 'C'}
+{   6 -> 4 Utilizando 'N'}
+{   7 -> 3 Utilizando 'C'}
+{   7 -> 4 Utilizando 'N'}
+{   7 -> 7 Utilizando 'A'}
+{   7 -> 8 Utilizando 'B'}
+{   7 -> 9 Utilizando 'I'}
+{   7 -> 10 Utilizando 'H'}
+{   7 -> 11 Utilizando 'O'}
+{   8 -> 3 Utilizando 'C'}
+{   8 -> 4 Utilizando 'N'}
+{   8 -> 7 Utilizando 'A'}
+{   8 -> 8 Utilizando 'B'}
+{   8 -> 9 Utilizando 'I'}
+{   8 -> 10 Utilizando 'H'}
+{   8 -> 11 Utilizando 'O'}
+{   9 -> 2 Utilizando 'A'}
+{   9 -> 3 Utilizando 'C'}
+{   9 -> 4 Utilizando 'N'}
+{   9 -> 9 Utilizando 'I'}
+{   9 -> 10 Utilizando 'H'}
+{   9 -> 11 Utilizando 'O'}
+{   10 -> 2 Utilizando 'A'}
+{   10 -> 3 Utilizando 'C'}
+{   10 -> 4 Utilizando 'N'}
+{   10 -> 9 Utilizando 'I'}
+{   10 -> 10 Utilizando 'H'}
+{   10 -> 11 Utilizando 'O'}
+{   11 -> 12 Utilizando 'L'}
+{   12 -> 2 Utilizando 'A'}
+{   12 -> 3 Utilizando 'C'}
+{   12 -> 4 Utilizando 'N'}
+{   12 -> 9 Utilizando 'I'}
+{   12 -> 10 Utilizando 'H'}
+{   12 -> 11 Utilizando 'O'}
+Estados: set([0, 1, 2, 3, 8, 10])
+Inicio:  0
+Aceptacion: [0, 1, 8]
+Transiciones:
+{   0 -> 1 Utilizando 'A'}
+{   0 -> 2 Utilizando 'C'}
+{   0 -> 3 Utilizando 'N'}
+{   1 -> 8 Utilizando 'I'}
+{   1 -> 8 Utilizando 'H'}
+{   1 -> 1 Utilizando 'A'}
+{   1 -> 1 Utilizando 'B'}
+{   1 -> 2 Utilizando 'C'}
+{   1 -> 3 Utilizando 'N'}
+{   1 -> 10 Utilizando 'O'}
+{   2 -> 0 Utilizando 'U'}
+{   3 -> 0 Utilizando 'T'}
+{   8 -> 8 Utilizando 'I'}
+{   8 -> 8 Utilizando 'H'}
+{   8 -> 1 Utilizando 'A'}
+{   8 -> 2 Utilizando 'C'}
+{   8 -> 3 Utilizando 'N'}
+{   8 -> 10 Utilizando 'O'}
+{   10 -> 8 Utilizando 'L'}
+
+ La cadena ingresada es Aceptada?:  Si
+
+Tiempo de Ejecucion:  345.167999983 ms para todo el procedimiento
+Expresion ingresada:  (A+B+C+D+E+F+G+H+I+J+K+L+M+N+O+P+Q+R+S+T+U+V+X+Y+Z)*+(a+b+c+d+e+f+g+h+i+j+k+l+m+n+o+p+q+r+s+t+u+v+x+y+z)*.ing
+Cadena a verificar:  vergating
+Estados: set([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139, 140, 141, 142, 143, 144, 145, 146, 147, 148, 149, 150, 151, 152, 153, 154, 155, 156, 157, 158, 159, 160, 161, 162, 163, 164, 165, 166, 167, 168, 169, 170, 171, 172, 173, 174, 175, 176, 177, 178, 179, 180, 181, 182, 183, 184, 185, 186, 187, 188, 189, 190, 191, 192, 193, 194, 195, 196, 197, 198, 199, 200, 201, 202, 203, 204, 205, 206, 207, 208])
+Inicio:  1
+Aceptacion: [208]
+Transiciones:
+{   1 -> 2 Utilizando ':e:'}
+{   1 -> 102 Utilizando ':e:'}
+{   2 -> 3 Utilizando ':e:'}
+{   2 -> 101 Utilizando ':e:'}
+{   3 -> 98 Utilizando ':e:'}
+{   3 -> 4 Utilizando ':e:'}
+{   4 -> 5 Utilizando ':e:'}
+{   4 -> 95 Utilizando ':e:'}
+{   5 -> 92 Utilizando ':e:'}
+{   5 -> 6 Utilizando ':e:'}
+{   6 -> 89 Utilizando ':e:'}
+{   6 -> 7 Utilizando ':e:'}
+{   7 -> 8 Utilizando ':e:'}
+{   7 -> 86 Utilizando ':e:'}
+{   8 -> 9 Utilizando ':e:'}
+{   8 -> 83 Utilizando ':e:'}
+{   9 -> 80 Utilizando ':e:'}
+{   9 -> 10 Utilizando ':e:'}
+{   10 -> 11 Utilizando ':e:'}
+{   10 -> 77 Utilizando ':e:'}
+{   11 -> 74 Utilizando ':e:'}
+{   11 -> 12 Utilizando ':e:'}
+{   12 -> 13 Utilizando ':e:'}
+{   12 -> 71 Utilizando ':e:'}
+{   13 -> 68 Utilizando ':e:'}
+{   13 -> 14 Utilizando ':e:'}
+{   14 -> 65 Utilizando ':e:'}
+{   14 -> 15 Utilizando ':e:'}
+{   15 -> 16 Utilizando ':e:'}
+{   15 -> 62 Utilizando ':e:'}
+{   16 -> 17 Utilizando ':e:'}
+{   16 -> 59 Utilizando ':e:'}
+{   17 -> 56 Utilizando ':e:'}
+{   17 -> 18 Utilizando ':e:'}
+{   18 -> 19 Utilizando ':e:'}
+{   18 -> 53 Utilizando ':e:'}
+{   19 -> 50 Utilizando ':e:'}
+{   19 -> 20 Utilizando ':e:'}
+{   20 -> 21 Utilizando ':e:'}
+{   20 -> 47 Utilizando ':e:'}
+{   21 -> 44 Utilizando ':e:'}
+{   21 -> 22 Utilizando ':e:'}
+{   22 -> 41 Utilizando ':e:'}
+{   22 -> 23 Utilizando ':e:'}
+{   23 -> 24 Utilizando ':e:'}
+{   23 -> 38 Utilizando ':e:'}
+{   24 -> 25 Utilizando ':e:'}
+{   24 -> 35 Utilizando ':e:'}
+{   25 -> 32 Utilizando ':e:'}
+{   25 -> 26 Utilizando ':e:'}
+{   26 -> 27 Utilizando ':e:'}
+{   26 -> 29 Utilizando ':e:'}
+{   27 -> 28 Utilizando 'A'}
+{   28 -> 31 Utilizando ':e:'}
+{   29 -> 30 Utilizando 'B'}
+{   30 -> 31 Utilizando ':e:'}
+{   31 -> 34 Utilizando ':e:'}
+{   32 -> 33 Utilizando 'C'}
+{   33 -> 34 Utilizando ':e:'}
+{   34 -> 37 Utilizando ':e:'}
+{   35 -> 36 Utilizando 'D'}
+{   36 -> 37 Utilizando ':e:'}
+{   37 -> 40 Utilizando ':e:'}
+{   38 -> 39 Utilizando 'E'}
+{   39 -> 40 Utilizando ':e:'}
+{   40 -> 43 Utilizando ':e:'}
+{   41 -> 42 Utilizando 'F'}
+{   42 -> 43 Utilizando ':e:'}
+{   43 -> 46 Utilizando ':e:'}
+{   44 -> 45 Utilizando 'G'}
+{   45 -> 46 Utilizando ':e:'}
+{   46 -> 49 Utilizando ':e:'}
+{   47 -> 48 Utilizando 'H'}
+{   48 -> 49 Utilizando ':e:'}
+{   49 -> 52 Utilizando ':e:'}
+{   50 -> 51 Utilizando 'I'}
+{   51 -> 52 Utilizando ':e:'}
+{   52 -> 55 Utilizando ':e:'}
+{   53 -> 54 Utilizando 'J'}
+{   54 -> 55 Utilizando ':e:'}
+{   55 -> 58 Utilizando ':e:'}
+{   56 -> 57 Utilizando 'K'}
+{   57 -> 58 Utilizando ':e:'}
+{   58 -> 61 Utilizando ':e:'}
+{   59 -> 60 Utilizando 'L'}
+{   60 -> 61 Utilizando ':e:'}
+{   61 -> 64 Utilizando ':e:'}
+{   62 -> 63 Utilizando 'M'}
+{   63 -> 64 Utilizando ':e:'}
+{   64 -> 67 Utilizando ':e:'}
+{   65 -> 66 Utilizando 'N'}
+{   66 -> 67 Utilizando ':e:'}
+{   67 -> 70 Utilizando ':e:'}
+{   68 -> 69 Utilizando 'O'}
+{   69 -> 70 Utilizando ':e:'}
+{   70 -> 73 Utilizando ':e:'}
+{   71 -> 72 Utilizando 'P'}
+{   72 -> 73 Utilizando ':e:'}
+{   73 -> 76 Utilizando ':e:'}
+{   74 -> 75 Utilizando 'Q'}
+{   75 -> 76 Utilizando ':e:'}
+{   76 -> 79 Utilizando ':e:'}
+{   77 -> 78 Utilizando 'R'}
+{   78 -> 79 Utilizando ':e:'}
+{   79 -> 82 Utilizando ':e:'}
+{   80 -> 81 Utilizando 'S'}
+{   81 -> 82 Utilizando ':e:'}
+{   82 -> 85 Utilizando ':e:'}
+{   83 -> 84 Utilizando 'T'}
+{   84 -> 85 Utilizando ':e:'}
+{   85 -> 88 Utilizando ':e:'}
+{   86 -> 87 Utilizando 'U'}
+{   87 -> 88 Utilizando ':e:'}
+{   88 -> 91 Utilizando ':e:'}
+{   89 -> 90 Utilizando 'V'}
+{   90 -> 91 Utilizando ':e:'}
+{   91 -> 94 Utilizando ':e:'}
+{   92 -> 93 Utilizando 'X'}
+{   93 -> 94 Utilizando ':e:'}
+{   94 -> 97 Utilizando ':e:'}
+{   95 -> 96 Utilizando 'Y'}
+{   96 -> 97 Utilizando ':e:'}
+{   97 -> 100 Utilizando ':e:'}
+{   98 -> 99 Utilizando 'Z'}
+{   99 -> 100 Utilizando ':e:'}
+{   100 -> 3 Utilizando ':e:'}
+{   100 -> 101 Utilizando ':e:'}
+{   101 -> 208 Utilizando ':e:'}
+{   102 -> 201 Utilizando ':e:'}
+{   102 -> 103 Utilizando ':e:'}
+{   103 -> 104 Utilizando ':e:'}
+{   103 -> 198 Utilizando ':e:'}
+{   104 -> 105 Utilizando ':e:'}
+{   104 -> 195 Utilizando ':e:'}
+{   105 -> 192 Utilizando ':e:'}
+{   105 -> 106 Utilizando ':e:'}
+{   106 -> 107 Utilizando ':e:'}
+{   106 -> 189 Utilizando ':e:'}
+{   107 -> 186 Utilizando ':e:'}
+{   107 -> 108 Utilizando ':e:'}
+{   108 -> 109 Utilizando ':e:'}
+{   108 -> 183 Utilizando ':e:'}
+{   109 -> 180 Utilizando ':e:'}
+{   109 -> 110 Utilizando ':e:'}
+{   110 -> 177 Utilizando ':e:'}
+{   110 -> 111 Utilizando ':e:'}
+{   111 -> 112 Utilizando ':e:'}
+{   111 -> 174 Utilizando ':e:'}
+{   112 -> 113 Utilizando ':e:'}
+{   112 -> 171 Utilizando ':e:'}
+{   113 -> 168 Utilizando ':e:'}
+{   113 -> 114 Utilizando ':e:'}
+{   114 -> 115 Utilizando ':e:'}
+{   114 -> 165 Utilizando ':e:'}
+{   115 -> 162 Utilizando ':e:'}
+{   115 -> 116 Utilizando ':e:'}
+{   116 -> 117 Utilizando ':e:'}
+{   116 -> 159 Utilizando ':e:'}
+{   117 -> 156 Utilizando ':e:'}
+{   117 -> 118 Utilizando ':e:'}
+{   118 -> 153 Utilizando ':e:'}
+{   118 -> 119 Utilizando ':e:'}
+{   119 -> 120 Utilizando ':e:'}
+{   119 -> 150 Utilizando ':e:'}
+{   120 -> 121 Utilizando ':e:'}
+{   120 -> 147 Utilizando ':e:'}
+{   121 -> 144 Utilizando ':e:'}
+{   121 -> 122 Utilizando ':e:'}
+{   122 -> 123 Utilizando ':e:'}
+{   122 -> 141 Utilizando ':e:'}
+{   123 -> 138 Utilizando ':e:'}
+{   123 -> 124 Utilizando ':e:'}
+{   124 -> 125 Utilizando ':e:'}
+{   124 -> 135 Utilizando ':e:'}
+{   125 -> 132 Utilizando ':e:'}
+{   125 -> 126 Utilizando ':e:'}
+{   126 -> 129 Utilizando ':e:'}
+{   126 -> 127 Utilizando ':e:'}
+{   127 -> 128 Utilizando 'a'}
+{   128 -> 131 Utilizando ':e:'}
+{   129 -> 130 Utilizando 'b'}
+{   130 -> 131 Utilizando ':e:'}
+{   131 -> 134 Utilizando ':e:'}
+{   132 -> 133 Utilizando 'c'}
+{   133 -> 134 Utilizando ':e:'}
+{   134 -> 137 Utilizando ':e:'}
+{   135 -> 136 Utilizando 'd'}
+{   136 -> 137 Utilizando ':e:'}
+{   137 -> 140 Utilizando ':e:'}
+{   138 -> 139 Utilizando 'e'}
+{   139 -> 140 Utilizando ':e:'}
+{   140 -> 143 Utilizando ':e:'}
+{   141 -> 142 Utilizando 'f'}
+{   142 -> 143 Utilizando ':e:'}
+{   143 -> 146 Utilizando ':e:'}
+{   144 -> 145 Utilizando 'g'}
+{   145 -> 146 Utilizando ':e:'}
+{   146 -> 149 Utilizando ':e:'}
+{   147 -> 148 Utilizando 'h'}
+{   148 -> 149 Utilizando ':e:'}
+{   149 -> 152 Utilizando ':e:'}
+{   150 -> 151 Utilizando 'i'}
+{   151 -> 152 Utilizando ':e:'}
+{   152 -> 155 Utilizando ':e:'}
+{   153 -> 154 Utilizando 'j'}
+{   154 -> 155 Utilizando ':e:'}
+{   155 -> 158 Utilizando ':e:'}
+{   156 -> 157 Utilizando 'k'}
+{   157 -> 158 Utilizando ':e:'}
+{   158 -> 161 Utilizando ':e:'}
+{   159 -> 160 Utilizando 'l'}
+{   160 -> 161 Utilizando ':e:'}
+{   161 -> 164 Utilizando ':e:'}
+{   162 -> 163 Utilizando 'm'}
+{   163 -> 164 Utilizando ':e:'}
+{   164 -> 167 Utilizando ':e:'}
+{   165 -> 166 Utilizando 'n'}
+{   166 -> 167 Utilizando ':e:'}
+{   167 -> 170 Utilizando ':e:'}
+{   168 -> 169 Utilizando 'o'}
+{   169 -> 170 Utilizando ':e:'}
+{   170 -> 173 Utilizando ':e:'}
+{   171 -> 172 Utilizando 'p'}
+{   172 -> 173 Utilizando ':e:'}
+{   173 -> 176 Utilizando ':e:'}
+{   174 -> 175 Utilizando 'q'}
+{   175 -> 176 Utilizando ':e:'}
+{   176 -> 179 Utilizando ':e:'}
+{   177 -> 178 Utilizando 'r'}
+{   178 -> 179 Utilizando ':e:'}
+{   179 -> 182 Utilizando ':e:'}
+{   180 -> 181 Utilizando 's'}
+{   181 -> 182 Utilizando ':e:'}
+{   182 -> 185 Utilizando ':e:'}
+{   183 -> 184 Utilizando 't'}
+{   184 -> 185 Utilizando ':e:'}
+{   185 -> 188 Utilizando ':e:'}
+{   186 -> 187 Utilizando 'u'}
+{   187 -> 188 Utilizando ':e:'}
+{   188 -> 191 Utilizando ':e:'}
+{   189 -> 190 Utilizando 'v'}
+{   190 -> 191 Utilizando ':e:'}
+{   191 -> 194 Utilizando ':e:'}
+{   192 -> 193 Utilizando 'x'}
+{   193 -> 194 Utilizando ':e:'}
+{   194 -> 197 Utilizando ':e:'}
+{   195 -> 196 Utilizando 'y'}
+{   196 -> 197 Utilizando ':e:'}
+{   197 -> 200 Utilizando ':e:'}
+{   198 -> 199 Utilizando 'z'}
+{   199 -> 200 Utilizando ':e:'}
+{   200 -> 201 Utilizando ':e:'}
+{   200 -> 103 Utilizando ':e:'}
+{   201 -> 202 Utilizando ':e:'}
+{   202 -> 203 Utilizando 'i'}
+{   203 -> 204 Utilizando ':e:'}
+{   204 -> 205 Utilizando 'n'}
+{   205 -> 206 Utilizando ':e:'}
+{   206 -> 207 Utilizando 'g'}
+{   207 -> 208 Utilizando ':e:'}
+
+Simbolos:  ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'X', 'Y', 'Z', 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'x', 'y', 'z', '.']
+Estados: set([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53])
+Inicio:  1
+Aceptacion: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 53]
+Transiciones:
+{   1 -> 2 Utilizando 'A'}
+{   1 -> 3 Utilizando 'C'}
+{   1 -> 4 Utilizando 'B'}
+{   1 -> 5 Utilizando 'E'}
+{   1 -> 6 Utilizando 'D'}
+{   1 -> 7 Utilizando 'G'}
+{   1 -> 8 Utilizando 'F'}
+{   1 -> 9 Utilizando 'I'}
+{   1 -> 10 Utilizando 'H'}
+{   1 -> 11 Utilizando 'K'}
+{   1 -> 12 Utilizando 'J'}
+{   1 -> 13 Utilizando 'M'}
+{   1 -> 14 Utilizando 'L'}
+{   1 -> 15 Utilizando 'O'}
+{   1 -> 16 Utilizando 'N'}
+{   1 -> 17 Utilizando 'Q'}
+{   1 -> 18 Utilizando 'P'}
+{   1 -> 19 Utilizando 'S'}
+{   1 -> 20 Utilizando 'R'}
+{   1 -> 21 Utilizando 'U'}
+{   1 -> 22 Utilizando 'T'}
+{   1 -> 23 Utilizando 'V'}
+{   1 -> 24 Utilizando 'Y'}
+{   1 -> 25 Utilizando 'X'}
+{   1 -> 26 Utilizando 'Z'}
+{   1 -> 27 Utilizando 'a'}
+{   1 -> 28 Utilizando 'c'}
+{   1 -> 29 Utilizando 'b'}
+{   1 -> 30 Utilizando 'e'}
+{   1 -> 31 Utilizando 'd'}
+{   1 -> 32 Utilizando 'g'}
+{   1 -> 33 Utilizando 'f'}
+{   1 -> 34 Utilizando 'i'}
+{   1 -> 35 Utilizando 'h'}
+{   1 -> 36 Utilizando 'k'}
+{   1 -> 37 Utilizando 'j'}
+{   1 -> 38 Utilizando 'm'}
+{   1 -> 39 Utilizando 'l'}
+{   1 -> 40 Utilizando 'o'}
+{   1 -> 41 Utilizando 'n'}
+{   1 -> 42 Utilizando 'q'}
+{   1 -> 43 Utilizando 'p'}
+{   1 -> 44 Utilizando 's'}
+{   1 -> 45 Utilizando 'r'}
+{   1 -> 46 Utilizando 'u'}
+{   1 -> 47 Utilizando 't'}
+{   1 -> 48 Utilizando 'v'}
+{   1 -> 49 Utilizando 'y'}
+{   1 -> 50 Utilizando 'x'}
+{   1 -> 51 Utilizando 'z'}
+{   2 -> 2 Utilizando 'A'}
+{   2 -> 3 Utilizando 'C'}
+{   2 -> 4 Utilizando 'B'}
+{   2 -> 5 Utilizando 'E'}
+{   2 -> 6 Utilizando 'D'}
+{   2 -> 7 Utilizando 'G'}
+{   2 -> 8 Utilizando 'F'}
+{   2 -> 9 Utilizando 'I'}
+{   2 -> 10 Utilizando 'H'}
+{   2 -> 11 Utilizando 'K'}
+{   2 -> 12 Utilizando 'J'}
+{   2 -> 13 Utilizando 'M'}
+{   2 -> 14 Utilizando 'L'}
+{   2 -> 15 Utilizando 'O'}
+{   2 -> 16 Utilizando 'N'}
+{   2 -> 17 Utilizando 'Q'}
+{   2 -> 18 Utilizando 'P'}
+{   2 -> 19 Utilizando 'S'}
+{   2 -> 20 Utilizando 'R'}
+{   2 -> 21 Utilizando 'U'}
+{   2 -> 22 Utilizando 'T'}
+{   2 -> 23 Utilizando 'V'}
+{   2 -> 24 Utilizando 'Y'}
+{   2 -> 25 Utilizando 'X'}
+{   2 -> 26 Utilizando 'Z'}
+{   3 -> 2 Utilizando 'A'}
+{   3 -> 3 Utilizando 'C'}
+{   3 -> 4 Utilizando 'B'}
+{   3 -> 5 Utilizando 'E'}
+{   3 -> 6 Utilizando 'D'}
+{   3 -> 7 Utilizando 'G'}
+{   3 -> 8 Utilizando 'F'}
+{   3 -> 9 Utilizando 'I'}
+{   3 -> 10 Utilizando 'H'}
+{   3 -> 11 Utilizando 'K'}
+{   3 -> 12 Utilizando 'J'}
+{   3 -> 13 Utilizando 'M'}
+{   3 -> 14 Utilizando 'L'}
+{   3 -> 15 Utilizando 'O'}
+{   3 -> 16 Utilizando 'N'}
+{   3 -> 17 Utilizando 'Q'}
+{   3 -> 18 Utilizando 'P'}
+{   3 -> 19 Utilizando 'S'}
+{   3 -> 20 Utilizando 'R'}
+{   3 -> 21 Utilizando 'U'}
+{   3 -> 22 Utilizando 'T'}
+{   3 -> 23 Utilizando 'V'}
+{   3 -> 24 Utilizando 'Y'}
+{   3 -> 25 Utilizando 'X'}
+{   3 -> 26 Utilizando 'Z'}
+{   4 -> 2 Utilizando 'A'}
+{   4 -> 3 Utilizando 'C'}
+{   4 -> 4 Utilizando 'B'}
+{   4 -> 5 Utilizando 'E'}
+{   4 -> 6 Utilizando 'D'}
+{   4 -> 7 Utilizando 'G'}
+{   4 -> 8 Utilizando 'F'}
+{   4 -> 9 Utilizando 'I'}
+{   4 -> 10 Utilizando 'H'}
+{   4 -> 11 Utilizando 'K'}
+{   4 -> 12 Utilizando 'J'}
+{   4 -> 13 Utilizando 'M'}
+{   4 -> 14 Utilizando 'L'}
+{   4 -> 15 Utilizando 'O'}
+{   4 -> 16 Utilizando 'N'}
+{   4 -> 17 Utilizando 'Q'}
+{   4 -> 18 Utilizando 'P'}
+{   4 -> 19 Utilizando 'S'}
+{   4 -> 20 Utilizando 'R'}
+{   4 -> 21 Utilizando 'U'}
+{   4 -> 22 Utilizando 'T'}
+{   4 -> 23 Utilizando 'V'}
+{   4 -> 24 Utilizando 'Y'}
+{   4 -> 25 Utilizando 'X'}
+{   4 -> 26 Utilizando 'Z'}
+{   5 -> 2 Utilizando 'A'}
+{   5 -> 3 Utilizando 'C'}
+{   5 -> 4 Utilizando 'B'}
+{   5 -> 5 Utilizando 'E'}
+{   5 -> 6 Utilizando 'D'}
+{   5 -> 7 Utilizando 'G'}
+{   5 -> 8 Utilizando 'F'}
+{   5 -> 9 Utilizando 'I'}
+{   5 -> 10 Utilizando 'H'}
+{   5 -> 11 Utilizando 'K'}
+{   5 -> 12 Utilizando 'J'}
+{   5 -> 13 Utilizando 'M'}
+{   5 -> 14 Utilizando 'L'}
+{   5 -> 15 Utilizando 'O'}
+{   5 -> 16 Utilizando 'N'}
+{   5 -> 17 Utilizando 'Q'}
+{   5 -> 18 Utilizando 'P'}
+{   5 -> 19 Utilizando 'S'}
+{   5 -> 20 Utilizando 'R'}
+{   5 -> 21 Utilizando 'U'}
+{   5 -> 22 Utilizando 'T'}
+{   5 -> 23 Utilizando 'V'}
+{   5 -> 24 Utilizando 'Y'}
+{   5 -> 25 Utilizando 'X'}
+{   5 -> 26 Utilizando 'Z'}
+{   6 -> 2 Utilizando 'A'}
+{   6 -> 3 Utilizando 'C'}
+{   6 -> 4 Utilizando 'B'}
+{   6 -> 5 Utilizando 'E'}
+{   6 -> 6 Utilizando 'D'}
+{   6 -> 7 Utilizando 'G'}
+{   6 -> 8 Utilizando 'F'}
+{   6 -> 9 Utilizando 'I'}
+{   6 -> 10 Utilizando 'H'}
+{   6 -> 11 Utilizando 'K'}
+{   6 -> 12 Utilizando 'J'}
+{   6 -> 13 Utilizando 'M'}
+{   6 -> 14 Utilizando 'L'}
+{   6 -> 15 Utilizando 'O'}
+{   6 -> 16 Utilizando 'N'}
+{   6 -> 17 Utilizando 'Q'}
+{   6 -> 18 Utilizando 'P'}
+{   6 -> 19 Utilizando 'S'}
+{   6 -> 20 Utilizando 'R'}
+{   6 -> 21 Utilizando 'U'}
+{   6 -> 22 Utilizando 'T'}
+{   6 -> 23 Utilizando 'V'}
+{   6 -> 24 Utilizando 'Y'}
+{   6 -> 25 Utilizando 'X'}
+{   6 -> 26 Utilizando 'Z'}
+{   7 -> 2 Utilizando 'A'}
+{   7 -> 3 Utilizando 'C'}
+{   7 -> 4 Utilizando 'B'}
+{   7 -> 5 Utilizando 'E'}
+{   7 -> 6 Utilizando 'D'}
+{   7 -> 7 Utilizando 'G'}
+{   7 -> 8 Utilizando 'F'}
+{   7 -> 9 Utilizando 'I'}
+{   7 -> 10 Utilizando 'H'}
+{   7 -> 11 Utilizando 'K'}
+{   7 -> 12 Utilizando 'J'}
+{   7 -> 13 Utilizando 'M'}
+{   7 -> 14 Utilizando 'L'}
+{   7 -> 15 Utilizando 'O'}
+{   7 -> 16 Utilizando 'N'}
+{   7 -> 17 Utilizando 'Q'}
+{   7 -> 18 Utilizando 'P'}
+{   7 -> 19 Utilizando 'S'}
+{   7 -> 20 Utilizando 'R'}
+{   7 -> 21 Utilizando 'U'}
+{   7 -> 22 Utilizando 'T'}
+{   7 -> 23 Utilizando 'V'}
+{   7 -> 24 Utilizando 'Y'}
+{   7 -> 25 Utilizando 'X'}
+{   7 -> 26 Utilizando 'Z'}
+{   8 -> 2 Utilizando 'A'}
+{   8 -> 3 Utilizando 'C'}
+{   8 -> 4 Utilizando 'B'}
+{   8 -> 5 Utilizando 'E'}
+{   8 -> 6 Utilizando 'D'}
+{   8 -> 7 Utilizando 'G'}
+{   8 -> 8 Utilizando 'F'}
+{   8 -> 9 Utilizando 'I'}
+{   8 -> 10 Utilizando 'H'}
+{   8 -> 11 Utilizando 'K'}
+{   8 -> 12 Utilizando 'J'}
+{   8 -> 13 Utilizando 'M'}
+{   8 -> 14 Utilizando 'L'}
+{   8 -> 15 Utilizando 'O'}
+{   8 -> 16 Utilizando 'N'}
+{   8 -> 17 Utilizando 'Q'}
+{   8 -> 18 Utilizando 'P'}
+{   8 -> 19 Utilizando 'S'}
+{   8 -> 20 Utilizando 'R'}
+{   8 -> 21 Utilizando 'U'}
+{   8 -> 22 Utilizando 'T'}
+{   8 -> 23 Utilizando 'V'}
+{   8 -> 24 Utilizando 'Y'}
+{   8 -> 25 Utilizando 'X'}
+{   8 -> 26 Utilizando 'Z'}
+{   9 -> 2 Utilizando 'A'}
+{   9 -> 3 Utilizando 'C'}
+{   9 -> 4 Utilizando 'B'}
+{   9 -> 5 Utilizando 'E'}
+{   9 -> 6 Utilizando 'D'}
+{   9 -> 7 Utilizando 'G'}
+{   9 -> 8 Utilizando 'F'}
+{   9 -> 9 Utilizando 'I'}
+{   9 -> 10 Utilizando 'H'}
+{   9 -> 11 Utilizando 'K'}
+{   9 -> 12 Utilizando 'J'}
+{   9 -> 13 Utilizando 'M'}
+{   9 -> 14 Utilizando 'L'}
+{   9 -> 15 Utilizando 'O'}
+{   9 -> 16 Utilizando 'N'}
+{   9 -> 17 Utilizando 'Q'}
+{   9 -> 18 Utilizando 'P'}
+{   9 -> 19 Utilizando 'S'}
+{   9 -> 20 Utilizando 'R'}
+{   9 -> 21 Utilizando 'U'}
+{   9 -> 22 Utilizando 'T'}
+{   9 -> 23 Utilizando 'V'}
+{   9 -> 24 Utilizando 'Y'}
+{   9 -> 25 Utilizando 'X'}
+{   9 -> 26 Utilizando 'Z'}
+{   10 -> 2 Utilizando 'A'}
+{   10 -> 3 Utilizando 'C'}
+{   10 -> 4 Utilizando 'B'}
+{   10 -> 5 Utilizando 'E'}
+{   10 -> 6 Utilizando 'D'}
+{   10 -> 7 Utilizando 'G'}
+{   10 -> 8 Utilizando 'F'}
+{   10 -> 9 Utilizando 'I'}
+{   10 -> 10 Utilizando 'H'}
+{   10 -> 11 Utilizando 'K'}
+{   10 -> 12 Utilizando 'J'}
+{   10 -> 13 Utilizando 'M'}
+{   10 -> 14 Utilizando 'L'}
+{   10 -> 15 Utilizando 'O'}
+{   10 -> 16 Utilizando 'N'}
+{   10 -> 17 Utilizando 'Q'}
+{   10 -> 18 Utilizando 'P'}
+{   10 -> 19 Utilizando 'S'}
+{   10 -> 20 Utilizando 'R'}
+{   10 -> 21 Utilizando 'U'}
+{   10 -> 22 Utilizando 'T'}
+{   10 -> 23 Utilizando 'V'}
+{   10 -> 24 Utilizando 'Y'}
+{   10 -> 25 Utilizando 'X'}
+{   10 -> 26 Utilizando 'Z'}
+{   11 -> 2 Utilizando 'A'}
+{   11 -> 3 Utilizando 'C'}
+{   11 -> 4 Utilizando 'B'}
+{   11 -> 5 Utilizando 'E'}
+{   11 -> 6 Utilizando 'D'}
+{   11 -> 7 Utilizando 'G'}
+{   11 -> 8 Utilizando 'F'}
+{   11 -> 9 Utilizando 'I'}
+{   11 -> 10 Utilizando 'H'}
+{   11 -> 11 Utilizando 'K'}
+{   11 -> 12 Utilizando 'J'}
+{   11 -> 13 Utilizando 'M'}
+{   11 -> 14 Utilizando 'L'}
+{   11 -> 15 Utilizando 'O'}
+{   11 -> 16 Utilizando 'N'}
+{   11 -> 17 Utilizando 'Q'}
+{   11 -> 18 Utilizando 'P'}
+{   11 -> 19 Utilizando 'S'}
+{   11 -> 20 Utilizando 'R'}
+{   11 -> 21 Utilizando 'U'}
+{   11 -> 22 Utilizando 'T'}
+{   11 -> 23 Utilizando 'V'}
+{   11 -> 24 Utilizando 'Y'}
+{   11 -> 25 Utilizando 'X'}
+{   11 -> 26 Utilizando 'Z'}
+{   12 -> 2 Utilizando 'A'}
+{   12 -> 3 Utilizando 'C'}
+{   12 -> 4 Utilizando 'B'}
+{   12 -> 5 Utilizando 'E'}
+{   12 -> 6 Utilizando 'D'}
+{   12 -> 7 Utilizando 'G'}
+{   12 -> 8 Utilizando 'F'}
+{   12 -> 9 Utilizando 'I'}
+{   12 -> 10 Utilizando 'H'}
+{   12 -> 11 Utilizando 'K'}
+{   12 -> 12 Utilizando 'J'}
+{   12 -> 13 Utilizando 'M'}
+{   12 -> 14 Utilizando 'L'}
+{   12 -> 15 Utilizando 'O'}
+{   12 -> 16 Utilizando 'N'}
+{   12 -> 17 Utilizando 'Q'}
+{   12 -> 18 Utilizando 'P'}
+{   12 -> 19 Utilizando 'S'}
+{   12 -> 20 Utilizando 'R'}
+{   12 -> 21 Utilizando 'U'}
+{   12 -> 22 Utilizando 'T'}
+{   12 -> 23 Utilizando 'V'}
+{   12 -> 24 Utilizando 'Y'}
+{   12 -> 25 Utilizando 'X'}
+{   12 -> 26 Utilizando 'Z'}
+{   13 -> 2 Utilizando 'A'}
+{   13 -> 3 Utilizando 'C'}
+{   13 -> 4 Utilizando 'B'}
+{   13 -> 5 Utilizando 'E'}
+{   13 -> 6 Utilizando 'D'}
+{   13 -> 7 Utilizando 'G'}
+{   13 -> 8 Utilizando 'F'}
+{   13 -> 9 Utilizando 'I'}
+{   13 -> 10 Utilizando 'H'}
+{   13 -> 11 Utilizando 'K'}
+{   13 -> 12 Utilizando 'J'}
+{   13 -> 13 Utilizando 'M'}
+{   13 -> 14 Utilizando 'L'}
+{   13 -> 15 Utilizando 'O'}
+{   13 -> 16 Utilizando 'N'}
+{   13 -> 17 Utilizando 'Q'}
+{   13 -> 18 Utilizando 'P'}
+{   13 -> 19 Utilizando 'S'}
+{   13 -> 20 Utilizando 'R'}
+{   13 -> 21 Utilizando 'U'}
+{   13 -> 22 Utilizando 'T'}
+{   13 -> 23 Utilizando 'V'}
+{   13 -> 24 Utilizando 'Y'}
+{   13 -> 25 Utilizando 'X'}
+{   13 -> 26 Utilizando 'Z'}
+{   14 -> 2 Utilizando 'A'}
+{   14 -> 3 Utilizando 'C'}
+{   14 -> 4 Utilizando 'B'}
+{   14 -> 5 Utilizando 'E'}
+{   14 -> 6 Utilizando 'D'}
+{   14 -> 7 Utilizando 'G'}
+{   14 -> 8 Utilizando 'F'}
+{   14 -> 9 Utilizando 'I'}
+{   14 -> 10 Utilizando 'H'}
+{   14 -> 11 Utilizando 'K'}
+{   14 -> 12 Utilizando 'J'}
+{   14 -> 13 Utilizando 'M'}
+{   14 -> 14 Utilizando 'L'}
+{   14 -> 15 Utilizando 'O'}
+{   14 -> 16 Utilizando 'N'}
+{   14 -> 17 Utilizando 'Q'}
+{   14 -> 18 Utilizando 'P'}
+{   14 -> 19 Utilizando 'S'}
+{   14 -> 20 Utilizando 'R'}
+{   14 -> 21 Utilizando 'U'}
+{   14 -> 22 Utilizando 'T'}
+{   14 -> 23 Utilizando 'V'}
+{   14 -> 24 Utilizando 'Y'}
+{   14 -> 25 Utilizando 'X'}
+{   14 -> 26 Utilizando 'Z'}
+{   15 -> 2 Utilizando 'A'}
+{   15 -> 3 Utilizando 'C'}
+{   15 -> 4 Utilizando 'B'}
+{   15 -> 5 Utilizando 'E'}
+{   15 -> 6 Utilizando 'D'}
+{   15 -> 7 Utilizando 'G'}
+{   15 -> 8 Utilizando 'F'}
+{   15 -> 9 Utilizando 'I'}
+{   15 -> 10 Utilizando 'H'}
+{   15 -> 11 Utilizando 'K'}
+{   15 -> 12 Utilizando 'J'}
+{   15 -> 13 Utilizando 'M'}
+{   15 -> 14 Utilizando 'L'}
+{   15 -> 15 Utilizando 'O'}
+{   15 -> 16 Utilizando 'N'}
+{   15 -> 17 Utilizando 'Q'}
+{   15 -> 18 Utilizando 'P'}
+{   15 -> 19 Utilizando 'S'}
+{   15 -> 20 Utilizando 'R'}
+{   15 -> 21 Utilizando 'U'}
+{   15 -> 22 Utilizando 'T'}
+{   15 -> 23 Utilizando 'V'}
+{   15 -> 24 Utilizando 'Y'}
+{   15 -> 25 Utilizando 'X'}
+{   15 -> 26 Utilizando 'Z'}
+{   16 -> 2 Utilizando 'A'}
+{   16 -> 3 Utilizando 'C'}
+{   16 -> 4 Utilizando 'B'}
+{   16 -> 5 Utilizando 'E'}
+{   16 -> 6 Utilizando 'D'}
+{   16 -> 7 Utilizando 'G'}
+{   16 -> 8 Utilizando 'F'}
+{   16 -> 9 Utilizando 'I'}
+{   16 -> 10 Utilizando 'H'}
+{   16 -> 11 Utilizando 'K'}
+{   16 -> 12 Utilizando 'J'}
+{   16 -> 13 Utilizando 'M'}
+{   16 -> 14 Utilizando 'L'}
+{   16 -> 15 Utilizando 'O'}
+{   16 -> 16 Utilizando 'N'}
+{   16 -> 17 Utilizando 'Q'}
+{   16 -> 18 Utilizando 'P'}
+{   16 -> 19 Utilizando 'S'}
+{   16 -> 20 Utilizando 'R'}
+{   16 -> 21 Utilizando 'U'}
+{   16 -> 22 Utilizando 'T'}
+{   16 -> 23 Utilizando 'V'}
+{   16 -> 24 Utilizando 'Y'}
+{   16 -> 25 Utilizando 'X'}
+{   16 -> 26 Utilizando 'Z'}
+{   17 -> 2 Utilizando 'A'}
+{   17 -> 3 Utilizando 'C'}
+{   17 -> 4 Utilizando 'B'}
+{   17 -> 5 Utilizando 'E'}
+{   17 -> 6 Utilizando 'D'}
+{   17 -> 7 Utilizando 'G'}
+{   17 -> 8 Utilizando 'F'}
+{   17 -> 9 Utilizando 'I'}
+{   17 -> 10 Utilizando 'H'}
+{   17 -> 11 Utilizando 'K'}
+{   17 -> 12 Utilizando 'J'}
+{   17 -> 13 Utilizando 'M'}
+{   17 -> 14 Utilizando 'L'}
+{   17 -> 15 Utilizando 'O'}
+{   17 -> 16 Utilizando 'N'}
+{   17 -> 17 Utilizando 'Q'}
+{   17 -> 18 Utilizando 'P'}
+{   17 -> 19 Utilizando 'S'}
+{   17 -> 20 Utilizando 'R'}
+{   17 -> 21 Utilizando 'U'}
+{   17 -> 22 Utilizando 'T'}
+{   17 -> 23 Utilizando 'V'}
+{   17 -> 24 Utilizando 'Y'}
+{   17 -> 25 Utilizando 'X'}
+{   17 -> 26 Utilizando 'Z'}
+{   18 -> 2 Utilizando 'A'}
+{   18 -> 3 Utilizando 'C'}
+{   18 -> 4 Utilizando 'B'}
+{   18 -> 5 Utilizando 'E'}
+{   18 -> 6 Utilizando 'D'}
+{   18 -> 7 Utilizando 'G'}
+{   18 -> 8 Utilizando 'F'}
+{   18 -> 9 Utilizando 'I'}
+{   18 -> 10 Utilizando 'H'}
+{   18 -> 11 Utilizando 'K'}
+{   18 -> 12 Utilizando 'J'}
+{   18 -> 13 Utilizando 'M'}
+{   18 -> 14 Utilizando 'L'}
+{   18 -> 15 Utilizando 'O'}
+{   18 -> 16 Utilizando 'N'}
+{   18 -> 17 Utilizando 'Q'}
+{   18 -> 18 Utilizando 'P'}
+{   18 -> 19 Utilizando 'S'}
+{   18 -> 20 Utilizando 'R'}
+{   18 -> 21 Utilizando 'U'}
+{   18 -> 22 Utilizando 'T'}
+{   18 -> 23 Utilizando 'V'}
+{   18 -> 24 Utilizando 'Y'}
+{   18 -> 25 Utilizando 'X'}
+{   18 -> 26 Utilizando 'Z'}
+{   19 -> 2 Utilizando 'A'}
+{   19 -> 3 Utilizando 'C'}
+{   19 -> 4 Utilizando 'B'}
+{   19 -> 5 Utilizando 'E'}
+{   19 -> 6 Utilizando 'D'}
+{   19 -> 7 Utilizando 'G'}
+{   19 -> 8 Utilizando 'F'}
+{   19 -> 9 Utilizando 'I'}
+{   19 -> 10 Utilizando 'H'}
+{   19 -> 11 Utilizando 'K'}
+{   19 -> 12 Utilizando 'J'}
+{   19 -> 13 Utilizando 'M'}
+{   19 -> 14 Utilizando 'L'}
+{   19 -> 15 Utilizando 'O'}
+{   19 -> 16 Utilizando 'N'}
+{   19 -> 17 Utilizando 'Q'}
+{   19 -> 18 Utilizando 'P'}
+{   19 -> 19 Utilizando 'S'}
+{   19 -> 20 Utilizando 'R'}
+{   19 -> 21 Utilizando 'U'}
+{   19 -> 22 Utilizando 'T'}
+{   19 -> 23 Utilizando 'V'}
+{   19 -> 24 Utilizando 'Y'}
+{   19 -> 25 Utilizando 'X'}
+{   19 -> 26 Utilizando 'Z'}
+{   20 -> 2 Utilizando 'A'}
+{   20 -> 3 Utilizando 'C'}
+{   20 -> 4 Utilizando 'B'}
+{   20 -> 5 Utilizando 'E'}
+{   20 -> 6 Utilizando 'D'}
+{   20 -> 7 Utilizando 'G'}
+{   20 -> 8 Utilizando 'F'}
+{   20 -> 9 Utilizando 'I'}
+{   20 -> 10 Utilizando 'H'}
+{   20 -> 11 Utilizando 'K'}
+{   20 -> 12 Utilizando 'J'}
+{   20 -> 13 Utilizando 'M'}
+{   20 -> 14 Utilizando 'L'}
+{   20 -> 15 Utilizando 'O'}
+{   20 -> 16 Utilizando 'N'}
+{   20 -> 17 Utilizando 'Q'}
+{   20 -> 18 Utilizando 'P'}
+{   20 -> 19 Utilizando 'S'}
+{   20 -> 20 Utilizando 'R'}
+{   20 -> 21 Utilizando 'U'}
+{   20 -> 22 Utilizando 'T'}
+{   20 -> 23 Utilizando 'V'}
+{   20 -> 24 Utilizando 'Y'}
+{   20 -> 25 Utilizando 'X'}
+{   20 -> 26 Utilizando 'Z'}
+{   21 -> 2 Utilizando 'A'}
+{   21 -> 3 Utilizando 'C'}
+{   21 -> 4 Utilizando 'B'}
+{   21 -> 5 Utilizando 'E'}
+{   21 -> 6 Utilizando 'D'}
+{   21 -> 7 Utilizando 'G'}
+{   21 -> 8 Utilizando 'F'}
+{   21 -> 9 Utilizando 'I'}
+{   21 -> 10 Utilizando 'H'}
+{   21 -> 11 Utilizando 'K'}
+{   21 -> 12 Utilizando 'J'}
+{   21 -> 13 Utilizando 'M'}
+{   21 -> 14 Utilizando 'L'}
+{   21 -> 15 Utilizando 'O'}
+{   21 -> 16 Utilizando 'N'}
+{   21 -> 17 Utilizando 'Q'}
+{   21 -> 18 Utilizando 'P'}
+{   21 -> 19 Utilizando 'S'}
+{   21 -> 20 Utilizando 'R'}
+{   21 -> 21 Utilizando 'U'}
+{   21 -> 22 Utilizando 'T'}
+{   21 -> 23 Utilizando 'V'}
+{   21 -> 24 Utilizando 'Y'}
+{   21 -> 25 Utilizando 'X'}
+{   21 -> 26 Utilizando 'Z'}
+{   22 -> 2 Utilizando 'A'}
+{   22 -> 3 Utilizando 'C'}
+{   22 -> 4 Utilizando 'B'}
+{   22 -> 5 Utilizando 'E'}
+{   22 -> 6 Utilizando 'D'}
+{   22 -> 7 Utilizando 'G'}
+{   22 -> 8 Utilizando 'F'}
+{   22 -> 9 Utilizando 'I'}
+{   22 -> 10 Utilizando 'H'}
+{   22 -> 11 Utilizando 'K'}
+{   22 -> 12 Utilizando 'J'}
+{   22 -> 13 Utilizando 'M'}
+{   22 -> 14 Utilizando 'L'}
+{   22 -> 15 Utilizando 'O'}
+{   22 -> 16 Utilizando 'N'}
+{   22 -> 17 Utilizando 'Q'}
+{   22 -> 18 Utilizando 'P'}
+{   22 -> 19 Utilizando 'S'}
+{   22 -> 20 Utilizando 'R'}
+{   22 -> 21 Utilizando 'U'}
+{   22 -> 22 Utilizando 'T'}
+{   22 -> 23 Utilizando 'V'}
+{   22 -> 24 Utilizando 'Y'}
+{   22 -> 25 Utilizando 'X'}
+{   22 -> 26 Utilizando 'Z'}
+{   23 -> 2 Utilizando 'A'}
+{   23 -> 3 Utilizando 'C'}
+{   23 -> 4 Utilizando 'B'}
+{   23 -> 5 Utilizando 'E'}
+{   23 -> 6 Utilizando 'D'}
+{   23 -> 7 Utilizando 'G'}
+{   23 -> 8 Utilizando 'F'}
+{   23 -> 9 Utilizando 'I'}
+{   23 -> 10 Utilizando 'H'}
+{   23 -> 11 Utilizando 'K'}
+{   23 -> 12 Utilizando 'J'}
+{   23 -> 13 Utilizando 'M'}
+{   23 -> 14 Utilizando 'L'}
+{   23 -> 15 Utilizando 'O'}
+{   23 -> 16 Utilizando 'N'}
+{   23 -> 17 Utilizando 'Q'}
+{   23 -> 18 Utilizando 'P'}
+{   23 -> 19 Utilizando 'S'}
+{   23 -> 20 Utilizando 'R'}
+{   23 -> 21 Utilizando 'U'}
+{   23 -> 22 Utilizando 'T'}
+{   23 -> 23 Utilizando 'V'}
+{   23 -> 24 Utilizando 'Y'}
+{   23 -> 25 Utilizando 'X'}
+{   23 -> 26 Utilizando 'Z'}
+{   24 -> 2 Utilizando 'A'}
+{   24 -> 3 Utilizando 'C'}
+{   24 -> 4 Utilizando 'B'}
+{   24 -> 5 Utilizando 'E'}
+{   24 -> 6 Utilizando 'D'}
+{   24 -> 7 Utilizando 'G'}
+{   24 -> 8 Utilizando 'F'}
+{   24 -> 9 Utilizando 'I'}
+{   24 -> 10 Utilizando 'H'}
+{   24 -> 11 Utilizando 'K'}
+{   24 -> 12 Utilizando 'J'}
+{   24 -> 13 Utilizando 'M'}
+{   24 -> 14 Utilizando 'L'}
+{   24 -> 15 Utilizando 'O'}
+{   24 -> 16 Utilizando 'N'}
+{   24 -> 17 Utilizando 'Q'}
+{   24 -> 18 Utilizando 'P'}
+{   24 -> 19 Utilizando 'S'}
+{   24 -> 20 Utilizando 'R'}
+{   24 -> 21 Utilizando 'U'}
+{   24 -> 22 Utilizando 'T'}
+{   24 -> 23 Utilizando 'V'}
+{   24 -> 24 Utilizando 'Y'}
+{   24 -> 25 Utilizando 'X'}
+{   24 -> 26 Utilizando 'Z'}
+{   25 -> 2 Utilizando 'A'}
+{   25 -> 3 Utilizando 'C'}
+{   25 -> 4 Utilizando 'B'}
+{   25 -> 5 Utilizando 'E'}
+{   25 -> 6 Utilizando 'D'}
+{   25 -> 7 Utilizando 'G'}
+{   25 -> 8 Utilizando 'F'}
+{   25 -> 9 Utilizando 'I'}
+{   25 -> 10 Utilizando 'H'}
+{   25 -> 11 Utilizando 'K'}
+{   25 -> 12 Utilizando 'J'}
+{   25 -> 13 Utilizando 'M'}
+{   25 -> 14 Utilizando 'L'}
+{   25 -> 15 Utilizando 'O'}
+{   25 -> 16 Utilizando 'N'}
+{   25 -> 17 Utilizando 'Q'}
+{   25 -> 18 Utilizando 'P'}
+{   25 -> 19 Utilizando 'S'}
+{   25 -> 20 Utilizando 'R'}
+{   25 -> 21 Utilizando 'U'}
+{   25 -> 22 Utilizando 'T'}
+{   25 -> 23 Utilizando 'V'}
+{   25 -> 24 Utilizando 'Y'}
+{   25 -> 25 Utilizando 'X'}
+{   25 -> 26 Utilizando 'Z'}
+{   26 -> 2 Utilizando 'A'}
+{   26 -> 3 Utilizando 'C'}
+{   26 -> 4 Utilizando 'B'}
+{   26 -> 5 Utilizando 'E'}
+{   26 -> 6 Utilizando 'D'}
+{   26 -> 7 Utilizando 'G'}
+{   26 -> 8 Utilizando 'F'}
+{   26 -> 9 Utilizando 'I'}
+{   26 -> 10 Utilizando 'H'}
+{   26 -> 11 Utilizando 'K'}
+{   26 -> 12 Utilizando 'J'}
+{   26 -> 13 Utilizando 'M'}
+{   26 -> 14 Utilizando 'L'}
+{   26 -> 15 Utilizando 'O'}
+{   26 -> 16 Utilizando 'N'}
+{   26 -> 17 Utilizando 'Q'}
+{   26 -> 18 Utilizando 'P'}
+{   26 -> 19 Utilizando 'S'}
+{   26 -> 20 Utilizando 'R'}
+{   26 -> 21 Utilizando 'U'}
+{   26 -> 22 Utilizando 'T'}
+{   26 -> 23 Utilizando 'V'}
+{   26 -> 24 Utilizando 'Y'}
+{   26 -> 25 Utilizando 'X'}
+{   26 -> 26 Utilizando 'Z'}
+{   27 -> 27 Utilizando 'a'}
+{   27 -> 28 Utilizando 'c'}
+{   27 -> 29 Utilizando 'b'}
+{   27 -> 30 Utilizando 'e'}
+{   27 -> 31 Utilizando 'd'}
+{   27 -> 32 Utilizando 'g'}
+{   27 -> 33 Utilizando 'f'}
+{   27 -> 34 Utilizando 'i'}
+{   27 -> 35 Utilizando 'h'}
+{   27 -> 36 Utilizando 'k'}
+{   27 -> 37 Utilizando 'j'}
+{   27 -> 38 Utilizando 'm'}
+{   27 -> 39 Utilizando 'l'}
+{   27 -> 40 Utilizando 'o'}
+{   27 -> 41 Utilizando 'n'}
+{   27 -> 42 Utilizando 'q'}
+{   27 -> 43 Utilizando 'p'}
+{   27 -> 44 Utilizando 's'}
+{   27 -> 45 Utilizando 'r'}
+{   27 -> 46 Utilizando 'u'}
+{   27 -> 47 Utilizando 't'}
+{   27 -> 48 Utilizando 'v'}
+{   27 -> 49 Utilizando 'y'}
+{   27 -> 50 Utilizando 'x'}
+{   27 -> 51 Utilizando 'z'}
+{   28 -> 27 Utilizando 'a'}
+{   28 -> 28 Utilizando 'c'}
+{   28 -> 29 Utilizando 'b'}
+{   28 -> 30 Utilizando 'e'}
+{   28 -> 31 Utilizando 'd'}
+{   28 -> 32 Utilizando 'g'}
+{   28 -> 33 Utilizando 'f'}
+{   28 -> 34 Utilizando 'i'}
+{   28 -> 35 Utilizando 'h'}
+{   28 -> 36 Utilizando 'k'}
+{   28 -> 37 Utilizando 'j'}
+{   28 -> 38 Utilizando 'm'}
+{   28 -> 39 Utilizando 'l'}
+{   28 -> 40 Utilizando 'o'}
+{   28 -> 41 Utilizando 'n'}
+{   28 -> 42 Utilizando 'q'}
+{   28 -> 43 Utilizando 'p'}
+{   28 -> 44 Utilizando 's'}
+{   28 -> 45 Utilizando 'r'}
+{   28 -> 46 Utilizando 'u'}
+{   28 -> 47 Utilizando 't'}
+{   28 -> 48 Utilizando 'v'}
+{   28 -> 49 Utilizando 'y'}
+{   28 -> 50 Utilizando 'x'}
+{   28 -> 51 Utilizando 'z'}
+{   29 -> 27 Utilizando 'a'}
+{   29 -> 28 Utilizando 'c'}
+{   29 -> 29 Utilizando 'b'}
+{   29 -> 30 Utilizando 'e'}
+{   29 -> 31 Utilizando 'd'}
+{   29 -> 32 Utilizando 'g'}
+{   29 -> 33 Utilizando 'f'}
+{   29 -> 34 Utilizando 'i'}
+{   29 -> 35 Utilizando 'h'}
+{   29 -> 36 Utilizando 'k'}
+{   29 -> 37 Utilizando 'j'}
+{   29 -> 38 Utilizando 'm'}
+{   29 -> 39 Utilizando 'l'}
+{   29 -> 40 Utilizando 'o'}
+{   29 -> 41 Utilizando 'n'}
+{   29 -> 42 Utilizando 'q'}
+{   29 -> 43 Utilizando 'p'}
+{   29 -> 44 Utilizando 's'}
+{   29 -> 45 Utilizando 'r'}
+{   29 -> 46 Utilizando 'u'}
+{   29 -> 47 Utilizando 't'}
+{   29 -> 48 Utilizando 'v'}
+{   29 -> 49 Utilizando 'y'}
+{   29 -> 50 Utilizando 'x'}
+{   29 -> 51 Utilizando 'z'}
+{   30 -> 27 Utilizando 'a'}
+{   30 -> 28 Utilizando 'c'}
+{   30 -> 29 Utilizando 'b'}
+{   30 -> 30 Utilizando 'e'}
+{   30 -> 31 Utilizando 'd'}
+{   30 -> 32 Utilizando 'g'}
+{   30 -> 33 Utilizando 'f'}
+{   30 -> 34 Utilizando 'i'}
+{   30 -> 35 Utilizando 'h'}
+{   30 -> 36 Utilizando 'k'}
+{   30 -> 37 Utilizando 'j'}
+{   30 -> 38 Utilizando 'm'}
+{   30 -> 39 Utilizando 'l'}
+{   30 -> 40 Utilizando 'o'}
+{   30 -> 41 Utilizando 'n'}
+{   30 -> 42 Utilizando 'q'}
+{   30 -> 43 Utilizando 'p'}
+{   30 -> 44 Utilizando 's'}
+{   30 -> 45 Utilizando 'r'}
+{   30 -> 46 Utilizando 'u'}
+{   30 -> 47 Utilizando 't'}
+{   30 -> 48 Utilizando 'v'}
+{   30 -> 49 Utilizando 'y'}
+{   30 -> 50 Utilizando 'x'}
+{   30 -> 51 Utilizando 'z'}
+{   31 -> 27 Utilizando 'a'}
+{   31 -> 28 Utilizando 'c'}
+{   31 -> 29 Utilizando 'b'}
+{   31 -> 30 Utilizando 'e'}
+{   31 -> 31 Utilizando 'd'}
+{   31 -> 32 Utilizando 'g'}
+{   31 -> 33 Utilizando 'f'}
+{   31 -> 34 Utilizando 'i'}
+{   31 -> 35 Utilizando 'h'}
+{   31 -> 36 Utilizando 'k'}
+{   31 -> 37 Utilizando 'j'}
+{   31 -> 38 Utilizando 'm'}
+{   31 -> 39 Utilizando 'l'}
+{   31 -> 40 Utilizando 'o'}
+{   31 -> 41 Utilizando 'n'}
+{   31 -> 42 Utilizando 'q'}
+{   31 -> 43 Utilizando 'p'}
+{   31 -> 44 Utilizando 's'}
+{   31 -> 45 Utilizando 'r'}
+{   31 -> 46 Utilizando 'u'}
+{   31 -> 47 Utilizando 't'}
+{   31 -> 48 Utilizando 'v'}
+{   31 -> 49 Utilizando 'y'}
+{   31 -> 50 Utilizando 'x'}
+{   31 -> 51 Utilizando 'z'}
+{   32 -> 27 Utilizando 'a'}
+{   32 -> 28 Utilizando 'c'}
+{   32 -> 29 Utilizando 'b'}
+{   32 -> 30 Utilizando 'e'}
+{   32 -> 31 Utilizando 'd'}
+{   32 -> 32 Utilizando 'g'}
+{   32 -> 33 Utilizando 'f'}
+{   32 -> 34 Utilizando 'i'}
+{   32 -> 35 Utilizando 'h'}
+{   32 -> 36 Utilizando 'k'}
+{   32 -> 37 Utilizando 'j'}
+{   32 -> 38 Utilizando 'm'}
+{   32 -> 39 Utilizando 'l'}
+{   32 -> 40 Utilizando 'o'}
+{   32 -> 41 Utilizando 'n'}
+{   32 -> 42 Utilizando 'q'}
+{   32 -> 43 Utilizando 'p'}
+{   32 -> 44 Utilizando 's'}
+{   32 -> 45 Utilizando 'r'}
+{   32 -> 46 Utilizando 'u'}
+{   32 -> 47 Utilizando 't'}
+{   32 -> 48 Utilizando 'v'}
+{   32 -> 49 Utilizando 'y'}
+{   32 -> 50 Utilizando 'x'}
+{   32 -> 51 Utilizando 'z'}
+{   33 -> 27 Utilizando 'a'}
+{   33 -> 28 Utilizando 'c'}
+{   33 -> 29 Utilizando 'b'}
+{   33 -> 30 Utilizando 'e'}
+{   33 -> 31 Utilizando 'd'}
+{   33 -> 32 Utilizando 'g'}
+{   33 -> 33 Utilizando 'f'}
+{   33 -> 34 Utilizando 'i'}
+{   33 -> 35 Utilizando 'h'}
+{   33 -> 36 Utilizando 'k'}
+{   33 -> 37 Utilizando 'j'}
+{   33 -> 38 Utilizando 'm'}
+{   33 -> 39 Utilizando 'l'}
+{   33 -> 40 Utilizando 'o'}
+{   33 -> 41 Utilizando 'n'}
+{   33 -> 42 Utilizando 'q'}
+{   33 -> 43 Utilizando 'p'}
+{   33 -> 44 Utilizando 's'}
+{   33 -> 45 Utilizando 'r'}
+{   33 -> 46 Utilizando 'u'}
+{   33 -> 47 Utilizando 't'}
+{   33 -> 48 Utilizando 'v'}
+{   33 -> 49 Utilizando 'y'}
+{   33 -> 50 Utilizando 'x'}
+{   33 -> 51 Utilizando 'z'}
+{   34 -> 27 Utilizando 'a'}
+{   34 -> 28 Utilizando 'c'}
+{   34 -> 29 Utilizando 'b'}
+{   34 -> 30 Utilizando 'e'}
+{   34 -> 31 Utilizando 'd'}
+{   34 -> 32 Utilizando 'g'}
+{   34 -> 33 Utilizando 'f'}
+{   34 -> 34 Utilizando 'i'}
+{   34 -> 35 Utilizando 'h'}
+{   34 -> 36 Utilizando 'k'}
+{   34 -> 37 Utilizando 'j'}
+{   34 -> 38 Utilizando 'm'}
+{   34 -> 39 Utilizando 'l'}
+{   34 -> 40 Utilizando 'o'}
+{   34 -> 42 Utilizando 'q'}
+{   34 -> 43 Utilizando 'p'}
+{   34 -> 44 Utilizando 's'}
+{   34 -> 45 Utilizando 'r'}
+{   34 -> 46 Utilizando 'u'}
+{   34 -> 47 Utilizando 't'}
+{   34 -> 48 Utilizando 'v'}
+{   34 -> 49 Utilizando 'y'}
+{   34 -> 50 Utilizando 'x'}
+{   34 -> 51 Utilizando 'z'}
+{   34 -> 52 Utilizando 'n'}
+{   35 -> 27 Utilizando 'a'}
+{   35 -> 28 Utilizando 'c'}
+{   35 -> 29 Utilizando 'b'}
+{   35 -> 30 Utilizando 'e'}
+{   35 -> 31 Utilizando 'd'}
+{   35 -> 32 Utilizando 'g'}
+{   35 -> 33 Utilizando 'f'}
+{   35 -> 34 Utilizando 'i'}
+{   35 -> 35 Utilizando 'h'}
+{   35 -> 36 Utilizando 'k'}
+{   35 -> 37 Utilizando 'j'}
+{   35 -> 38 Utilizando 'm'}
+{   35 -> 39 Utilizando 'l'}
+{   35 -> 40 Utilizando 'o'}
+{   35 -> 41 Utilizando 'n'}
+{   35 -> 42 Utilizando 'q'}
+{   35 -> 43 Utilizando 'p'}
+{   35 -> 44 Utilizando 's'}
+{   35 -> 45 Utilizando 'r'}
+{   35 -> 46 Utilizando 'u'}
+{   35 -> 47 Utilizando 't'}
+{   35 -> 48 Utilizando 'v'}
+{   35 -> 49 Utilizando 'y'}
+{   35 -> 50 Utilizando 'x'}
+{   35 -> 51 Utilizando 'z'}
+{   36 -> 27 Utilizando 'a'}
+{   36 -> 28 Utilizando 'c'}
+{   36 -> 29 Utilizando 'b'}
+{   36 -> 30 Utilizando 'e'}
+{   36 -> 31 Utilizando 'd'}
+{   36 -> 32 Utilizando 'g'}
+{   36 -> 33 Utilizando 'f'}
+{   36 -> 34 Utilizando 'i'}
+{   36 -> 35 Utilizando 'h'}
+{   36 -> 36 Utilizando 'k'}
+{   36 -> 37 Utilizando 'j'}
+{   36 -> 38 Utilizando 'm'}
+{   36 -> 39 Utilizando 'l'}
+{   36 -> 40 Utilizando 'o'}
+{   36 -> 41 Utilizando 'n'}
+{   36 -> 42 Utilizando 'q'}
+{   36 -> 43 Utilizando 'p'}
+{   36 -> 44 Utilizando 's'}
+{   36 -> 45 Utilizando 'r'}
+{   36 -> 46 Utilizando 'u'}
+{   36 -> 47 Utilizando 't'}
+{   36 -> 48 Utilizando 'v'}
+{   36 -> 49 Utilizando 'y'}
+{   36 -> 50 Utilizando 'x'}
+{   36 -> 51 Utilizando 'z'}
+{   37 -> 27 Utilizando 'a'}
+{   37 -> 28 Utilizando 'c'}
+{   37 -> 29 Utilizando 'b'}
+{   37 -> 30 Utilizando 'e'}
+{   37 -> 31 Utilizando 'd'}
+{   37 -> 32 Utilizando 'g'}
+{   37 -> 33 Utilizando 'f'}
+{   37 -> 34 Utilizando 'i'}
+{   37 -> 35 Utilizando 'h'}
+{   37 -> 36 Utilizando 'k'}
+{   37 -> 37 Utilizando 'j'}
+{   37 -> 38 Utilizando 'm'}
+{   37 -> 39 Utilizando 'l'}
+{   37 -> 40 Utilizando 'o'}
+{   37 -> 41 Utilizando 'n'}
+{   37 -> 42 Utilizando 'q'}
+{   37 -> 43 Utilizando 'p'}
+{   37 -> 44 Utilizando 's'}
+{   37 -> 45 Utilizando 'r'}
+{   37 -> 46 Utilizando 'u'}
+{   37 -> 47 Utilizando 't'}
+{   37 -> 48 Utilizando 'v'}
+{   37 -> 49 Utilizando 'y'}
+{   37 -> 50 Utilizando 'x'}
+{   37 -> 51 Utilizando 'z'}
+{   38 -> 27 Utilizando 'a'}
+{   38 -> 28 Utilizando 'c'}
+{   38 -> 29 Utilizando 'b'}
+{   38 -> 30 Utilizando 'e'}
+{   38 -> 31 Utilizando 'd'}
+{   38 -> 32 Utilizando 'g'}
+{   38 -> 33 Utilizando 'f'}
+{   38 -> 34 Utilizando 'i'}
+{   38 -> 35 Utilizando 'h'}
+{   38 -> 36 Utilizando 'k'}
+{   38 -> 37 Utilizando 'j'}
+{   38 -> 38 Utilizando 'm'}
+{   38 -> 39 Utilizando 'l'}
+{   38 -> 40 Utilizando 'o'}
+{   38 -> 41 Utilizando 'n'}
+{   38 -> 42 Utilizando 'q'}
+{   38 -> 43 Utilizando 'p'}
+{   38 -> 44 Utilizando 's'}
+{   38 -> 45 Utilizando 'r'}
+{   38 -> 46 Utilizando 'u'}
+{   38 -> 47 Utilizando 't'}
+{   38 -> 48 Utilizando 'v'}
+{   38 -> 49 Utilizando 'y'}
+{   38 -> 50 Utilizando 'x'}
+{   38 -> 51 Utilizando 'z'}
+{   39 -> 27 Utilizando 'a'}
+{   39 -> 28 Utilizando 'c'}
+{   39 -> 29 Utilizando 'b'}
+{   39 -> 30 Utilizando 'e'}
+{   39 -> 31 Utilizando 'd'}
+{   39 -> 32 Utilizando 'g'}
+{   39 -> 33 Utilizando 'f'}
+{   39 -> 34 Utilizando 'i'}
+{   39 -> 35 Utilizando 'h'}
+{   39 -> 36 Utilizando 'k'}
+{   39 -> 37 Utilizando 'j'}
+{   39 -> 38 Utilizando 'm'}
+{   39 -> 39 Utilizando 'l'}
+{   39 -> 40 Utilizando 'o'}
+{   39 -> 41 Utilizando 'n'}
+{   39 -> 42 Utilizando 'q'}
+{   39 -> 43 Utilizando 'p'}
+{   39 -> 44 Utilizando 's'}
+{   39 -> 45 Utilizando 'r'}
+{   39 -> 46 Utilizando 'u'}
+{   39 -> 47 Utilizando 't'}
+{   39 -> 48 Utilizando 'v'}
+{   39 -> 49 Utilizando 'y'}
+{   39 -> 50 Utilizando 'x'}
+{   39 -> 51 Utilizando 'z'}
+{   40 -> 27 Utilizando 'a'}
+{   40 -> 28 Utilizando 'c'}
+{   40 -> 29 Utilizando 'b'}
+{   40 -> 30 Utilizando 'e'}
+{   40 -> 31 Utilizando 'd'}
+{   40 -> 32 Utilizando 'g'}
+{   40 -> 33 Utilizando 'f'}
+{   40 -> 34 Utilizando 'i'}
+{   40 -> 35 Utilizando 'h'}
+{   40 -> 36 Utilizando 'k'}
+{   40 -> 37 Utilizando 'j'}
+{   40 -> 38 Utilizando 'm'}
+{   40 -> 39 Utilizando 'l'}
+{   40 -> 40 Utilizando 'o'}
+{   40 -> 41 Utilizando 'n'}
+{   40 -> 42 Utilizando 'q'}
+{   40 -> 43 Utilizando 'p'}
+{   40 -> 44 Utilizando 's'}
+{   40 -> 45 Utilizando 'r'}
+{   40 -> 46 Utilizando 'u'}
+{   40 -> 47 Utilizando 't'}
+{   40 -> 48 Utilizando 'v'}
+{   40 -> 49 Utilizando 'y'}
+{   40 -> 50 Utilizando 'x'}
+{   40 -> 51 Utilizando 'z'}
+{   41 -> 27 Utilizando 'a'}
+{   41 -> 28 Utilizando 'c'}
+{   41 -> 29 Utilizando 'b'}
+{   41 -> 30 Utilizando 'e'}
+{   41 -> 31 Utilizando 'd'}
+{   41 -> 32 Utilizando 'g'}
+{   41 -> 33 Utilizando 'f'}
+{   41 -> 34 Utilizando 'i'}
+{   41 -> 35 Utilizando 'h'}
+{   41 -> 36 Utilizando 'k'}
+{   41 -> 37 Utilizando 'j'}
+{   41 -> 38 Utilizando 'm'}
+{   41 -> 39 Utilizando 'l'}
+{   41 -> 40 Utilizando 'o'}
+{   41 -> 41 Utilizando 'n'}
+{   41 -> 42 Utilizando 'q'}
+{   41 -> 43 Utilizando 'p'}
+{   41 -> 44 Utilizando 's'}
+{   41 -> 45 Utilizando 'r'}
+{   41 -> 46 Utilizando 'u'}
+{   41 -> 47 Utilizando 't'}
+{   41 -> 48 Utilizando 'v'}
+{   41 -> 49 Utilizando 'y'}
+{   41 -> 50 Utilizando 'x'}
+{   41 -> 51 Utilizando 'z'}
+{   42 -> 27 Utilizando 'a'}
+{   42 -> 28 Utilizando 'c'}
+{   42 -> 29 Utilizando 'b'}
+{   42 -> 30 Utilizando 'e'}
+{   42 -> 31 Utilizando 'd'}
+{   42 -> 32 Utilizando 'g'}
+{   42 -> 33 Utilizando 'f'}
+{   42 -> 34 Utilizando 'i'}
+{   42 -> 35 Utilizando 'h'}
+{   42 -> 36 Utilizando 'k'}
+{   42 -> 37 Utilizando 'j'}
+{   42 -> 38 Utilizando 'm'}
+{   42 -> 39 Utilizando 'l'}
+{   42 -> 40 Utilizando 'o'}
+{   42 -> 41 Utilizando 'n'}
+{   42 -> 42 Utilizando 'q'}
+{   42 -> 43 Utilizando 'p'}
+{   42 -> 44 Utilizando 's'}
+{   42 -> 45 Utilizando 'r'}
+{   42 -> 46 Utilizando 'u'}
+{   42 -> 47 Utilizando 't'}
+{   42 -> 48 Utilizando 'v'}
+{   42 -> 49 Utilizando 'y'}
+{   42 -> 50 Utilizando 'x'}
+{   42 -> 51 Utilizando 'z'}
+{   43 -> 27 Utilizando 'a'}
+{   43 -> 28 Utilizando 'c'}
+{   43 -> 29 Utilizando 'b'}
+{   43 -> 30 Utilizando 'e'}
+{   43 -> 31 Utilizando 'd'}
+{   43 -> 32 Utilizando 'g'}
+{   43 -> 33 Utilizando 'f'}
+{   43 -> 34 Utilizando 'i'}
+{   43 -> 35 Utilizando 'h'}
+{   43 -> 36 Utilizando 'k'}
+{   43 -> 37 Utilizando 'j'}
+{   43 -> 38 Utilizando 'm'}
+{   43 -> 39 Utilizando 'l'}
+{   43 -> 40 Utilizando 'o'}
+{   43 -> 41 Utilizando 'n'}
+{   43 -> 42 Utilizando 'q'}
+{   43 -> 43 Utilizando 'p'}
+{   43 -> 44 Utilizando 's'}
+{   43 -> 45 Utilizando 'r'}
+{   43 -> 46 Utilizando 'u'}
+{   43 -> 47 Utilizando 't'}
+{   43 -> 48 Utilizando 'v'}
+{   43 -> 49 Utilizando 'y'}
+{   43 -> 50 Utilizando 'x'}
+{   43 -> 51 Utilizando 'z'}
+{   44 -> 27 Utilizando 'a'}
+{   44 -> 28 Utilizando 'c'}
+{   44 -> 29 Utilizando 'b'}
+{   44 -> 30 Utilizando 'e'}
+{   44 -> 31 Utilizando 'd'}
+{   44 -> 32 Utilizando 'g'}
+{   44 -> 33 Utilizando 'f'}
+{   44 -> 34 Utilizando 'i'}
+{   44 -> 35 Utilizando 'h'}
+{   44 -> 36 Utilizando 'k'}
+{   44 -> 37 Utilizando 'j'}
+{   44 -> 38 Utilizando 'm'}
+{   44 -> 39 Utilizando 'l'}
+{   44 -> 40 Utilizando 'o'}
+{   44 -> 41 Utilizando 'n'}
+{   44 -> 42 Utilizando 'q'}
+{   44 -> 43 Utilizando 'p'}
+{   44 -> 44 Utilizando 's'}
+{   44 -> 45 Utilizando 'r'}
+{   44 -> 46 Utilizando 'u'}
+{   44 -> 47 Utilizando 't'}
+{   44 -> 48 Utilizando 'v'}
+{   44 -> 49 Utilizando 'y'}
+{   44 -> 50 Utilizando 'x'}
+{   44 -> 51 Utilizando 'z'}
+{   45 -> 27 Utilizando 'a'}
+{   45 -> 28 Utilizando 'c'}
+{   45 -> 29 Utilizando 'b'}
+{   45 -> 30 Utilizando 'e'}
+{   45 -> 31 Utilizando 'd'}
+{   45 -> 32 Utilizando 'g'}
+{   45 -> 33 Utilizando 'f'}
+{   45 -> 34 Utilizando 'i'}
+{   45 -> 35 Utilizando 'h'}
+{   45 -> 36 Utilizando 'k'}
+{   45 -> 37 Utilizando 'j'}
+{   45 -> 38 Utilizando 'm'}
+{   45 -> 39 Utilizando 'l'}
+{   45 -> 40 Utilizando 'o'}
+{   45 -> 41 Utilizando 'n'}
+{   45 -> 42 Utilizando 'q'}
+{   45 -> 43 Utilizando 'p'}
+{   45 -> 44 Utilizando 's'}
+{   45 -> 45 Utilizando 'r'}
+{   45 -> 46 Utilizando 'u'}
+{   45 -> 47 Utilizando 't'}
+{   45 -> 48 Utilizando 'v'}
+{   45 -> 49 Utilizando 'y'}
+{   45 -> 50 Utilizando 'x'}
+{   45 -> 51 Utilizando 'z'}
+{   46 -> 27 Utilizando 'a'}
+{   46 -> 28 Utilizando 'c'}
+{   46 -> 29 Utilizando 'b'}
+{   46 -> 30 Utilizando 'e'}
+{   46 -> 31 Utilizando 'd'}
+{   46 -> 32 Utilizando 'g'}
+{   46 -> 33 Utilizando 'f'}
+{   46 -> 34 Utilizando 'i'}
+{   46 -> 35 Utilizando 'h'}
+{   46 -> 36 Utilizando 'k'}
+{   46 -> 37 Utilizando 'j'}
+{   46 -> 38 Utilizando 'm'}
+{   46 -> 39 Utilizando 'l'}
+{   46 -> 40 Utilizando 'o'}
+{   46 -> 41 Utilizando 'n'}
+{   46 -> 42 Utilizando 'q'}
+{   46 -> 43 Utilizando 'p'}
+{   46 -> 44 Utilizando 's'}
+{   46 -> 45 Utilizando 'r'}
+{   46 -> 46 Utilizando 'u'}
+{   46 -> 47 Utilizando 't'}
+{   46 -> 48 Utilizando 'v'}
+{   46 -> 49 Utilizando 'y'}
+{   46 -> 50 Utilizando 'x'}
+{   46 -> 51 Utilizando 'z'}
+{   47 -> 27 Utilizando 'a'}
+{   47 -> 28 Utilizando 'c'}
+{   47 -> 29 Utilizando 'b'}
+{   47 -> 30 Utilizando 'e'}
+{   47 -> 31 Utilizando 'd'}
+{   47 -> 32 Utilizando 'g'}
+{   47 -> 33 Utilizando 'f'}
+{   47 -> 34 Utilizando 'i'}
+{   47 -> 35 Utilizando 'h'}
+{   47 -> 36 Utilizando 'k'}
+{   47 -> 37 Utilizando 'j'}
+{   47 -> 38 Utilizando 'm'}
+{   47 -> 39 Utilizando 'l'}
+{   47 -> 40 Utilizando 'o'}
+{   47 -> 41 Utilizando 'n'}
+{   47 -> 42 Utilizando 'q'}
+{   47 -> 43 Utilizando 'p'}
+{   47 -> 44 Utilizando 's'}
+{   47 -> 45 Utilizando 'r'}
+{   47 -> 46 Utilizando 'u'}
+{   47 -> 47 Utilizando 't'}
+{   47 -> 48 Utilizando 'v'}
+{   47 -> 49 Utilizando 'y'}
+{   47 -> 50 Utilizando 'x'}
+{   47 -> 51 Utilizando 'z'}
+{   48 -> 27 Utilizando 'a'}
+{   48 -> 28 Utilizando 'c'}
+{   48 -> 29 Utilizando 'b'}
+{   48 -> 30 Utilizando 'e'}
+{   48 -> 31 Utilizando 'd'}
+{   48 -> 32 Utilizando 'g'}
+{   48 -> 33 Utilizando 'f'}
+{   48 -> 34 Utilizando 'i'}
+{   48 -> 35 Utilizando 'h'}
+{   48 -> 36 Utilizando 'k'}
+{   48 -> 37 Utilizando 'j'}
+{   48 -> 38 Utilizando 'm'}
+{   48 -> 39 Utilizando 'l'}
+{   48 -> 40 Utilizando 'o'}
+{   48 -> 41 Utilizando 'n'}
+{   48 -> 42 Utilizando 'q'}
+{   48 -> 43 Utilizando 'p'}
+{   48 -> 44 Utilizando 's'}
+{   48 -> 45 Utilizando 'r'}
+{   48 -> 46 Utilizando 'u'}
+{   48 -> 47 Utilizando 't'}
+{   48 -> 48 Utilizando 'v'}
+{   48 -> 49 Utilizando 'y'}
+{   48 -> 50 Utilizando 'x'}
+{   48 -> 51 Utilizando 'z'}
+{   49 -> 27 Utilizando 'a'}
+{   49 -> 28 Utilizando 'c'}
+{   49 -> 29 Utilizando 'b'}
+{   49 -> 30 Utilizando 'e'}
+{   49 -> 31 Utilizando 'd'}
+{   49 -> 32 Utilizando 'g'}
+{   49 -> 33 Utilizando 'f'}
+{   49 -> 34 Utilizando 'i'}
+{   49 -> 35 Utilizando 'h'}
+{   49 -> 36 Utilizando 'k'}
+{   49 -> 37 Utilizando 'j'}
+{   49 -> 38 Utilizando 'm'}
+{   49 -> 39 Utilizando 'l'}
+{   49 -> 40 Utilizando 'o'}
+{   49 -> 41 Utilizando 'n'}
+{   49 -> 42 Utilizando 'q'}
+{   49 -> 43 Utilizando 'p'}
+{   49 -> 44 Utilizando 's'}
+{   49 -> 45 Utilizando 'r'}
+{   49 -> 46 Utilizando 'u'}
+{   49 -> 47 Utilizando 't'}
+{   49 -> 48 Utilizando 'v'}
+{   49 -> 49 Utilizando 'y'}
+{   49 -> 50 Utilizando 'x'}
+{   49 -> 51 Utilizando 'z'}
+{   50 -> 27 Utilizando 'a'}
+{   50 -> 28 Utilizando 'c'}
+{   50 -> 29 Utilizando 'b'}
+{   50 -> 30 Utilizando 'e'}
+{   50 -> 31 Utilizando 'd'}
+{   50 -> 32 Utilizando 'g'}
+{   50 -> 33 Utilizando 'f'}
+{   50 -> 34 Utilizando 'i'}
+{   50 -> 35 Utilizando 'h'}
+{   50 -> 36 Utilizando 'k'}
+{   50 -> 37 Utilizando 'j'}
+{   50 -> 38 Utilizando 'm'}
+{   50 -> 39 Utilizando 'l'}
+{   50 -> 40 Utilizando 'o'}
+{   50 -> 41 Utilizando 'n'}
+{   50 -> 42 Utilizando 'q'}
+{   50 -> 43 Utilizando 'p'}
+{   50 -> 44 Utilizando 's'}
+{   50 -> 45 Utilizando 'r'}
+{   50 -> 46 Utilizando 'u'}
+{   50 -> 47 Utilizando 't'}
+{   50 -> 48 Utilizando 'v'}
+{   50 -> 49 Utilizando 'y'}
+{   50 -> 50 Utilizando 'x'}
+{   50 -> 51 Utilizando 'z'}
+{   51 -> 27 Utilizando 'a'}
+{   51 -> 28 Utilizando 'c'}
+{   51 -> 29 Utilizando 'b'}
+{   51 -> 30 Utilizando 'e'}
+{   51 -> 31 Utilizando 'd'}
+{   51 -> 32 Utilizando 'g'}
+{   51 -> 33 Utilizando 'f'}
+{   51 -> 34 Utilizando 'i'}
+{   51 -> 35 Utilizando 'h'}
+{   51 -> 36 Utilizando 'k'}
+{   51 -> 37 Utilizando 'j'}
+{   51 -> 38 Utilizando 'm'}
+{   51 -> 39 Utilizando 'l'}
+{   51 -> 40 Utilizando 'o'}
+{   51 -> 41 Utilizando 'n'}
+{   51 -> 42 Utilizando 'q'}
+{   51 -> 43 Utilizando 'p'}
+{   51 -> 44 Utilizando 's'}
+{   51 -> 45 Utilizando 'r'}
+{   51 -> 46 Utilizando 'u'}
+{   51 -> 47 Utilizando 't'}
+{   51 -> 48 Utilizando 'v'}
+{   51 -> 49 Utilizando 'y'}
+{   51 -> 50 Utilizando 'x'}
+{   51 -> 51 Utilizando 'z'}
+{   52 -> 27 Utilizando 'a'}
+{   52 -> 28 Utilizando 'c'}
+{   52 -> 29 Utilizando 'b'}
+{   52 -> 30 Utilizando 'e'}
+{   52 -> 31 Utilizando 'd'}
+{   52 -> 33 Utilizando 'f'}
+{   52 -> 34 Utilizando 'i'}
+{   52 -> 35 Utilizando 'h'}
+{   52 -> 36 Utilizando 'k'}
+{   52 -> 37 Utilizando 'j'}
+{   52 -> 38 Utilizando 'm'}
+{   52 -> 39 Utilizando 'l'}
+{   52 -> 40 Utilizando 'o'}
+{   52 -> 41 Utilizando 'n'}
+{   52 -> 42 Utilizando 'q'}
+{   52 -> 43 Utilizando 'p'}
+{   52 -> 44 Utilizando 's'}
+{   52 -> 45 Utilizando 'r'}
+{   52 -> 46 Utilizando 'u'}
+{   52 -> 47 Utilizando 't'}
+{   52 -> 48 Utilizando 'v'}
+{   52 -> 49 Utilizando 'y'}
+{   52 -> 50 Utilizando 'x'}
+{   52 -> 51 Utilizando 'z'}
+{   52 -> 53 Utilizando 'g'}
+{   53 -> 27 Utilizando 'a'}
+{   53 -> 28 Utilizando 'c'}
+{   53 -> 29 Utilizando 'b'}
+{   53 -> 30 Utilizando 'e'}
+{   53 -> 31 Utilizando 'd'}
+{   53 -> 32 Utilizando 'g'}
+{   53 -> 33 Utilizando 'f'}
+{   53 -> 34 Utilizando 'i'}
+{   53 -> 35 Utilizando 'h'}
+{   53 -> 36 Utilizando 'k'}
+{   53 -> 37 Utilizando 'j'}
+{   53 -> 38 Utilizando 'm'}
+{   53 -> 39 Utilizando 'l'}
+{   53 -> 40 Utilizando 'o'}
+{   53 -> 41 Utilizando 'n'}
+{   53 -> 42 Utilizando 'q'}
+{   53 -> 43 Utilizando 'p'}
+{   53 -> 44 Utilizando 's'}
+{   53 -> 45 Utilizando 'r'}
+{   53 -> 46 Utilizando 'u'}
+{   53 -> 47 Utilizando 't'}
+{   53 -> 48 Utilizando 'v'}
+{   53 -> 49 Utilizando 'y'}
+{   53 -> 50 Utilizando 'x'}
+{   53 -> 51 Utilizando 'z'}
+Estados: set([0, 1, 26])
+Inicio:  0
+Aceptacion: [0, 1, 26]
+Transiciones:
+{   0 -> 1 Utilizando 'A'}
+{   0 -> 1 Utilizando 'C'}
+{   0 -> 1 Utilizando 'B'}
+{   0 -> 1 Utilizando 'E'}
+{   0 -> 1 Utilizando 'D'}
+{   0 -> 1 Utilizando 'G'}
+{   0 -> 1 Utilizando 'F'}
+{   0 -> 1 Utilizando 'I'}
+{   0 -> 1 Utilizando 'H'}
+{   0 -> 1 Utilizando 'K'}
+{   0 -> 1 Utilizando 'J'}
+{   0 -> 1 Utilizando 'M'}
+{   0 -> 1 Utilizando 'L'}
+{   0 -> 1 Utilizando 'O'}
+{   0 -> 1 Utilizando 'N'}
+{   0 -> 1 Utilizando 'Q'}
+{   0 -> 1 Utilizando 'P'}
+{   0 -> 1 Utilizando 'S'}
+{   0 -> 1 Utilizando 'R'}
+{   0 -> 1 Utilizando 'U'}
+{   0 -> 1 Utilizando 'T'}
+{   0 -> 1 Utilizando 'V'}
+{   0 -> 1 Utilizando 'Y'}
+{   0 -> 1 Utilizando 'X'}
+{   0 -> 1 Utilizando 'Z'}
+{   0 -> 26 Utilizando 'a'}
+{   0 -> 26 Utilizando 'c'}
+{   0 -> 26 Utilizando 'b'}
+{   0 -> 26 Utilizando 'e'}
+{   0 -> 26 Utilizando 'd'}
+{   0 -> 26 Utilizando 'g'}
+{   0 -> 26 Utilizando 'f'}
+{   0 -> 26 Utilizando 'i'}
+{   0 -> 26 Utilizando 'h'}
+{   0 -> 26 Utilizando 'k'}
+{   0 -> 26 Utilizando 'j'}
+{   0 -> 26 Utilizando 'm'}
+{   0 -> 26 Utilizando 'l'}
+{   0 -> 26 Utilizando 'o'}
+{   0 -> 26 Utilizando 'n'}
+{   0 -> 26 Utilizando 'q'}
+{   0 -> 26 Utilizando 'p'}
+{   0 -> 26 Utilizando 's'}
+{   0 -> 26 Utilizando 'r'}
+{   0 -> 26 Utilizando 'u'}
+{   0 -> 26 Utilizando 't'}
+{   0 -> 26 Utilizando 'v'}
+{   0 -> 26 Utilizando 'y'}
+{   0 -> 26 Utilizando 'x'}
+{   0 -> 26 Utilizando 'z'}
+{   1 -> 1 Utilizando 'A'}
+{   1 -> 1 Utilizando 'C'}
+{   1 -> 1 Utilizando 'B'}
+{   1 -> 1 Utilizando 'E'}
+{   1 -> 1 Utilizando 'D'}
+{   1 -> 1 Utilizando 'G'}
+{   1 -> 1 Utilizando 'F'}
+{   1 -> 1 Utilizando 'I'}
+{   1 -> 1 Utilizando 'H'}
+{   1 -> 1 Utilizando 'K'}
+{   1 -> 1 Utilizando 'J'}
+{   1 -> 1 Utilizando 'M'}
+{   1 -> 1 Utilizando 'L'}
+{   1 -> 1 Utilizando 'O'}
+{   1 -> 1 Utilizando 'N'}
+{   1 -> 1 Utilizando 'Q'}
+{   1 -> 1 Utilizando 'P'}
+{   1 -> 1 Utilizando 'S'}
+{   1 -> 1 Utilizando 'R'}
+{   1 -> 1 Utilizando 'U'}
+{   1 -> 1 Utilizando 'T'}
+{   1 -> 1 Utilizando 'V'}
+{   1 -> 1 Utilizando 'Y'}
+{   1 -> 1 Utilizando 'X'}
+{   1 -> 1 Utilizando 'Z'}
+{   26 -> 26 Utilizando 'a'}
+{   26 -> 26 Utilizando 'c'}
+{   26 -> 26 Utilizando 'b'}
+{   26 -> 26 Utilizando 'e'}
+{   26 -> 26 Utilizando 'd'}
+{   26 -> 26 Utilizando 'g'}
+{   26 -> 26 Utilizando 'f'}
+{   26 -> 26 Utilizando 'i'}
+{   26 -> 26 Utilizando 'h'}
+{   26 -> 26 Utilizando 'k'}
+{   26 -> 26 Utilizando 'j'}
+{   26 -> 26 Utilizando 'm'}
+{   26 -> 26 Utilizando 'l'}
+{   26 -> 26 Utilizando 'o'}
+{   26 -> 26 Utilizando 'n'}
+{   26 -> 26 Utilizando 'q'}
+{   26 -> 26 Utilizando 'p'}
+{   26 -> 26 Utilizando 's'}
+{   26 -> 26 Utilizando 'r'}
+{   26 -> 26 Utilizando 'u'}
+{   26 -> 26 Utilizando 't'}
+{   26 -> 26 Utilizando 'v'}
+{   26 -> 26 Utilizando 'y'}
+{   26 -> 26 Utilizando 'x'}
+{   26 -> 26 Utilizando 'z'}
+
+ La cadena ingresada es Aceptada?:  Si
+
+Tiempo de Ejecucion:  87.2690000534 ms para todo el procedimiento
+Expresion ingresada:  (PENE)+(VERGA)+(TALEGA)+(MORONGA)MATIC
+Cadena a verificar:  VERGAMATIC
+Estados: set([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60])
+Inicio:  1
+Aceptacion: [60]
+Transiciones:
+{   1 -> 2 Utilizando ':e:'}
+{   1 -> 36 Utilizando ':e:'}
+{   2 -> 3 Utilizando ':e:'}
+{   2 -> 23 Utilizando ':e:'}
+{   3 -> 4 Utilizando ':e:'}
+{   3 -> 12 Utilizando ':e:'}
+{   4 -> 5 Utilizando 'P'}
+{   5 -> 6 Utilizando ':e:'}
+{   6 -> 7 Utilizando 'E'}
+{   7 -> 8 Utilizando ':e:'}
+{   8 -> 9 Utilizando 'N'}
+{   9 -> 10 Utilizando ':e:'}
+{   10 -> 11 Utilizando 'E'}
+{   11 -> 22 Utilizando ':e:'}
+{   12 -> 13 Utilizando 'V'}
+{   13 -> 14 Utilizando ':e:'}
+{   14 -> 15 Utilizando 'E'}
+{   15 -> 16 Utilizando ':e:'}
+{   16 -> 17 Utilizando 'R'}
+{   17 -> 18 Utilizando ':e:'}
+{   18 -> 19 Utilizando 'G'}
+{   19 -> 20 Utilizando ':e:'}
+{   20 -> 21 Utilizando 'A'}
+{   21 -> 22 Utilizando ':e:'}
+{   22 -> 35 Utilizando ':e:'}
+{   23 -> 24 Utilizando 'T'}
+{   24 -> 25 Utilizando ':e:'}
+{   25 -> 26 Utilizando 'A'}
+{   26 -> 27 Utilizando ':e:'}
+{   27 -> 28 Utilizando 'L'}
+{   28 -> 29 Utilizando ':e:'}
+{   29 -> 30 Utilizando 'E'}
+{   30 -> 31 Utilizando ':e:'}
+{   31 -> 32 Utilizando 'G'}
+{   32 -> 33 Utilizando ':e:'}
+{   33 -> 34 Utilizando 'A'}
+{   34 -> 35 Utilizando ':e:'}
+{   35 -> 60 Utilizando ':e:'}
+{   36 -> 37 Utilizando 'M'}
+{   37 -> 38 Utilizando ':e:'}
+{   38 -> 39 Utilizando 'O'}
+{   39 -> 40 Utilizando ':e:'}
+{   40 -> 41 Utilizando 'R'}
+{   41 -> 42 Utilizando ':e:'}
+{   42 -> 43 Utilizando 'O'}
+{   43 -> 44 Utilizando ':e:'}
+{   44 -> 45 Utilizando 'N'}
+{   45 -> 46 Utilizando ':e:'}
+{   46 -> 47 Utilizando 'G'}
+{   47 -> 48 Utilizando ':e:'}
+{   48 -> 49 Utilizando 'A'}
+{   49 -> 50 Utilizando ':e:'}
+{   50 -> 51 Utilizando 'M'}
+{   51 -> 52 Utilizando ':e:'}
+{   52 -> 53 Utilizando 'A'}
+{   53 -> 54 Utilizando ':e:'}
+{   54 -> 55 Utilizando 'T'}
+{   55 -> 56 Utilizando ':e:'}
+{   56 -> 57 Utilizando 'I'}
+{   57 -> 58 Utilizando ':e:'}
+{   58 -> 59 Utilizando 'C'}
+{   59 -> 60 Utilizando ':e:'}
+
+Simbolos:  ['P', 'E', 'N', 'V', 'R', 'G', 'A', 'T', 'L', 'M', 'O', 'I', 'C']
+Estados: set([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28])
+Inicio:  1
+Aceptacion: [9, 14, 17, 28]
+Transiciones:
+{   1 -> 2 Utilizando 'M'}
+{   1 -> 3 Utilizando 'P'}
+{   1 -> 4 Utilizando 'T'}
+{   1 -> 5 Utilizando 'V'}
+{   2 -> 18 Utilizando 'O'}
+{   3 -> 15 Utilizando 'E'}
+{   4 -> 10 Utilizando 'A'}
+{   5 -> 6 Utilizando 'E'}
+{   6 -> 7 Utilizando 'R'}
+{   7 -> 8 Utilizando 'G'}
+{   8 -> 9 Utilizando 'A'}
+{   10 -> 11 Utilizando 'L'}
+{   11 -> 12 Utilizando 'E'}
+{   12 -> 13 Utilizando 'G'}
+{   13 -> 14 Utilizando 'A'}
+{   15 -> 16 Utilizando 'N'}
+{   16 -> 17 Utilizando 'E'}
+{   18 -> 19 Utilizando 'R'}
+{   19 -> 20 Utilizando 'O'}
+{   20 -> 21 Utilizando 'N'}
+{   21 -> 22 Utilizando 'G'}
+{   22 -> 23 Utilizando 'A'}
+{   23 -> 24 Utilizando 'M'}
+{   24 -> 25 Utilizando 'A'}
+{   25 -> 26 Utilizando 'T'}
+{   26 -> 27 Utilizando 'I'}
+{   27 -> 28 Utilizando 'C'}
+Estados: set([0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 14, 15, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26])
+Inicio:  0
+Aceptacion: [8]
+Transiciones:
+{   0 -> 1 Utilizando 'M'}
+{   0 -> 2 Utilizando 'P'}
+{   0 -> 3 Utilizando 'T'}
+{   0 -> 4 Utilizando 'V'}
+{   1 -> 17 Utilizando 'O'}
+{   2 -> 14 Utilizando 'E'}
+{   3 -> 9 Utilizando 'A'}
+{   4 -> 5 Utilizando 'E'}
+{   5 -> 6 Utilizando 'R'}
+{   6 -> 7 Utilizando 'G'}
+{   7 -> 8 Utilizando 'A'}
+{   9 -> 10 Utilizando 'L'}
+{   10 -> 6 Utilizando 'E'}
+{   14 -> 15 Utilizando 'N'}
+{   15 -> 8 Utilizando 'E'}
+{   17 -> 18 Utilizando 'R'}
+{   18 -> 19 Utilizando 'O'}
+{   19 -> 20 Utilizando 'N'}
+{   20 -> 21 Utilizando 'G'}
+{   21 -> 22 Utilizando 'A'}
+{   22 -> 23 Utilizando 'M'}
+{   23 -> 24 Utilizando 'A'}
+{   24 -> 25 Utilizando 'T'}
+{   25 -> 26 Utilizando 'I'}
+{   26 -> 8 Utilizando 'C'}
+
+ La cadena ingresada es Aceptada?:  No
+
+Tiempo de Ejecucion:  57.626999855 ms para todo el procedimiento
+
+Error: string indices must be integers, not str
+
+Tiempo de Ejecucion:  5.19677305222 ms para todo el procedimiento
+
+Error: unsupported operand type(s) for -: 'str' and 'int'
+
+Tiempo de Ejecucion:  4.13690400124 ms para todo el procedimiento
+
+Error: ord() expected string of length 1, but int found
+
+Tiempo de Ejecucion:  3.23696494102 ms para todo el procedimiento
+Expresion ingresada:  +a+b+c+d+e+f+g+h+i+j+k+l+m+n+o+p+q+r+s+t+u+v+w+x+y
+Cadena a verificar:  abc
+
+Error: + contiene un operador inadecuado.
+
+Tiempo de Ejecucion:  6.37376594543 ms para todo el procedimiento
+Expresion ingresada:  a+b+c+d+e+f+g+h+i+j+k+l+m+n+o+p+q+r+s+t+u+v+w+x+y+
+Cadena a verificar:  abc
+
+Error: + contiene un operador inadecuado.
+
+Tiempo de Ejecucion:  3.95562696457 ms para todo el procedimiento
+Expresion ingresada:  a+b+c+d+e+f+g+h+i+j+k+l+m+n+o+p+q+r+s+t+u+v+w+x+y+z
+Cadena a verificar:  abc
+Estados: set([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102])
+Inicio:  1
+Aceptacion: [102]
+Transiciones:
+{   1 -> 2 Utilizando ':e:'}
+{   1 -> 100 Utilizando ':e:'}
+{   2 -> 97 Utilizando ':e:'}
+{   2 -> 3 Utilizando ':e:'}
+{   3 -> 4 Utilizando ':e:'}
+{   3 -> 94 Utilizando ':e:'}
+{   4 -> 91 Utilizando ':e:'}
+{   4 -> 5 Utilizando ':e:'}
+{   5 -> 88 Utilizando ':e:'}
+{   5 -> 6 Utilizando ':e:'}
+{   6 -> 85 Utilizando ':e:'}
+{   6 -> 7 Utilizando ':e:'}
+{   7 -> 8 Utilizando ':e:'}
+{   7 -> 82 Utilizando ':e:'}
+{   8 -> 9 Utilizando ':e:'}
+{   8 -> 79 Utilizando ':e:'}
+{   9 -> 10 Utilizando ':e:'}
+{   9 -> 76 Utilizando ':e:'}
+{   10 -> 73 Utilizando ':e:'}
+{   10 -> 11 Utilizando ':e:'}
+{   11 -> 12 Utilizando ':e:'}
+{   11 -> 70 Utilizando ':e:'}
+{   12 -> 67 Utilizando ':e:'}
+{   12 -> 13 Utilizando ':e:'}
+{   13 -> 64 Utilizando ':e:'}
+{   13 -> 14 Utilizando ':e:'}
+{   14 -> 61 Utilizando ':e:'}
+{   14 -> 15 Utilizando ':e:'}
+{   15 -> 16 Utilizando ':e:'}
+{   15 -> 58 Utilizando ':e:'}
+{   16 -> 17 Utilizando ':e:'}
+{   16 -> 55 Utilizando ':e:'}
+{   17 -> 18 Utilizando ':e:'}
+{   17 -> 52 Utilizando ':e:'}
+{   18 -> 49 Utilizando ':e:'}
+{   18 -> 19 Utilizando ':e:'}
+{   19 -> 20 Utilizando ':e:'}
+{   19 -> 46 Utilizando ':e:'}
+{   20 -> 43 Utilizando ':e:'}
+{   20 -> 21 Utilizando ':e:'}
+{   21 -> 40 Utilizando ':e:'}
+{   21 -> 22 Utilizando ':e:'}
+{   22 -> 37 Utilizando ':e:'}
+{   22 -> 23 Utilizando ':e:'}
+{   23 -> 24 Utilizando ':e:'}
+{   23 -> 34 Utilizando ':e:'}
+{   24 -> 25 Utilizando ':e:'}
+{   24 -> 31 Utilizando ':e:'}
+{   25 -> 26 Utilizando ':e:'}
+{   25 -> 28 Utilizando ':e:'}
+{   26 -> 27 Utilizando 'a'}
+{   27 -> 30 Utilizando ':e:'}
+{   28 -> 29 Utilizando 'b'}
+{   29 -> 30 Utilizando ':e:'}
+{   30 -> 33 Utilizando ':e:'}
+{   31 -> 32 Utilizando 'c'}
+{   32 -> 33 Utilizando ':e:'}
+{   33 -> 36 Utilizando ':e:'}
+{   34 -> 35 Utilizando 'd'}
+{   35 -> 36 Utilizando ':e:'}
+{   36 -> 39 Utilizando ':e:'}
+{   37 -> 38 Utilizando 'e'}
+{   38 -> 39 Utilizando ':e:'}
+{   39 -> 42 Utilizando ':e:'}
+{   40 -> 41 Utilizando 'f'}
+{   41 -> 42 Utilizando ':e:'}
+{   42 -> 45 Utilizando ':e:'}
+{   43 -> 44 Utilizando 'g'}
+{   44 -> 45 Utilizando ':e:'}
+{   45 -> 48 Utilizando ':e:'}
+{   46 -> 47 Utilizando 'h'}
+{   47 -> 48 Utilizando ':e:'}
+{   48 -> 51 Utilizando ':e:'}
+{   49 -> 50 Utilizando 'i'}
+{   50 -> 51 Utilizando ':e:'}
+{   51 -> 54 Utilizando ':e:'}
+{   52 -> 53 Utilizando 'j'}
+{   53 -> 54 Utilizando ':e:'}
+{   54 -> 57 Utilizando ':e:'}
+{   55 -> 56 Utilizando 'k'}
+{   56 -> 57 Utilizando ':e:'}
+{   57 -> 60 Utilizando ':e:'}
+{   58 -> 59 Utilizando 'l'}
+{   59 -> 60 Utilizando ':e:'}
+{   60 -> 63 Utilizando ':e:'}
+{   61 -> 62 Utilizando 'm'}
+{   62 -> 63 Utilizando ':e:'}
+{   63 -> 66 Utilizando ':e:'}
+{   64 -> 65 Utilizando 'n'}
+{   65 -> 66 Utilizando ':e:'}
+{   66 -> 69 Utilizando ':e:'}
+{   67 -> 68 Utilizando 'o'}
+{   68 -> 69 Utilizando ':e:'}
+{   69 -> 72 Utilizando ':e:'}
+{   70 -> 71 Utilizando 'p'}
+{   71 -> 72 Utilizando ':e:'}
+{   72 -> 75 Utilizando ':e:'}
+{   73 -> 74 Utilizando 'q'}
+{   74 -> 75 Utilizando ':e:'}
+{   75 -> 78 Utilizando ':e:'}
+{   76 -> 77 Utilizando 'r'}
+{   77 -> 78 Utilizando ':e:'}
+{   78 -> 81 Utilizando ':e:'}
+{   79 -> 80 Utilizando 's'}
+{   80 -> 81 Utilizando ':e:'}
+{   81 -> 84 Utilizando ':e:'}
+{   82 -> 83 Utilizando 't'}
+{   83 -> 84 Utilizando ':e:'}
+{   84 -> 87 Utilizando ':e:'}
+{   85 -> 86 Utilizando 'u'}
+{   86 -> 87 Utilizando ':e:'}
+{   87 -> 90 Utilizando ':e:'}
+{   88 -> 89 Utilizando 'v'}
+{   89 -> 90 Utilizando ':e:'}
+{   90 -> 93 Utilizando ':e:'}
+{   91 -> 92 Utilizando 'w'}
+{   92 -> 93 Utilizando ':e:'}
+{   93 -> 96 Utilizando ':e:'}
+{   94 -> 95 Utilizando 'x'}
+{   95 -> 96 Utilizando ':e:'}
+{   96 -> 99 Utilizando ':e:'}
+{   97 -> 98 Utilizando 'y'}
+{   98 -> 99 Utilizando ':e:'}
+{   99 -> 102 Utilizando ':e:'}
+{   100 -> 101 Utilizando 'z'}
+{   101 -> 102 Utilizando ':e:'}
+
+Simbolos:  ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z']
+Estados: set([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27])
+Inicio:  1
+Aceptacion: [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27]
+Transiciones:
+{   1 -> 2 Utilizando 'a'}
+{   1 -> 3 Utilizando 'c'}
+{   1 -> 4 Utilizando 'b'}
+{   1 -> 5 Utilizando 'e'}
+{   1 -> 6 Utilizando 'd'}
+{   1 -> 7 Utilizando 'g'}
+{   1 -> 8 Utilizando 'f'}
+{   1 -> 9 Utilizando 'i'}
+{   1 -> 10 Utilizando 'h'}
+{   1 -> 11 Utilizando 'k'}
+{   1 -> 12 Utilizando 'j'}
+{   1 -> 13 Utilizando 'm'}
+{   1 -> 14 Utilizando 'l'}
+{   1 -> 15 Utilizando 'o'}
+{   1 -> 16 Utilizando 'n'}
+{   1 -> 17 Utilizando 'q'}
+{   1 -> 18 Utilizando 'p'}
+{   1 -> 19 Utilizando 's'}
+{   1 -> 20 Utilizando 'r'}
+{   1 -> 21 Utilizando 'u'}
+{   1 -> 22 Utilizando 't'}
+{   1 -> 23 Utilizando 'w'}
+{   1 -> 24 Utilizando 'v'}
+{   1 -> 25 Utilizando 'y'}
+{   1 -> 26 Utilizando 'x'}
+{   1 -> 27 Utilizando 'z'}
+Estados: set([0, 1])
+Inicio:  0
+Aceptacion: [1]
+Transiciones:
+{   0 -> 1 Utilizando 'a'}
+{   0 -> 1 Utilizando 'c'}
+{   0 -> 1 Utilizando 'b'}
+{   0 -> 1 Utilizando 'e'}
+{   0 -> 1 Utilizando 'd'}
+{   0 -> 1 Utilizando 'g'}
+{   0 -> 1 Utilizando 'f'}
+{   0 -> 1 Utilizando 'i'}
+{   0 -> 1 Utilizando 'h'}
+{   0 -> 1 Utilizando 'k'}
+{   0 -> 1 Utilizando 'j'}
+{   0 -> 1 Utilizando 'm'}
+{   0 -> 1 Utilizando 'l'}
+{   0 -> 1 Utilizando 'o'}
+{   0 -> 1 Utilizando 'n'}
+{   0 -> 1 Utilizando 'q'}
+{   0 -> 1 Utilizando 'p'}
+{   0 -> 1 Utilizando 's'}
+{   0 -> 1 Utilizando 'r'}
+{   0 -> 1 Utilizando 'u'}
+{   0 -> 1 Utilizando 't'}
+{   0 -> 1 Utilizando 'w'}
+{   0 -> 1 Utilizando 'v'}
+{   0 -> 1 Utilizando 'y'}
+{   0 -> 1 Utilizando 'x'}
+{   0 -> 1 Utilizando 'z'}
+
+ La cadena ingresada es Aceptada?:  No
+
+Tiempo de Ejecucion:  3.11400198936 ms para todo el procedimiento
+Expresion ingresada:  a+b+c+dx+y+z
+Cadena a verificar:  abdzssss
+Estados: set([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24])
+Inicio:  1
+Aceptacion: [24]
+Transiciones:
+{   1 -> 2 Utilizando ':e:'}
+{   1 -> 22 Utilizando ':e:'}
+{   2 -> 3 Utilizando ':e:'}
+{   2 -> 19 Utilizando ':e:'}
+{   3 -> 4 Utilizando ':e:'}
+{   3 -> 14 Utilizando ':e:'}
+{   4 -> 11 Utilizando ':e:'}
+{   4 -> 5 Utilizando ':e:'}
+{   5 -> 8 Utilizando ':e:'}
+{   5 -> 6 Utilizando ':e:'}
+{   6 -> 7 Utilizando 'a'}
+{   7 -> 10 Utilizando ':e:'}
+{   8 -> 9 Utilizando 'b'}
+{   9 -> 10 Utilizando ':e:'}
+{   10 -> 13 Utilizando ':e:'}
+{   11 -> 12 Utilizando 'c'}
+{   12 -> 13 Utilizando ':e:'}
+{   13 -> 18 Utilizando ':e:'}
+{   14 -> 15 Utilizando 'd'}
+{   15 -> 16 Utilizando ':e:'}
+{   16 -> 17 Utilizando 'x'}
+{   17 -> 18 Utilizando ':e:'}
+{   18 -> 21 Utilizando ':e:'}
+{   19 -> 20 Utilizando 'y'}
+{   20 -> 21 Utilizando ':e:'}
+{   21 -> 24 Utilizando ':e:'}
+{   22 -> 23 Utilizando 'z'}
+{   23 -> 24 Utilizando ':e:'}
+
+Simbolos:  ['a', 'b', 'c', 'd', 'x', 'y', 'z']
+Estados: set([1, 2, 3, 4, 5, 6, 7, 8])
+Inicio:  1
+Aceptacion: [2, 3, 4, 6, 7, 8]
+Transiciones:
+{   1 -> 2 Utilizando 'a'}
+{   1 -> 3 Utilizando 'c'}
+{   1 -> 4 Utilizando 'b'}
+{   1 -> 5 Utilizando 'd'}
+{   1 -> 6 Utilizando 'y'}
+{   1 -> 7 Utilizando 'z'}
+{   5 -> 8 Utilizando 'x'}
+Estados: set([0, 1, 4])
+Inicio:  0
+Aceptacion: [1]
+Transiciones:
+{   0 -> 1 Utilizando 'a'}
+{   0 -> 1 Utilizando 'y'}
+{   0 -> 1 Utilizando 'c'}
+{   0 -> 1 Utilizando 'b'}
+{   0 -> 1 Utilizando 'z'}
+{   0 -> 4 Utilizando 'd'}
+{   4 -> 1 Utilizando 'x'}
+
+ La cadena ingresada es Aceptada?:  No
+
+Tiempo de Ejecucion:  37.3087599277 ms para todo el procedimiento
+
+Error: 
+
+Tiempo de Ejecucion:  28.0491979122 ms para todo el procedimiento
+
+Error: 
+
+Tiempo de Ejecucion:  23.9140710831 ms para todo el procedimiento
+Expresion ingresada:  a+b+c+d+eg+h+i+j+k+l
+Cadena a verificar:  0
+Estados: set([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40])
+Inicio:  1
+Aceptacion: [40]
+Transiciones:
+{   1 -> 2 Utilizando ':e:'}
+{   1 -> 38 Utilizando ':e:'}
+{   2 -> 3 Utilizando ':e:'}
+{   2 -> 35 Utilizando ':e:'}
+{   3 -> 32 Utilizando ':e:'}
+{   3 -> 4 Utilizando ':e:'}
+{   4 -> 5 Utilizando ':e:'}
+{   4 -> 29 Utilizando ':e:'}
+{   5 -> 26 Utilizando ':e:'}
+{   5 -> 6 Utilizando ':e:'}
+{   6 -> 21 Utilizando ':e:'}
+{   6 -> 7 Utilizando ':e:'}
+{   7 -> 8 Utilizando ':e:'}
+{   7 -> 18 Utilizando ':e:'}
+{   8 -> 9 Utilizando ':e:'}
+{   8 -> 15 Utilizando ':e:'}
+{   9 -> 10 Utilizando ':e:'}
+{   9 -> 12 Utilizando ':e:'}
+{   10 -> 11 Utilizando 'a'}
+{   11 -> 14 Utilizando ':e:'}
+{   12 -> 13 Utilizando 'b'}
+{   13 -> 14 Utilizando ':e:'}
+{   14 -> 17 Utilizando ':e:'}
+{   15 -> 16 Utilizando 'c'}
+{   16 -> 17 Utilizando ':e:'}
+{   17 -> 20 Utilizando ':e:'}
+{   18 -> 19 Utilizando 'd'}
+{   19 -> 20 Utilizando ':e:'}
+{   20 -> 25 Utilizando ':e:'}
+{   21 -> 22 Utilizando 'e'}
+{   22 -> 23 Utilizando ':e:'}
+{   23 -> 24 Utilizando 'g'}
+{   24 -> 25 Utilizando ':e:'}
+{   25 -> 28 Utilizando ':e:'}
+{   26 -> 27 Utilizando 'h'}
+{   27 -> 28 Utilizando ':e:'}
+{   28 -> 31 Utilizando ':e:'}
+{   29 -> 30 Utilizando 'i'}
+{   30 -> 31 Utilizando ':e:'}
+{   31 -> 34 Utilizando ':e:'}
+{   32 -> 33 Utilizando 'j'}
+{   33 -> 34 Utilizando ':e:'}
+{   34 -> 37 Utilizando ':e:'}
+{   35 -> 36 Utilizando 'k'}
+{   36 -> 37 Utilizando ':e:'}
+{   37 -> 40 Utilizando ':e:'}
+{   38 -> 39 Utilizando 'l'}
+{   39 -> 40 Utilizando ':e:'}
+
+Simbolos:  ['a', 'b', 'c', 'd', 'e', 'g', 'h', 'i', 'j', 'k', 'l']
+Estados: set([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12])
+Inicio:  1
+Aceptacion: [2, 3, 4, 6, 7, 8, 9, 10, 11, 12]
+Transiciones:
+{   1 -> 2 Utilizando 'a'}
+{   1 -> 3 Utilizando 'c'}
+{   1 -> 4 Utilizando 'b'}
+{   1 -> 5 Utilizando 'e'}
+{   1 -> 6 Utilizando 'd'}
+{   1 -> 7 Utilizando 'i'}
+{   1 -> 8 Utilizando 'h'}
+{   1 -> 9 Utilizando 'k'}
+{   1 -> 10 Utilizando 'j'}
+{   1 -> 11 Utilizando 'l'}
+{   5 -> 12 Utilizando 'g'}
+Estados: set([0, 1, 4])
+Inicio:  0
+Aceptacion: [1]
+Transiciones:
+{   0 -> 1 Utilizando 'a'}
+{   0 -> 1 Utilizando 'c'}
+{   0 -> 1 Utilizando 'b'}
+{   0 -> 1 Utilizando 'd'}
+{   0 -> 1 Utilizando 'i'}
+{   0 -> 1 Utilizando 'h'}
+{   0 -> 1 Utilizando 'k'}
+{   0 -> 1 Utilizando 'j'}
+{   0 -> 1 Utilizando 'l'}
+{   0 -> 4 Utilizando 'e'}
+{   4 -> 1 Utilizando 'g'}
+
+ La cadena ingresada es Aceptada?:  No
+
+Tiempo de Ejecucion:  82.1558730602 ms para todo el procedimiento
+Expresion ingresada:  (a+b+c+d+e+f+g+h+i+j+k+l+m+n+o+p+q+r+s+t+u+v+w+x+y+z)-z
+Cadena a verificar:  0
+
+Error: Este simbolo no se permite: '-.'
+
+Tiempo de Ejecucion:  31.0251019001 ms para todo el procedimiento
+
+Error: 
+
+Tiempo de Ejecucion:  50.9175169468 ms para todo el procedimiento
+Expresion ingresada:  (a+b+c+d+e-e)fg+h+i+j+k+l+m-
+Cadena a verificar:  0
+
+Error: Este simbolo no se permite: '-.'
+
+Tiempo de Ejecucion:  43.9739239216 ms para todo el procedimiento
+
+Error: string index out of range
+
+Tiempo de Ejecucion:  7.28353905678 ms para todo el procedimiento
+
+Error: 
+
+Tiempo de Ejecucion:  66.7275500298 ms para todo el procedimiento
+Expresion ingresada:  (a+b+c+d+e-e)hi+j+k+l+m+n+o+p+q-
+Cadena a verificar:  abc
+
+Error: Este simbolo no se permite: '-.'
+
+Tiempo de Ejecucion:  18.1833119392 ms para todo el procedimiento
+
+Error: 
+
+Tiempo de Ejecucion:  7.16199994087 ms para todo el procedimiento
+Expresion ingresada:  a+b+c+d+e-ehi+j+k+l+m+n+o+p+q-
+Cadena a verificar:  
+
+Error: Este simbolo no se permite: '-.'
+
+Tiempo de Ejecucion:  68.8762340546 ms para todo el procedimiento
+
+Error: 
+
+Tiempo de Ejecucion:  71.9259121418 ms para todo el procedimiento
+
+Error: 
+
+Tiempo de Ejecucion:  115.160704851 ms para todo el procedimiento
+
+Error: 
+
+Tiempo de Ejecucion:  41.5246388912 ms para todo el procedimiento

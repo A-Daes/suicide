@@ -1,0 +1,31 @@
+﻿RegexDiseño:
+
+
+El programa se diseño de la siguiente manera:
+
+
+l2lib.py: Que incluye todos los metodos a usar
+
+Regex2DFADFAMIN.py: Que es un main tipico de un programa con orientacion a objetos.
+
+l2lib contiene las siguientes clases con su respectivo funcionamiento:
+
+	Automata:
+	Es la clase que respresenta un automata base. Esta misma se utiliza en DFA, NFA y DFA minimos.
+	En ella misma se encuentran los metodos para determinar estados, estado inicial y final, transiciones, cerraduras y para que se muestren. Ademas, incluye metodos especificos para la reconstruccion del mismo como DFA y el minimo utilizando estados equivalentes.
+
+	BuildAutomata:
+	Es una clase unicamente con metodos, la cual genera basado en el input, sub-automatas de uno o dos simbolos unidos por sus operadores. Estos sub-automatas se juntan al finalizar el chequeo por cada simbolo. Se realizaron varios metodos de estructurar para poder diferenciar entre operadores unarios y binarios.
+
+	DFAfromNFA:
+	Utiliza los metodos de Automata para obtener los datos necesarios y poder generar el DFA asociado a la expresion ingresada. Se utiliza un metodo similar a tabla de transiciones para generar el dfa.  Al mismo tiempo, tiene un metodo para minimizar el mismo DFA con metodo de 'tablita'
+	
+	NFAfromRegex:
+	Utiliza los metodos de BuildAutomata para generar el automata. Utiliza stacks para manejar las expresiones entre parentesis.
+	
+	getSymbols:
+	Encuentra los simbolos del automata leyendo directamente el regex.
+	
+	acceptsString: 
+	Determina si una string w se acepta por el aumtomata a. 
+	

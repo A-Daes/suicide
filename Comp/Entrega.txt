@@ -1,0 +1,476 @@
+Expresion ingresada:  :e:
+Cadena a verificar:  a
+
+Error: Este simbolo no se permite: ':.'
+
+Tiempo de Ejecucion:  3.61272287369 ms para todo el procedimiento
+Expresion ingresada:  (ab)a
+Cadena a verificar:  aba
+Estados: set([1, 2, 3, 4, 5, 6])
+Inicio:  1
+Aceptacion: [6]
+Transiciones:
+{   1 -> 2 Utilizando 'a'}
+{   2 -> 3 Utilizando ':e:'}
+{   3 -> 4 Utilizando 'b'}
+{   4 -> 5 Utilizando ':e:'}
+{   5 -> 6 Utilizando 'a'}
+
+Simbolos:  ['a', 'b']
+Estados: set([1, 2, 3, 4])
+Inicio:  1
+Aceptacion: [4]
+Transiciones:
+{   1 -> 2 Utilizando 'a'}
+{   2 -> 3 Utilizando 'b'}
+{   3 -> 4 Utilizando 'a'}
+Estados: set([1, 2, 3, 4])
+Inicio:  1
+Aceptacion: [4]
+Transiciones:
+{   1 -> 2 Utilizando 'a'}
+{   2 -> 3 Utilizando 'b'}
+{   3 -> 4 Utilizando 'a'}
+
+ La cadena ingresada es Aceptada?:  Si
+
+Tiempo de Ejecucion:  43.0431439877 ms para todo el procedimiento
+Expresion ingresada:  a(ba)
+Cadena a verificar:  aaa
+Estados: set([1, 2, 3, 4, 5, 6])
+Inicio:  1
+Aceptacion: [6]
+Transiciones:
+{   1 -> 2 Utilizando 'a'}
+{   2 -> 3 Utilizando ':e:'}
+{   3 -> 4 Utilizando 'b'}
+{   4 -> 5 Utilizando ':e:'}
+{   5 -> 6 Utilizando 'a'}
+
+Simbolos:  ['a', 'b']
+Estados: set([1, 2, 3, 4])
+Inicio:  1
+Aceptacion: [4]
+Transiciones:
+{   1 -> 2 Utilizando 'a'}
+{   2 -> 3 Utilizando 'b'}
+{   3 -> 4 Utilizando 'a'}
+Estados: set([1, 2, 3, 4])
+Inicio:  1
+Aceptacion: [4]
+Transiciones:
+{   1 -> 2 Utilizando 'a'}
+{   2 -> 3 Utilizando 'b'}
+{   3 -> 4 Utilizando 'a'}
+
+ La cadena ingresada es Aceptada?:  No
+
+Tiempo de Ejecucion:  6.58187198639 ms para todo el procedimiento
+Expresion ingresada:  a*+b*
+Cadena a verificar:  ababa
+Estados: set([1, 2, 3, 4, 5, 6, 7, 8, 9, 10])
+Inicio:  1
+Aceptacion: [10]
+Transiciones:
+{   1 -> 2 Utilizando ':e:'}
+{   1 -> 6 Utilizando ':e:'}
+{   2 -> 3 Utilizando ':e:'}
+{   2 -> 5 Utilizando ':e:'}
+{   3 -> 4 Utilizando 'a'}
+{   4 -> 3 Utilizando ':e:'}
+{   4 -> 5 Utilizando ':e:'}
+{   5 -> 10 Utilizando ':e:'}
+{   6 -> 9 Utilizando ':e:'}
+{   6 -> 7 Utilizando ':e:'}
+{   7 -> 8 Utilizando 'b'}
+{   8 -> 9 Utilizando ':e:'}
+{   8 -> 7 Utilizando ':e:'}
+{   9 -> 10 Utilizando ':e:'}
+
+Simbolos:  ['a', 'b']
+Estados: set([1, 2, 3])
+Inicio:  1
+Aceptacion: [1, 2, 3]
+Transiciones:
+{   1 -> 2 Utilizando 'a'}
+{   1 -> 3 Utilizando 'b'}
+{   2 -> 2 Utilizando 'a'}
+{   3 -> 3 Utilizando 'b'}
+Estados: set([1, 2, 3])
+Inicio:  1
+Aceptacion: [1, 2, 3]
+Transiciones:
+{   1 -> 2 Utilizando 'a'}
+{   1 -> 3 Utilizando 'b'}
+{   2 -> 2 Utilizando 'a'}
+{   3 -> 3 Utilizando 'b'}
+
+ La cadena ingresada es Aceptada?:  No
+
+Tiempo de Ejecucion:  51.2367460728 ms para todo el procedimiento
+Expresion ingresada:  (a+b)*
+Cadena a verificar:  babababab
+Estados: set([1, 2, 3, 4, 5, 6, 7, 8])
+Inicio:  1
+Aceptacion: [8]
+Transiciones:
+{   1 -> 8 Utilizando ':e:'}
+{   1 -> 2 Utilizando ':e:'}
+{   2 -> 3 Utilizando ':e:'}
+{   2 -> 5 Utilizando ':e:'}
+{   3 -> 4 Utilizando 'a'}
+{   4 -> 7 Utilizando ':e:'}
+{   5 -> 6 Utilizando 'b'}
+{   6 -> 7 Utilizando ':e:'}
+{   7 -> 8 Utilizando ':e:'}
+{   7 -> 2 Utilizando ':e:'}
+
+Simbolos:  ['a', 'b']
+Estados: set([1, 2, 3])
+Inicio:  1
+Aceptacion: [1, 2, 3]
+Transiciones:
+{   1 -> 2 Utilizando 'a'}
+{   1 -> 3 Utilizando 'b'}
+{   2 -> 2 Utilizando 'a'}
+{   2 -> 3 Utilizando 'b'}
+{   3 -> 2 Utilizando 'a'}
+{   3 -> 3 Utilizando 'b'}
+Estados: set([0])
+Inicio:  0
+Aceptacion: [0]
+Transiciones:
+{   0 -> 0 Utilizando 'a'}
+{   0 -> 0 Utilizando 'b'}
+
+ La cadena ingresada es Aceptada?:  Si
+
+Tiempo de Ejecucion:  7.73227000237 ms para todo el procedimiento
+Expresion ingresada:  (a*bb)*+bb*a*
+Cadena a verificar:  
+Estados: set([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22])
+Inicio:  1
+Aceptacion: [22]
+Transiciones:
+{   1 -> 2 Utilizando ':e:'}
+{   1 -> 12 Utilizando ':e:'}
+{   2 -> 3 Utilizando ':e:'}
+{   2 -> 11 Utilizando ':e:'}
+{   3 -> 4 Utilizando ':e:'}
+{   3 -> 6 Utilizando ':e:'}
+{   4 -> 5 Utilizando 'a'}
+{   5 -> 4 Utilizando ':e:'}
+{   5 -> 6 Utilizando ':e:'}
+{   6 -> 7 Utilizando ':e:'}
+{   7 -> 8 Utilizando 'b'}
+{   8 -> 9 Utilizando ':e:'}
+{   9 -> 10 Utilizando 'b'}
+{   10 -> 11 Utilizando ':e:'}
+{   10 -> 3 Utilizando ':e:'}
+{   11 -> 22 Utilizando ':e:'}
+{   12 -> 13 Utilizando 'b'}
+{   13 -> 14 Utilizando ':e:'}
+{   14 -> 17 Utilizando ':e:'}
+{   14 -> 15 Utilizando ':e:'}
+{   15 -> 16 Utilizando 'b'}
+{   16 -> 17 Utilizando ':e:'}
+{   16 -> 15 Utilizando ':e:'}
+{   17 -> 18 Utilizando ':e:'}
+{   18 -> 19 Utilizando ':e:'}
+{   18 -> 21 Utilizando ':e:'}
+{   19 -> 20 Utilizando 'a'}
+{   20 -> 19 Utilizando ':e:'}
+{   20 -> 21 Utilizando ':e:'}
+{   21 -> 22 Utilizando ':e:'}
+
+Simbolos:  ['a', 'b']
+Estados: set([1, 2, 3, 4, 5, 6, 7, 8, 9])
+Inicio:  1
+Aceptacion: [1, 3, 4, 5, 6, 7, 9]
+Transiciones:
+{   1 -> 2 Utilizando 'a'}
+{   1 -> 3 Utilizando 'b'}
+{   2 -> 8 Utilizando 'b'}
+{   2 -> 2 Utilizando 'a'}
+{   3 -> 4 Utilizando 'a'}
+{   3 -> 5 Utilizando 'b'}
+{   4 -> 4 Utilizando 'a'}
+{   5 -> 6 Utilizando 'a'}
+{   5 -> 7 Utilizando 'b'}
+{   6 -> 8 Utilizando 'b'}
+{   6 -> 6 Utilizando 'a'}
+{   7 -> 4 Utilizando 'a'}
+{   7 -> 5 Utilizando 'b'}
+{   8 -> 9 Utilizando 'b'}
+{   9 -> 8 Utilizando 'b'}
+{   9 -> 2 Utilizando 'a'}
+Estados: set([0, 1, 2, 3, 7])
+Inicio:  0
+Aceptacion: [0, 2, 3, 1]
+Transiciones:
+{   0 -> 1 Utilizando 'a'}
+{   0 -> 2 Utilizando 'b'}
+{   1 -> 1 Utilizando 'a'}
+{   1 -> 7 Utilizando 'b'}
+{   2 -> 0 Utilizando 'b'}
+{   2 -> 3 Utilizando 'a'}
+{   3 -> 3 Utilizando 'a'}
+{   7 -> 1 Utilizando 'b'}
+
+ La cadena ingresada es Aceptada?:  Si
+
+Tiempo de Ejecucion:  22.6655130386 ms para todo el procedimiento
+Expresion ingresada:  (a*bb)*+bb*a*
+Cadena a verificar:  
+Estados: set([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22])
+Inicio:  1
+Aceptacion: [22]
+Transiciones:
+{   1 -> 2 Utilizando ':e:'}
+{   1 -> 12 Utilizando ':e:'}
+{   2 -> 3 Utilizando ':e:'}
+{   2 -> 11 Utilizando ':e:'}
+{   3 -> 4 Utilizando ':e:'}
+{   3 -> 6 Utilizando ':e:'}
+{   4 -> 5 Utilizando 'a'}
+{   5 -> 4 Utilizando ':e:'}
+{   5 -> 6 Utilizando ':e:'}
+{   6 -> 7 Utilizando ':e:'}
+{   7 -> 8 Utilizando 'b'}
+{   8 -> 9 Utilizando ':e:'}
+{   9 -> 10 Utilizando 'b'}
+{   10 -> 11 Utilizando ':e:'}
+{   10 -> 3 Utilizando ':e:'}
+{   11 -> 22 Utilizando ':e:'}
+{   12 -> 13 Utilizando 'b'}
+{   13 -> 14 Utilizando ':e:'}
+{   14 -> 17 Utilizando ':e:'}
+{   14 -> 15 Utilizando ':e:'}
+{   15 -> 16 Utilizando 'b'}
+{   16 -> 17 Utilizando ':e:'}
+{   16 -> 15 Utilizando ':e:'}
+{   17 -> 18 Utilizando ':e:'}
+{   18 -> 19 Utilizando ':e:'}
+{   18 -> 21 Utilizando ':e:'}
+{   19 -> 20 Utilizando 'a'}
+{   20 -> 19 Utilizando ':e:'}
+{   20 -> 21 Utilizando ':e:'}
+{   21 -> 22 Utilizando ':e:'}
+
+Simbolos:  ['a', 'b']
+
+ La cadena ingresada es Aceptada?:  No
+Estados: set([1, 2, 3, 4, 5, 6, 7, 8, 9])
+Inicio:  1
+Aceptacion: [1, 3, 4, 5, 6, 7, 9]
+Transiciones:
+{   1 -> 2 Utilizando 'a'}
+{   1 -> 3 Utilizando 'b'}
+{   2 -> 8 Utilizando 'b'}
+{   2 -> 2 Utilizando 'a'}
+{   3 -> 4 Utilizando 'a'}
+{   3 -> 5 Utilizando 'b'}
+{   4 -> 4 Utilizando 'a'}
+{   5 -> 6 Utilizando 'a'}
+{   5 -> 7 Utilizando 'b'}
+{   6 -> 8 Utilizando 'b'}
+{   6 -> 6 Utilizando 'a'}
+{   7 -> 4 Utilizando 'a'}
+{   7 -> 5 Utilizando 'b'}
+{   8 -> 9 Utilizando 'b'}
+{   9 -> 8 Utilizando 'b'}
+{   9 -> 2 Utilizando 'a'}
+
+ La cadena ingresada es Aceptada?:  Si
+Estados: set([0, 1, 2, 3, 7])
+Inicio:  0
+Aceptacion: [0, 2, 3, 1]
+Transiciones:
+{   0 -> 1 Utilizando 'a'}
+{   0 -> 2 Utilizando 'b'}
+{   1 -> 1 Utilizando 'a'}
+{   1 -> 7 Utilizando 'b'}
+{   2 -> 0 Utilizando 'b'}
+{   2 -> 3 Utilizando 'a'}
+{   3 -> 3 Utilizando 'a'}
+{   7 -> 1 Utilizando 'b'}
+
+ La cadena ingresada es Aceptada?:  Si
+
+Tiempo de Ejecucion:  16.4102511406 ms para todo el procedimiento
+Expresion ingresada:  (a*bb)*bb*a*
+Cadena a verificar:  b
+Estados: set([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20])
+Inicio:  1
+Aceptacion: [20]
+Transiciones:
+{   1 -> 2 Utilizando ':e:'}
+{   1 -> 10 Utilizando ':e:'}
+{   2 -> 3 Utilizando ':e:'}
+{   2 -> 5 Utilizando ':e:'}
+{   3 -> 4 Utilizando 'a'}
+{   4 -> 3 Utilizando ':e:'}
+{   4 -> 5 Utilizando ':e:'}
+{   5 -> 6 Utilizando ':e:'}
+{   6 -> 7 Utilizando 'b'}
+{   7 -> 8 Utilizando ':e:'}
+{   8 -> 9 Utilizando 'b'}
+{   9 -> 10 Utilizando ':e:'}
+{   9 -> 2 Utilizando ':e:'}
+{   10 -> 11 Utilizando ':e:'}
+{   11 -> 12 Utilizando 'b'}
+{   12 -> 13 Utilizando ':e:'}
+{   13 -> 16 Utilizando ':e:'}
+{   13 -> 14 Utilizando ':e:'}
+{   14 -> 15 Utilizando 'b'}
+{   15 -> 16 Utilizando ':e:'}
+{   15 -> 14 Utilizando ':e:'}
+{   16 -> 17 Utilizando ':e:'}
+{   17 -> 18 Utilizando ':e:'}
+{   17 -> 20 Utilizando ':e:'}
+{   18 -> 19 Utilizando 'a'}
+{   19 -> 18 Utilizando ':e:'}
+{   19 -> 20 Utilizando ':e:'}
+
+Simbolos:  ['a', 'b']
+
+ La cadena ingresada es Aceptada?:  No
+Estados: set([1, 2, 3, 4, 5, 6, 7, 8, 9])
+Inicio:  1
+Aceptacion: [3, 4, 5, 6, 7]
+Transiciones:
+{   1 -> 2 Utilizando 'a'}
+{   1 -> 3 Utilizando 'b'}
+{   2 -> 8 Utilizando 'b'}
+{   2 -> 2 Utilizando 'a'}
+{   3 -> 4 Utilizando 'a'}
+{   3 -> 5 Utilizando 'b'}
+{   4 -> 4 Utilizando 'a'}
+{   5 -> 6 Utilizando 'a'}
+{   5 -> 7 Utilizando 'b'}
+{   6 -> 8 Utilizando 'b'}
+{   6 -> 6 Utilizando 'a'}
+{   7 -> 4 Utilizando 'a'}
+{   7 -> 5 Utilizando 'b'}
+{   8 -> 9 Utilizando 'b'}
+{   9 -> 2 Utilizando 'a'}
+{   9 -> 3 Utilizando 'b'}
+
+ La cadena ingresada es Aceptada?:  Si
+Estados: set([0, 1, 2, 3, 7])
+Inicio:  0
+Aceptacion: [2, 3, 0, 1]
+Transiciones:
+{   0 -> 1 Utilizando 'a'}
+{   0 -> 2 Utilizando 'b'}
+{   1 -> 1 Utilizando 'a'}
+{   1 -> 7 Utilizando 'b'}
+{   2 -> 0 Utilizando 'b'}
+{   2 -> 3 Utilizando 'a'}
+{   3 -> 3 Utilizando 'a'}
+{   7 -> 0 Utilizando 'b'}
+
+ La cadena ingresada es Aceptada?:  Si
+
+Tiempo de Ejecucion:  17.2226209641 ms para todo el procedimiento
+Expresion ingresada:  (a+b)*abb
+Cadena a verificar:  abb
+Estados: set([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14])
+Inicio:  1
+Aceptacion: [14]
+Transiciones:
+{   1 -> 8 Utilizando ':e:'}
+{   1 -> 2 Utilizando ':e:'}
+{   2 -> 3 Utilizando ':e:'}
+{   2 -> 5 Utilizando ':e:'}
+{   3 -> 4 Utilizando 'a'}
+{   4 -> 7 Utilizando ':e:'}
+{   5 -> 6 Utilizando 'b'}
+{   6 -> 7 Utilizando ':e:'}
+{   7 -> 8 Utilizando ':e:'}
+{   7 -> 2 Utilizando ':e:'}
+{   8 -> 9 Utilizando ':e:'}
+{   9 -> 10 Utilizando 'a'}
+{   10 -> 11 Utilizando ':e:'}
+{   11 -> 12 Utilizando 'b'}
+{   12 -> 13 Utilizando ':e:'}
+{   13 -> 14 Utilizando 'b'}
+
+Simbolos:  ['a', 'b']
+
+ La cadena ingresada es Aceptada?:  No
+Estados: set([1, 2, 3, 4, 5])
+Inicio:  1
+Aceptacion: [5]
+Transiciones:
+{   1 -> 2 Utilizando 'a'}
+{   1 -> 3 Utilizando 'b'}
+{   2 -> 2 Utilizando 'a'}
+{   2 -> 4 Utilizando 'b'}
+{   3 -> 2 Utilizando 'a'}
+{   3 -> 3 Utilizando 'b'}
+{   4 -> 2 Utilizando 'a'}
+{   4 -> 5 Utilizando 'b'}
+{   5 -> 2 Utilizando 'a'}
+{   5 -> 3 Utilizando 'b'}
+
+ La cadena ingresada es Aceptada?:  Si
+Estados: set([0])
+Inicio:  0
+Aceptacion: [0]
+Transiciones:
+{   0 -> 0 Utilizando 'a'}
+{   0 -> 0 Utilizando 'b'}
+
+ La cadena ingresada es Aceptada?:  Si
+
+Tiempo de Ejecucion:  14.4027831554 ms para todo el procedimiento
+Expresion ingresada:  abbba
+Cadena a verificar:  abbba
+Estados: set([1, 2, 3, 4, 5, 6, 7, 8, 9, 10])
+Inicio:  1
+Aceptacion: [10]
+Transiciones:
+{   1 -> 2 Utilizando 'a'}
+{   2 -> 3 Utilizando ':e:'}
+{   3 -> 4 Utilizando 'b'}
+{   4 -> 5 Utilizando ':e:'}
+{   5 -> 6 Utilizando 'b'}
+{   6 -> 7 Utilizando ':e:'}
+{   7 -> 8 Utilizando 'b'}
+{   8 -> 9 Utilizando ':e:'}
+{   9 -> 10 Utilizando 'a'}
+
+Simbolos:  ['a', 'b']
+
+ La cadena ingresada es Aceptada?:  No
+Estados: set([1, 2, 3, 4, 5, 6])
+Inicio:  1
+Aceptacion: [6]
+Transiciones:
+{   1 -> 2 Utilizando 'a'}
+{   2 -> 3 Utilizando 'b'}
+{   3 -> 4 Utilizando 'b'}
+{   4 -> 5 Utilizando 'b'}
+{   5 -> 6 Utilizando 'a'}
+
+ La cadena ingresada es Aceptada?:  Si
+Estados: set([1, 2, 3, 4, 5, 6])
+Inicio:  1
+Aceptacion: [6]
+Transiciones:
+{   1 -> 2 Utilizando 'a'}
+{   2 -> 3 Utilizando 'b'}
+{   3 -> 4 Utilizando 'b'}
+{   4 -> 5 Utilizando 'b'}
+{   5 -> 6 Utilizando 'a'}
+
+ La cadena ingresada es Aceptada?:  Si
+
+Tiempo de Ejecucion:  16.3746919632 ms para todo el procedimiento
+Expresion ingresada:  a*********
+Cadena a verificar:  a
+
+Error: Error al procesar '*' despues de '*'. Estos dos operadores no se permiten en secuencia.
+
+Tiempo de Ejecucion:  6.11848092079 ms para todo el procedimiento

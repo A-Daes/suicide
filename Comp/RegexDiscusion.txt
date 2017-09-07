@@ -1,0 +1,10 @@
+Obstaculos Encontrados:
+	El mayor obstaculo que encontre fue que intente hacer el programa desde imaginacion, sin planear nada ni leer algoritmos externos. 
+	Tambien encontre el problema que aunque sabia manejar stacks, nunca pense en utilizarlas.
+	Por otro lado, en mi primer intento no utilice clases, sino que solo genere listas sin ningun identificador. Esto hacia que las siguientes partes del trabajo se volvieran casi imposibles. 
+	Como me base en otro programa, a la hora de agregar nuevas funciones note que las estaba colocando en lugares incorrectos. (En Output.txt se puede ver que algunos de los primeros intentos (por lo menos de esta ultima version), se pueden ver algunos errores donde las funciones se llaman en clases incorrectas).
+
+
+Recomendaciones: 
+	Mi mayor recomendacion se relaciona al primer obstaculo: se deberia realizar un plan de trabajo desde el inicio, ya sea utilizando metodologias UML o la que el usuario se sienta comodo. 
+	
